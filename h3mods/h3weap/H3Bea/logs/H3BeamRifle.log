@@ -1,0 +1,396 @@
+Tag Tool [1.0.6040.37850]
+
+Please report any bugs and feature requests at
+<https://github.com/camden-smallwood/TagTool/issues>.
+
+Reading tags...23297 tags loaded.
+- Detected target engine version 1.106708 cert_ms23.
+- This cache file was built on 3/20/2015 at 2:40 PM.
+Reading stringIDs...39505 strings loaded.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> 5B00
+Unrecognized command: 5B00
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> 5B01
+Unrecognized command: 5B01
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> 5B02
+Unrecognized command: 5B02
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> 5B03
+Unrecognized command: 5B03
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> 5B04
+Unrecognized command: 5B04
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> 5B05
+Unrecognized command: 5B05
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> 5B06
+Unrecognized command: 5B06
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> 5B07
+Unrecognized command: 5B07
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> 5B08
+Unrecognized command: 5B08
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> 5B09
+Unrecognized command: 5B09
+Use "help" to list available commands.
+
+tags.dat> 2456
+Unrecognized command: 2456
+Use "help" to list available commands.
+
+tags.dat> 2456
+Unrecognized command: 2456
+Use "help" to list available commands.
+
+tags.dat> 248E
+Unrecognized command: 248E
+Use "help" to list available commands.
+
+tags.dat> 248E
+Unrecognized command: 248E
+Use "help" to list available commands.
+
+tags.dat> echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1) 
+tags.dat> echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1) 
+tags.dat> echo
+
+tags.dat> echo
+
+tags.dat> STOP
+Unrecognized command: STOP
+Use "help" to list available commands.
+
+tags.dat> 
+
+tags.dat> SetLocale US
+
+tags.dat> 
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00005B01 [Offset = 0x6290130, Size = 0x80]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00005B02 [Offset = 0x62901B0, Size = 0x80]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00005B03 [Offset = 0x6290230, Size = 0x80]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00005B04 [Offset = 0x62902B0, Size = 0x80]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00005B05 [Offset = 0x6290330, Size = 0x80]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00005B06 [Offset = 0x62903B0, Size = 0x80]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00005B07 [Offset = 0x6290430, Size = 0x80]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00005B08 [Offset = 0x62904B0, Size = 0x80]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00005B09 [Offset = 0x6290530, Size = 0x80]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00005B0A [Offset = 0x62905B0, Size = 0x80]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00005B0B [Offset = 0x6290630, Size = 0x80]
+
+tags.dat> 
+
+tags.dat> import 2456 tags/H3Beafp.tag
+Imported 0x8D0 bytes.
+
+tags.dat> import 248E tags/H3Bea3d.tag
+Imported 0x9A0 bytes.
+
+tags.dat> importmodelraw 2456 tags/H3Beafp.raw
+Writing tag data...
+Model imported successfully!
+
+tags.dat> importmodelraw 248E tags/H3Bea3d.raw
+Writing tag data...
+Model imported successfully!
+
+tags.dat> 
+
+tags.dat> importbitmap 5B00 DDS/beam_rifle.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 00005B00 [Offset = 0x628F6D0, Size = 0x260]
+
+tags.dat> importbitmap 5B01 DDS/beam_rifle_bump.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 00005B01 [Offset = 0x628F930, Size = 0x260]
+
+tags.dat> importbitmap 5B02 DDS/beam_rifle_illum.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 00005B02 [Offset = 0x628FB90, Size = 0x260]
+
+tags.dat> importbitmap 5B03 DDS/beam_rifle_material_test.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 00005B03 [Offset = 0x628FDF0, Size = 0x260]
+
+tags.dat> import 5B05 tagTemplates/06B9_rmshTemplate
+Imported 0xD10 bytes.
+
+tags.dat> import 5B06 tagTemplates/106E_rmshTemplate
+Imported 0x17F0 bytes.
+
+tags.dat> import 5B07 tagTemplates/212B_rmshTemplate
+Imported 0xF30 bytes.
+
+tags.dat> import 5B08 tagTemplates/3890_rmshTemplate
+Imported 0x12E0 bytes.
+
+tags.dat> import 5B04 tagTemplates/212B_rmshTemplate
+Imported 0xF30 bytes.
+
+tags.dat> import 5B09 tagTemplates/106E_rmshTemplate
+Imported 0x17F0 bytes.
+
+tags.dat> edit 2456
+Tag 0x00002456.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x2456.render_model> edit geometry.compression[0]
+
+tags.dat\0x2456.render_model\geometry\compression[0]> SetField TextureMinV 0.34209
+TextureMinV: Single = 0.34209
+
+tags.dat\0x2456.render_model\geometry\compression[0]> SetField TextureMaxV -1.306699
+TextureMaxV: Single = -1.306699
+
+tags.dat\0x2456.render_model\geometry\compression[0]> savechanges
+Done!
+
+tags.dat\0x2456.render_model\geometry\compression[0]> exitTo tags.dat
+
+tags.dat> edit 248E
+Tag 0x0000248E.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x248E.render_model> edit geometry.compression[0]
+
+tags.dat\0x248E.render_model\geometry\compression[0]> SetField TextureMinV 0.34209
+TextureMinV: Single = 0.34209
+
+tags.dat\0x248E.render_model\geometry\compression[0]> SetField TextureMaxV -1.306699
+TextureMaxV: Single = -1.306699
+
+tags.dat\0x248E.render_model\geometry\compression[0]> savechanges
+Done!
+
+tags.dat\0x248E.render_model\geometry\compression[0]> exitTo tags.dat
+
+tags.dat> edit 5B06
+Tag 0x00005B06.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x5B06.shader> SpecifyBitmaps
+Please enter the base_map index: 5B00
+Please enter the detail_map index: 20FD
+Please enter the chameleon_mask_map index: 02B9
+Please enter the bump_map index: 5B01
+Please enter the specular_mask_texture index: 02B9
+Please enter the material_texture index: 5B03
+Please enter the self_illum_map index: 5B02
+Done!
+
+tags.dat\0x5B06.shader> exit
+
+tags.dat> edit 5B08
+Tag 0x00005B08.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x5B08.shader> SpecifyBitmaps
+Please enter the base_map index: 5B00
+Please enter the detail_map index: 2BA9
+Please enter the bump_map index: 5B01
+Please enter the bump_detail_map index: 111A
+Please enter the self_illum_map index: 0EF7
+Done!
+
+tags.dat\0x5B08.shader> exit
+
+tags.dat> edit 5B09
+Tag 0x00005B09.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x5B09.shader> SpecifyBitmaps
+Please enter the base_map index: 5B00
+Please enter the detail_map index: 20FD
+Please enter the chameleon_mask_map index: 02B9
+Please enter the bump_map index: 5B01
+Please enter the specular_mask_texture index: 02B9
+Please enter the material_texture index: 5B03
+Please enter the self_illum_map index: 5B02
+Done!
+
+tags.dat\0x5B09.shader> exit
+
+tags.dat> edit 5B06
+Tag 0x00005B06.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x5B06.shader> edit ShaderProperties[0]
+
+tags.dat\0x5B06.shader\ShaderProperties[0]> SetField arguments[13].arg1 5.0
+Arg1: Single = 5
+
+tags.dat\0x5B06.shader\ShaderProperties[0]> savechanges
+Done!
+
+tags.dat\0x5B06.shader\ShaderProperties[0]> exit
+
+tags.dat\0x5B06.shader> exit
+
+tags.dat> edit 5B08
+Tag 0x00005B08.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x5B08.shader> edit ShaderProperties[0]
+
+tags.dat\0x5B08.shader\ShaderProperties[0]> SetField arguments[03].Arg3 0.2
+Arg3: Single = 0.2
+
+tags.dat\0x5B08.shader\ShaderProperties[0]> SetField arguments[03].Arg3 0.2
+Arg3: Single = 0.2
+
+tags.dat\0x5B08.shader\ShaderProperties[0]> SetField arguments[03].Arg3 1.2
+Arg3: Single = 1.2
+
+tags.dat\0x5B08.shader\ShaderProperties[0]> savechanges
+Done!
+
+tags.dat\0x5B08.shader\ShaderProperties[0]> exit
+
+tags.dat\0x5B08.shader> exit
+
+tags.dat> edit 2456
+Tag 0x00002456.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x2456.render_model> SpecifyShaders
+Please enter the replacement 0000101F index: 5B06
+Please enter the replacement 0000101F index: 5B04
+Please enter the replacement 0000101F index: 5B04
+Please enter the replacement 0000101F index: 5B08
+Please enter the replacement 0000101F index: 5B09
+Done!
+
+tags.dat\0x2456.render_model> exit
+
+tags.dat> edit 248E
+Tag 0x0000248E.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x248E.render_model> SpecifyShaders
+Please enter the replacement 0000101F index: 5B08
+Please enter the replacement 0000101F index: 5B06
+Please enter the replacement 0000101F index: 5B04
+Please enter the replacement 0000101F index: 5B04
+Please enter the replacement 0000101F index: 5B09
+Done!
+
+tags.dat\0x248E.render_model> exit
+
+tags.dat> 
+
+tags.dat> dumplog H3BeamRifle.log

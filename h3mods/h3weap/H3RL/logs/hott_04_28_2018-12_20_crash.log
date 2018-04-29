@@ -1,0 +1,217 @@
+Tag Tool [1.0.6040.37850]
+
+Please report any bugs and feature requests at
+<https://github.com/camden-smallwood/TagTool/issues>.
+
+Reading tags...23375 tags loaded.
+- Detected target engine version 1.106708 cert_ms23.
+- This cache file was built on 3/20/2015 at 2:40 PM.
+Reading stringIDs...39505 strings loaded.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> bitmRLbase
+Unrecognized command: bitmRLbase
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> bitmRLbump
+Unrecognized command: bitmRLbump
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> bitmRLdeca
+Unrecognized command: bitmRLdeca
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> bitmRLillu
+Unrecognized command: bitmRLillu
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadRLdeca
+Unrecognized command: shadRLdeca
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadRLdull
+Unrecognized command: shadRLdull
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadRLmeta
+Unrecognized command: shadRLmeta
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadRLshin
+Unrecognized command: shadRLshin
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadRLtest
+Unrecognized command: shadRLtest
+Use "help" to list available commands.
+
+tags.dat> 1C96
+Unrecognized command: 1C96
+Use "help" to list available commands.
+
+tags.dat> hlmtRL
+Unrecognized command: hlmtRL
+Use "help" to list available commands.
+
+tags.dat> 1C9C
+Unrecognized command: 1C9C
+Use "help" to list available commands.
+
+tags.dat> modeRLfp
+Unrecognized command: modeRLfp
+Use "help" to list available commands.
+
+tags.dat> 1D06
+Unrecognized command: 1D06
+Use "help" to list available commands.
+
+tags.dat> modeRL3d
+Unrecognized command: modeRL3d
+Use "help" to list available commands.
+
+tags.dat> // Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+Unrecognized command: //
+Use "help" to list available commands.
+
+tags.dat> ====
+Unrecognized command: ====
+Use "help" to list available commands.
+
+tags.dat> echo
+
+tags.dat> //
+Unrecognized command: //
+Use "help" to list available commands.
+
+tags.dat> STOP
+Unrecognized command: STOP
+Use "help" to list available commands.
+
+tags.dat> 
+
+tags.dat> SetLocale US
+
+tags.dat> 
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B4F [Offset = 0x629AD30, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B50 [Offset = 0x629ADAC, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B51 [Offset = 0x629AE28, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B52 [Offset = 0x629AEA4, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B53 [Offset = 0x629AF20, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B54 [Offset = 0x629AF9C, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B55 [Offset = 0x629B018, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B56 [Offset = 0x629B094, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B57 [Offset = 0x629B110, Size = 0x7C]
+
+tags.dat> 
+
+tags.dat> import modeRLfp tags/H3RLfp.tag
+import: Import a tag from a file
+
+Usage:
+import <tag index> <filename>
+
+Use "help import" for more information.
+
+tags.dat> import modeRL3d tags/H3RL3d.tag
+import: Import a tag from a file
+
+Usage:
+import <tag index> <filename>
+
+Use "help import" for more information.
+
+tags.dat> importmodelraw modeRLfp tags/H3RLfp.raw
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> importmodelraw modeRL3d tags/H3RL3d.raw
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> 
+
+tags.dat> importbitmap bitmRLbase DDS/rocket_launcher.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> importbitmap bitmRLbump DDS/rocket_launcher_bump.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> importbitmap bitmRLdeca DDS/rocket_launcher_decal.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> importbitmap bitmRLillu DDS/rocket_launcher_illum.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+ERROR: Object reference not set to an instance of an object.

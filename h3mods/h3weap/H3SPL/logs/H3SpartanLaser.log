@@ -1,0 +1,512 @@
+Tag Tool [1.0.6040.37850]
+
+Please report any bugs and feature requests at
+<https://github.com/camden-smallwood/TagTool/issues>.
+
+Reading tags...23328 tags loaded.
+- Detected target engine version 1.106708 cert_ms23.
+- This cache file was built on 3/20/2015 at 2:40 PM.
+Reading stringIDs...39505 strings loaded.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> 5B1F
+Unrecognized command: 5B1F
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> 5B20
+Unrecognized command: 5B20
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> 5B21
+Unrecognized command: 5B21
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> 5B22
+Unrecognized command: 5B22
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> 5B23
+Unrecognized command: 5B23
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> 5B24
+Unrecognized command: 5B24
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> 5B25
+Unrecognized command: 5B25
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> 5B26
+Unrecognized command: 5B26
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> 5B27
+Unrecognized command: 5B27
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> 5B28
+Unrecognized command: 5B28
+Use "help" to list available commands.
+
+tags.dat> 24A8
+Unrecognized command: 24A8
+Use "help" to list available commands.
+
+tags.dat> 24A8
+Unrecognized command: 24A8
+Use "help" to list available commands.
+
+tags.dat> 2502
+Unrecognized command: 2502
+Use "help" to list available commands.
+
+tags.dat> 2502
+Unrecognized command: 2502
+Use "help" to list available commands.
+
+tags.dat> echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1) 
+tags.dat> echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1) 
+tags.dat> echo
+
+tags.dat> echo
+
+tags.dat> STOP
+Unrecognized command: STOP
+Use "help" to list available commands.
+
+tags.dat> 
+
+tags.dat> SetLocale US
+
+tags.dat> 
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00005B20 [Offset = 0x629CD00, Size = 0x80]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00005B21 [Offset = 0x629CD80, Size = 0x80]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00005B22 [Offset = 0x629CE00, Size = 0x80]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00005B23 [Offset = 0x629CE80, Size = 0x80]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00005B24 [Offset = 0x629CF00, Size = 0x80]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00005B25 [Offset = 0x629CF80, Size = 0x80]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00005B26 [Offset = 0x629D000, Size = 0x80]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00005B27 [Offset = 0x629D080, Size = 0x80]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00005B28 [Offset = 0x629D100, Size = 0x80]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00005B29 [Offset = 0x629D180, Size = 0x80]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00005B2A [Offset = 0x629D200, Size = 0x80]
+
+tags.dat> 
+
+tags.dat> import 24A8 tags/H3SPLfp.tag
+Imported 0xAF0 bytes.
+
+tags.dat> import 2502 tags/H3SPL3d.tag
+Imported 0x9B0 bytes.
+
+tags.dat> importmodelraw 24A8 tags/H3SPLfp.raw
+Writing tag data...
+Model imported successfully!
+
+tags.dat> importmodelraw 2502 tags/H3SPL3d.raw
+Writing tag data...
+Model imported successfully!
+
+tags.dat> 
+
+tags.dat> importbitmap 5B1F DDS/spartan_laser.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 00005B1F [Offset = 0x629C7C0, Size = 0x260]
+
+tags.dat> importbitmap 5B20 DDS/spartan_laser_bump.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 00005B20 [Offset = 0x629CA20, Size = 0x260]
+
+tags.dat> importbitmap 5B21 DDS/spartan_laser_decal2.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 00005B21 [Offset = 0x629CC80, Size = 0x260]
+
+tags.dat> importbitmap 5B22 DDS/spartan_laser_decal.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 00005B22 [Offset = 0x629CEE0, Size = 0x260]
+
+tags.dat> import 5B23 tagTemplates/205B_rmshTemplate
+Imported 0xAF0 bytes.
+
+tags.dat> import 5B24 tagTemplates/1CA4_rmshTemplate
+Imported 0x1D0 bytes.
+
+tags.dat> import 5B25 tagTemplates/1CA4_rmshTemplate
+Imported 0x1D0 bytes.
+
+tags.dat> import 5B26 tagTemplates/205B_rmshTemplate
+Imported 0xAF0 bytes.
+
+tags.dat> import 5B27 tagTemplates/1178_rmshTemplate
+Imported 0x320 bytes.
+
+tags.dat> import 5B28 tagTemplates/205B_rmshTemplate
+Imported 0xAF0 bytes.
+
+tags.dat> edit 24A8
+Tag 0x000024A8.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x24A8.render_model> edit geometry.compression[0]
+
+tags.dat\0x24A8.render_model\geometry\compression[0]> SetField TextureMinV 0
+TextureMinV: Single = 0
+
+tags.dat\0x24A8.render_model\geometry\compression[0]> SetField TextureMaxV -1
+TextureMaxV: Single = -1
+
+tags.dat\0x24A8.render_model\geometry\compression[0]> savechanges
+Done!
+
+tags.dat\0x24A8.render_model\geometry\compression[0]> exitTo tags.dat
+
+tags.dat> edit 2502
+Tag 0x00002502.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x2502.render_model> edit geometry.compression[0]
+
+tags.dat\0x2502.render_model\geometry\compression[0]> SetField TextureMinV 0
+TextureMinV: Single = 0
+
+tags.dat\0x2502.render_model\geometry\compression[0]> SetField TextureMaxV -1
+TextureMaxV: Single = -1
+
+tags.dat\0x2502.render_model\geometry\compression[0]> savechanges
+Done!
+
+tags.dat\0x2502.render_model\geometry\compression[0]> exitTo tags.dat
+
+tags.dat> edit 24A8
+Tag 0x000024A8.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x24A8.render_model> SpecifyShaders
+Please enter the replacement 0000101F index: 101F
+Please enter the replacement 0000101F index: 5B26
+Please enter the replacement 0000101F index: 5B23
+Please enter the replacement 0000101F index: 5B25
+Please enter the replacement 0000101F index: 5B28
+Please enter the replacement 0000101F index: 5B27
+Please enter the replacement 0000101F index: 5B24
+Done!
+
+tags.dat\0x24A8.render_model> exit
+
+tags.dat> edit 2502
+Tag 0x00002502.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x2502.render_model> SpecifyShaders
+Please enter the replacement 0000101F index: 101F
+Please enter the replacement 0000101F index: 5B26
+Please enter the replacement 0000101F index: 5B27
+Please enter the replacement 0000101F index: 5B23
+Please enter the replacement 0000101F index: 5B28
+Done!
+
+tags.dat\0x2502.render_model> exit
+
+tags.dat> edit 5B23
+Tag 0x00005B23.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x5B23.shader> SpecifyBitmaps
+Please enter the base_map index: 5B1F
+Please enter the detail_map index: 0343
+Please enter the bump_map index: 5B20
+Please enter the bump_detail_map index: 0376
+Please enter the material_texture index: 02B7
+Please enter the environment_map index: 02B9
+Please enter the self_illum_map index: 02B9
+Done!
+
+tags.dat\0x5B23.shader> exit
+
+tags.dat> edit 5B24
+Tag 0x00005B24.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x5B24.shader> SpecifyBitmaps
+Please enter the base_map index: 5B21
+Please enter the detail_map index: 0343
+Done!
+
+tags.dat\0x5B24.shader> exit
+
+tags.dat> edit 5B25
+Tag 0x00005B25.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x5B25.shader> SpecifyBitmaps
+Please enter the base_map index: 5B22
+Please enter the detail_map index: 0343
+Done!
+
+tags.dat\0x5B25.shader> exit
+
+tags.dat> edit 5B26
+Tag 0x00005B26.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x5B26.shader> SpecifyBitmaps
+Please enter the base_map index: 5B1F
+Please enter the detail_map index: 0343
+Please enter the bump_map index: 5B20
+Please enter the bump_detail_map index: 0376
+Please enter the material_texture index: 02B7
+Please enter the environment_map index: 02B9
+Please enter the self_illum_map index: 02B9
+Done!
+
+tags.dat\0x5B26.shader> exit
+
+tags.dat> edit 5B28
+Tag 0x00005B28.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x5B28.shader> SpecifyBitmaps
+Please enter the base_map index: 5B1F
+Please enter the detail_map index: 0343
+Please enter the bump_map index: 5B20
+Please enter the bump_detail_map index: 0376
+Please enter the material_texture index: 02B7
+Please enter the environment_map index: 02B9
+Please enter the self_illum_map index: 02B9
+Done!
+
+tags.dat\0x5B28.shader> exit
+
+tags.dat> edit 5B23
+Tag 0x00005B23.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x5B23.shader> edit ShaderProperties[0]
+
+tags.dat\0x5B23.shader\ShaderProperties[0]> SetField arguments[19].arg1 1.0
+Arg1: Single = 1
+
+tags.dat\0x5B23.shader\ShaderProperties[0]> SetField arguments[16].arg1 0.0
+Arg1: Single = 0
+
+tags.dat\0x5B23.shader\ShaderProperties[0]> SetField arguments[29].arg1 0
+Arg1: Single = 0
+
+tags.dat\0x5B23.shader\ShaderProperties[0]> SetField arguments[28].arg1 0.0
+Arg1: Single = 0
+
+tags.dat\0x5B23.shader\ShaderProperties[0]> SetField arguments[28].arg2 0.0
+Arg2: Single = 0
+
+tags.dat\0x5B23.shader\ShaderProperties[0]> SetField arguments[28].arg3 0
+Arg3: Single = 0
+
+tags.dat\0x5B23.shader\ShaderProperties[0]> SetField arguments[06].arg1 1.0
+Arg1: Single = 1
+
+tags.dat\0x5B23.shader\ShaderProperties[0]> savechanges
+Done!
+
+tags.dat\0x5B23.shader\ShaderProperties[0]> exit
+
+tags.dat\0x5B23.shader> exit
+
+tags.dat> edit 5B26
+Tag 0x00005B26.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x5B26.shader> edit ShaderProperties[0]
+
+tags.dat\0x5B26.shader\ShaderProperties[0]> SetField arguments[19].arg1 1.0
+Arg1: Single = 1
+
+tags.dat\0x5B26.shader\ShaderProperties[0]> SetField arguments[16].arg1 0.0
+Arg1: Single = 0
+
+tags.dat\0x5B26.shader\ShaderProperties[0]> SetField arguments[29].arg1 0
+Arg1: Single = 0
+
+tags.dat\0x5B26.shader\ShaderProperties[0]> SetField arguments[28].arg1 0.0
+Arg1: Single = 0
+
+tags.dat\0x5B26.shader\ShaderProperties[0]> SetField arguments[28].arg2 0.0
+Arg2: Single = 0
+
+tags.dat\0x5B26.shader\ShaderProperties[0]> SetField arguments[28].arg3 0
+Arg3: Single = 0
+
+tags.dat\0x5B26.shader\ShaderProperties[0]> SetField arguments[06].arg1 1.0
+Arg1: Single = 1
+
+tags.dat\0x5B26.shader\ShaderProperties[0]> savechanges
+Done!
+
+tags.dat\0x5B26.shader\ShaderProperties[0]> exit
+
+tags.dat\0x5B26.shader> exit
+
+tags.dat> edit 5B27
+Tag 0x00005B27.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x5B27.shader> edit ShaderProperties[0]
+
+tags.dat\0x5B27.shader\ShaderProperties[0]> SetField arguments[02].arg1 1.0
+Arg1: Single = 1
+
+tags.dat\0x5B27.shader\ShaderProperties[0]> SetField arguments[02].arg2 1.0
+Arg2: Single = 1
+
+tags.dat\0x5B27.shader\ShaderProperties[0]> SetField arguments[02].arg3 1
+Arg3: Single = 1
+
+tags.dat\0x5B27.shader\ShaderProperties[0]> savechanges
+Done!
+
+tags.dat\0x5B27.shader\ShaderProperties[0]> exit
+
+tags.dat\0x5B27.shader> exit
+
+tags.dat> edit 5B28
+Tag 0x00005B28.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x5B28.shader> edit ShaderProperties[0]
+
+tags.dat\0x5B28.shader\ShaderProperties[0]> SetField arguments[19].arg1 1.0
+Arg1: Single = 1
+
+tags.dat\0x5B28.shader\ShaderProperties[0]> SetField arguments[16].arg1 0.0
+Arg1: Single = 0
+
+tags.dat\0x5B28.shader\ShaderProperties[0]> SetField arguments[29].arg1 0
+Arg1: Single = 0
+
+tags.dat\0x5B28.shader\ShaderProperties[0]> SetField arguments[28].arg1 0.0
+Arg1: Single = 0
+
+tags.dat\0x5B28.shader\ShaderProperties[0]> SetField arguments[28].arg2 0.0
+Arg2: Single = 0
+
+tags.dat\0x5B28.shader\ShaderProperties[0]> SetField arguments[28].arg3 0
+Arg3: Single = 0
+
+tags.dat\0x5B28.shader\ShaderProperties[0]> SetField arguments[06].arg1 1.0
+Arg1: Single = 1
+
+tags.dat\0x5B28.shader\ShaderProperties[0]> savechanges
+Done!
+
+tags.dat\0x5B28.shader\ShaderProperties[0]> exit
+
+tags.dat\0x5B28.shader> exit
+
+tags.dat> 
+
+tags.dat> dumplog H3SpartanLaser.log

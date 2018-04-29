@@ -1,0 +1,192 @@
+0000
+5B72
+0000
+5B73
+0000
+5B74
+0000
+5B75
+0000
+5B76
+0000
+5B77
+0000
+5B78
+0000
+5B79
+0000
+5B7A
+0000
+5B7B
+1EFB
+1EFB
+1F3F
+1F3F
+echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+echo
+echo
+STOP
+
+SetLocale US
+
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+
+import 1EFB tags/H3Shofp.tag
+import 1F3F tags/H3Sho3d.tag
+importmodelraw 1EFB tags/H3Shofp.raw
+importmodelraw 1F3F tags/H3Sho3d.raw
+
+importbitmap 5B75 DDS/ED.dds
+importbitmap 5B72 DDS/shotgun.dds
+importbitmap 5B73 DDS/shotgun_bump.dds
+importbitmap 5B74 DDS/shotgun_illum.dds
+import 5B76 tagTemplates/205B_rmshTemplate
+import 5B77 tagTemplates/1178_rmshTemplate 
+import 5B78 tagTemplates/205B_rmshTemplate
+import 5B79 tagTemplates/205B_rmshTemplate
+import 5B7A tagTemplates/205B_rmshTemplate
+import 5B7B tagTemplates/1CA4_rmshTemplate
+edit 1EFB
+edit geometry.compression[0]
+SetField TextureMinV 0
+SetField TextureMaxV -0.9995005
+savechanges
+exitTo tags.dat
+edit 1F3F
+edit geometry.compression[0]
+SetField TextureMinV 0
+SetField TextureMaxV -0.9995005
+savechanges
+exitTo tags.dat
+edit 1EFB
+SpecifyShaders
+5B7A
+5B78
+5B76
+5B77
+5B79
+exit
+edit 1F3F
+SpecifyShaders
+5B78
+5B76
+5B77
+5B7B
+5B7A
+exit
+edit 5B76
+SpecifyBitmaps
+5B72
+0343
+5B73
+0376
+02B7
+02B9
+5B74
+exit
+edit 5B7B
+SpecifyBitmaps
+5B75
+0343
+exit
+edit 5B78
+SpecifyBitmaps
+5B72
+0343
+5B73
+0376
+02B7
+02B9
+5B74
+exit
+edit 5B79
+SpecifyBitmaps
+5B72
+0343
+5B73
+0376
+02B7
+02B9
+5B74
+exit
+edit 5B7A
+SpecifyBitmaps
+5B72
+0343
+5B73
+0376
+02B7
+02B9
+5B74
+exit
+edit 5B76
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 0
+SetField arguments[28].arg1 0.0
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 2.0
+savechanges
+exit
+exit
+edit 5B77
+edit ShaderProperties[0]
+SetField arguments[02].arg1 0.03
+SetField arguments[02].arg2 0.5
+SetField arguments[02].arg3 1
+savechanges
+exit
+exit
+edit 5B78
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 0
+SetField arguments[28].arg1 0.0
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 2.0
+savechanges
+exit
+exit
+edit 5B79
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 0
+SetField arguments[28].arg1 0.0
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 2.0
+savechanges
+exit
+exit
+edit 5B7A
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 0
+SetField arguments[28].arg1 0.0
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 2.0
+savechanges
+exit
+exit
+
+dumplog H3Shotgun.log
+exit
+exit

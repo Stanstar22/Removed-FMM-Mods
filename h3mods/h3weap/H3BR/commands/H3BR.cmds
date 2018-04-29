@@ -1,0 +1,544 @@
+0000
+5B2B
+0000
+5B2C
+0000
+5B2D
+0000
+5B2E
+0000
+5B2F
+0000
+5B30
+0000
+5B31
+0000
+5B32
+0000
+5B33
+0000
+5B34
+0000
+5B35
+0000
+5B36
+0000
+5B37
+0000
+5B38
+0000
+5B39
+0F71
+0F71
+0F99
+0F99
+0FAE
+0FAE
+0FBA
+0FBA
+0FC6
+0FC6
+0FD7
+0FD7
+0FE1
+0FE1
+1D85
+1D85
+1DA0
+1DA0
+2368
+2368
+2375
+2375
+2386
+2386
+2587
+2587
+2591
+2591
+259A
+259A
+echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+0F96
+0F96
+echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+echo
+echo
+STOP
+
+SetLocale US
+
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+
+import 0F71 tags/H3BRfp.tag
+import 1DA0 tags/H3BR3d.tag
+importresource resources.dat 0F71 tags/H3BRfp.raw
+importresource resources.dat 1DA0 tags/H3BR3d.raw
+
+import 5B2F tagTemplates/205B_rmshTemplate
+import 5B30 tagTemplates/205B_rmshTemplate
+import 5B31 tagTemplates/205B_rmshTemplate
+import 5B32 tagTemplates/205B_rmshTemplate
+import 5B33 tagTemplates/205B_rmshTemplate
+import 5B34 tagTemplates/205B_rmshTemplate
+import 5B35 tagTemplates/205B_rmshTemplate
+import 5B36 tagTemplates/0F79_rmshTemplate
+import 5B37 tagTemplates/0F7A_rmshTemplate
+import 5B38 tagTemplates/0FD8_rmshTemplate
+import 5B39 tagTemplates/205B_rmshTemplate
+
+edit 0F71
+edit geometry.compression[0]
+SetField TextureMinV 0
+SetField TextureMaxV -1
+savechanges
+exitTo tags.dat
+edit 1DA0
+edit geometry.compression[0]
+SetField TextureMinV 0
+SetField TextureMaxV -1
+savechanges
+exitTo tags.dat
+
+edit 0F71
+SetField markergroups[01].markers[0].Translation 0.1009767 -0.003126469 0.01598142
+SetField markergroups[01].markers[0].Rotation -0.6101443 0.1782749 -0.4519773 0.6258264
+addTo markerGroups
+edit markerGroups[*]
+SetField Name weapon_stow_anchor
+addTo markers
+edit markers[0]
+SetField RegionIndex -1
+SetField PermutationIndex -1
+SetField NodeIndex 0
+SetField Unknown3 0
+SetField Translation 0.01313229 -0.0006892266 0.04759113
+SetField Rotation -0.6870458 0.3631848 0.2264535 0.587183
+SetField Scale 0
+savechanges
+exitTo tags.dat
+
+extract 0F71 tempTag
+import 0F99 tempTag
+import 0FAE tempTag
+import 0FBA tempTag
+import 0FC6 tempTag
+import 0FD7 tempTag
+import 0FE1 tempTag
+
+extract 1DA0 tempTag
+import 2587 tempTag
+import 2591 tempTag
+import 2368 tempTag
+import 2375 tempTag
+import 259A tempTag
+import 2386 tempTag
+
+edit 0F71
+SpecifyShaders
+5B2F
+5B39
+5B38
+5B36
+5B37
+exit
+edit 0F99
+SpecifyShaders
+5B30
+5B39
+5B38
+5B36
+5B37
+exit
+edit 0FAE
+SpecifyShaders
+5B31
+5B39
+5B38
+5B36
+5B37
+exit
+edit 0FBA
+SpecifyShaders
+5B32
+5B39
+5B38
+5B36
+5B37
+exit
+edit 0FC6
+SpecifyShaders
+5B33
+5B39
+5B38
+5B36
+5B37
+exit
+edit 0FD7
+SpecifyShaders
+5B34
+5B39
+5B38
+5B36
+5B37
+exit
+edit 0FE1
+SpecifyShaders
+5B35
+5B39
+5B38
+5B36
+5B37
+exit
+edit 1DA0
+SpecifyShaders
+5B2F
+5B39
+5B38
+5B36
+5B37
+exit
+edit 2587
+SpecifyShaders
+5B30
+5B39
+5B38
+5B36
+5B37
+exit
+edit 2591
+SpecifyShaders
+5B31
+5B39
+5B38
+5B36
+5B37
+exit
+edit 2368
+SpecifyShaders
+5B32
+5B39
+5B38
+5B36
+5B37
+exit
+edit 2375
+SpecifyShaders
+5B33
+5B39
+5B38
+5B36
+5B37
+exit
+edit 259A
+SpecifyShaders
+5B34
+5B39
+5B38
+5B36
+5B37
+exit
+edit 2386
+SpecifyShaders
+5B35
+5B39
+5B38
+5B36
+5B37
+exit
+
+
+edit 5B2F
+SpecifyBitmaps
+5B2B
+0343
+5B2C
+0376
+02B7
+02B9
+5B2D
+exit
+edit 5B30
+SpecifyBitmaps
+5B2B
+0343
+5B2C
+0376
+02B7
+02B9
+5B2D
+exit
+edit 5B31
+SpecifyBitmaps
+5B2B
+0343
+5B2C
+0376
+02B7
+02B9
+5B2D
+exit
+edit 5B32
+SpecifyBitmaps
+5B2B
+0343
+5B2C
+0376
+02B7
+02B9
+5B2D
+exit
+edit 5B33
+SpecifyBitmaps
+5B2B
+0343
+5B2C
+0376
+02B7
+02B9
+5B2D
+exit
+edit 5B34
+SpecifyBitmaps
+5B2B
+0343
+5B2C
+0376
+02B7
+02B9
+5B2D
+exit
+edit 5B35
+SpecifyBitmaps
+5B2B
+0343
+5B2C
+0376
+02B7
+02B9
+5B2D
+exit
+
+edit 5B36
+SpecifyBitmaps
+5B2E
+exit
+edit 5B37
+SpecifyBitmaps
+5B2E
+exit
+edit 5B38
+SpecifyBitmaps
+0343
+0343
+02B9
+0343
+exit
+edit 5B39
+SpecifyBitmaps
+5B2B
+0343
+5B2C
+0376
+02B7
+02B9
+5B2D
+exit
+
+edit 5B2F
+edit ShaderProperties[0]
+SetField arguments[19].arg1 0.8
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 1
+SetField arguments[28].arg1 1.0
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 3.0
+savechanges
+exit
+exit
+edit 5B30
+edit ShaderProperties[0]
+SetField arguments[19].arg1 0.8
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 1
+SetField arguments[28].arg1 1.0
+SetField arguments[28].arg2 0.7
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 3.0
+savechanges
+exit
+exit
+edit 5B31
+edit ShaderProperties[0]
+SetField arguments[19].arg1 0.8
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 1
+SetField arguments[28].arg1 0.0
+SetField arguments[28].arg2 1.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 3.0
+savechanges
+exit
+exit
+edit 5B32
+edit ShaderProperties[0]
+SetField arguments[19].arg1 0.8
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 1
+SetField arguments[28].arg1 0.0
+SetField arguments[28].arg2 0.4
+SetField arguments[28].arg3 1
+SetField arguments[06].arg1 3.0
+savechanges
+exit
+exit
+edit 5B33
+edit ShaderProperties[0]
+SetField arguments[19].arg1 0.8
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 1
+SetField arguments[28].arg1 1.0
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 3.0
+savechanges
+exit
+exit
+edit 5B34
+edit ShaderProperties[0]
+SetField arguments[19].arg1 0.8
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 1
+SetField arguments[28].arg1 0.7
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 1
+SetField arguments[06].arg1 3.0
+savechanges
+exit
+exit
+edit 5B35
+edit ShaderProperties[0]
+SetField arguments[19].arg1 0.8
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 1
+SetField arguments[28].arg1 1.0
+SetField arguments[28].arg2 1.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 3.0
+savechanges
+exit
+exit
+edit 5B38
+edit ShaderProperties[0]
+SetField arguments[02].Arg1 0.0
+SetField arguments[02].Arg2 0.0
+SetField arguments[02].Arg3 0.0
+SetField arguments[05].Arg1 0.02
+SetField arguments[09].Arg1 0.5
+SetField arguments[10].Arg1 1
+SetField arguments[12].Arg1 0.4
+SetField arguments[12].Arg2 2
+SetField arguments[12].Arg3 16
+SetField arguments[16].Arg1 0
+savechanges
+exit
+exit
+edit 5B39
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 0
+SetField arguments[28].arg1 0.0
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 1.0
+savechanges
+exit
+exit
+
+importbitmap 5B2B DDS/battle_rifle.dds
+importbitmap 5B2C DDS/battle_rifle_bump.dds
+importbitmap 5B2D DDS/battle_rifle_illum.dds
+
+echo edit 0F96
+echo import 0 DDS/LCD/0.dds
+echo import 1 DDS/LCD/1.dds
+echo import 2 DDS/LCD/2.dds
+echo import 3 DDS/LCD/3.dds
+echo import 4 DDS/LCD/4.dds
+echo import 5 DDS/LCD/5.dds
+echo import 6 DDS/LCD/6.dds
+echo import 7 DDS/LCD/7.dds
+echo import 8 DDS/LCD/8.dds
+echo import 9 DDS/LCD/9.dds
+echo exit
+echo extract 0F96 tags\bitm_BROnes.tag
+echo extractresource textures.dat 0F96 tags\ones\bitm_BROnes_0.bitm 0
+echo extractresource textures.dat 0F96 tags\ones\bitm_BROnes_1.bitm 1
+echo extractresource textures.dat 0F96 tags\ones\bitm_BROnes_2.bitm 2
+echo extractresource textures.dat 0F96 tags\ones\bitm_BROnes_3.bitm 3
+echo extractresource textures.dat 0F96 tags\ones\bitm_BROnes_4.bitm 4
+echo extractresource textures.dat 0F96 tags\ones\bitm_BROnes_5.bitm 5
+echo extractresource textures.dat 0F96 tags\ones\bitm_BROnes_6.bitm 6
+echo extractresource textures.dat 0F96 tags\ones\bitm_BROnes_7.bitm 7
+echo extractresource textures.dat 0F96 tags\ones\bitm_BROnes_8.bitm 8
+echo extractresource textures.dat 0F96 tags\ones\bitm_BROnes_9.bitm 9
+
+import 5B2E tags/bitm_BROnes.tag
+
+importresource textures.dat 5B2E tags/ones
+
+dumplog H3BR.log
+exit
+exit
+
+echo TAGS LIST AFTER CONVERSION
+5B2E bitm_BROnes
+5B2B bitm_BRbase
+5B2C bitm_BRbump
+5B2D bitm_BRillu
+1DA0 mode_BR03d
+0F71 mode_BR0fp
+2587 mode_BR13d
+0F99 mode_BR1fp
+2591 mode_BR23d
+0FAE mode_BR2fp
+2368 mode_BR33d
+0FBA mode_BR3fp
+2375 mode_BR43d
+0FC6 mode_BR4fp
+259A mode_BR53d
+0FD7 mode_BR5fp
+2386 mode_BR63d
+0FE1 mode_BR6fp
+5B2F shad_BR0def
+5B30 shad_BR1ora
+5B31 shad_BR2gre
+5B32 shad_BR3blu
+5B33 shad_BR4red
+5B34 shad_BR5pur
+5B35 shad_BR6yel
+5B36 shad_BROnes
+5B37 shad_BRTens
+5B38 shad_BRlens
+5B39 shad_BRrubb
+
+To tweak shaders, check the arguments tagblock in the rmt2 tag in the rmsh shader tag.

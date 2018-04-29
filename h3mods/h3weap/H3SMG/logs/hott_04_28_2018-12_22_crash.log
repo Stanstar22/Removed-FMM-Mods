@@ -1,0 +1,268 @@
+Tag Tool [1.0.6040.37850]
+
+Please report any bugs and feature requests at
+<https://github.com/camden-smallwood/TagTool/issues>.
+
+Reading tags...23367 tags loaded.
+- Detected target engine version 1.106708 cert_ms23.
+- This cache file was built on 3/20/2015 at 2:40 PM.
+Reading stringIDs...39505 strings loaded.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> bitmSMGbase
+Unrecognized command: bitmSMGbase
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> bitmSMGbump
+Unrecognized command: bitmSMGbump
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> bitmSMGillu
+Unrecognized command: bitmSMGillu
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadSMG0def
+Unrecognized command: shadSMG0def
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadSMG1ora
+Unrecognized command: shadSMG1ora
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadSMG2gre
+Unrecognized command: shadSMG2gre
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadSMG4red
+Unrecognized command: shadSMG4red
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadSMG6yel
+Unrecognized command: shadSMG6yel
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadSMGrubb
+Unrecognized command: shadSMGrubb
+Use "help" to list available commands.
+
+tags.dat> 10C8
+Unrecognized command: 10C8
+Use "help" to list available commands.
+
+tags.dat> modeSMG0fp
+Unrecognized command: modeSMG0fp
+Use "help" to list available commands.
+
+tags.dat> 10D4
+Unrecognized command: 10D4
+Use "help" to list available commands.
+
+tags.dat> modeSMG1fp
+Unrecognized command: modeSMG1fp
+Use "help" to list available commands.
+
+tags.dat> 10E4
+Unrecognized command: 10E4
+Use "help" to list available commands.
+
+tags.dat> modeSMG2fp
+Unrecognized command: modeSMG2fp
+Use "help" to list available commands.
+
+tags.dat> 10F3
+Unrecognized command: 10F3
+Use "help" to list available commands.
+
+tags.dat> modeSMG4fp
+Unrecognized command: modeSMG4fp
+Use "help" to list available commands.
+
+tags.dat> 10FB
+Unrecognized command: 10FB
+Use "help" to list available commands.
+
+tags.dat> modeSMG6fp
+Unrecognized command: modeSMG6fp
+Use "help" to list available commands.
+
+tags.dat> 1F79
+Unrecognized command: 1F79
+Use "help" to list available commands.
+
+tags.dat> modeSMG03d
+Unrecognized command: modeSMG03d
+Use "help" to list available commands.
+
+tags.dat> 23D1
+Unrecognized command: 23D1
+Use "help" to list available commands.
+
+tags.dat> modeSMG13d
+Unrecognized command: modeSMG13d
+Use "help" to list available commands.
+
+tags.dat> 23DD
+Unrecognized command: 23DD
+Use "help" to list available commands.
+
+tags.dat> modeSMG23d
+Unrecognized command: modeSMG23d
+Use "help" to list available commands.
+
+tags.dat> 23E6
+Unrecognized command: 23E6
+Use "help" to list available commands.
+
+tags.dat> modeSMG43d
+Unrecognized command: modeSMG43d
+Use "help" to list available commands.
+
+tags.dat> 23EF
+Unrecognized command: 23EF
+Use "help" to list available commands.
+
+tags.dat> modeSMG63d
+Unrecognized command: modeSMG63d
+Use "help" to list available commands.
+
+tags.dat> 1F46
+Unrecognized command: 1F46
+Use "help" to list available commands.
+
+tags.dat> hlmtSMG0
+Unrecognized command: hlmtSMG0
+Use "help" to list available commands.
+
+tags.dat> // Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+Unrecognized command: //
+Use "help" to list available commands.
+
+tags.dat> ====
+Unrecognized command: ====
+Use "help" to list available commands.
+
+tags.dat> echo
+
+tags.dat> //
+Unrecognized command: //
+Use "help" to list available commands.
+
+tags.dat> STOP
+Unrecognized command: STOP
+Use "help" to list available commands.
+
+tags.dat> 
+
+tags.dat> SetLocale US
+
+tags.dat> 
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B47 [Offset = 0x629B020, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B48 [Offset = 0x629B09C, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B49 [Offset = 0x629B118, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B4A [Offset = 0x629B194, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B4B [Offset = 0x629B210, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B4C [Offset = 0x629B28C, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B4D [Offset = 0x629B308, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B4E [Offset = 0x629B384, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B4F [Offset = 0x629B400, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B50 [Offset = 0x629B47C, Size = 0x7C]
+
+tags.dat> 
+
+tags.dat> import modeSMG0fp tags/H3SMGfp.tag
+import: Import a tag from a file
+
+Usage:
+import <tag index> <filename>
+
+Use "help import" for more information.
+
+tags.dat> importmodelraw modeSMG0fp tags/H3SMGfp.raw
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> 
+
+tags.dat> importbitmap bitmSMGbase DDS/smg.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> importbitmap bitmSMGbump DDS/smg_bump.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> importbitmap bitmSMGillu DDS/smg_illum.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+ERROR: Object reference not set to an instance of an object.

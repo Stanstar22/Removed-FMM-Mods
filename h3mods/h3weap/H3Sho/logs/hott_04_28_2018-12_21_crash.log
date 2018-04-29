@@ -1,0 +1,225 @@
+Tag Tool [1.0.6040.37850]
+
+Please report any bugs and feature requests at
+<https://github.com/camden-smallwood/TagTool/issues>.
+
+Reading tags...23411 tags loaded.
+- Detected target engine version 1.106708 cert_ms23.
+- This cache file was built on 3/20/2015 at 2:40 PM.
+Reading stringIDs...39505 strings loaded.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> bitmShobase
+Unrecognized command: bitmShobase
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> bitmShobump
+Unrecognized command: bitmShobump
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> bitmShoillu
+Unrecognized command: bitmShoillu
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> bitmShotGED
+Unrecognized command: bitmShotGED
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadShoDull
+Unrecognized command: shadShoDull
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadShoIllu
+Unrecognized command: shadShoIllu
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadShoMain
+Unrecognized command: shadShoMain
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadShoShel
+Unrecognized command: shadShoShel
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadShoShin
+Unrecognized command: shadShoShin
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadShotGED
+Unrecognized command: shadShotGED
+Use "help" to list available commands.
+
+tags.dat> 1EFB
+Unrecognized command: 1EFB
+Use "help" to list available commands.
+
+tags.dat> modeShofp
+Unrecognized command: modeShofp
+Use "help" to list available commands.
+
+tags.dat> 1F3F
+Unrecognized command: 1F3F
+Use "help" to list available commands.
+
+tags.dat> modeSho3d
+Unrecognized command: modeSho3d
+Use "help" to list available commands.
+
+tags.dat> // Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+Unrecognized command: //
+Use "help" to list available commands.
+
+tags.dat> ====
+Unrecognized command: ====
+Use "help" to list available commands.
+
+tags.dat> echo
+
+tags.dat> //
+Unrecognized command: //
+Use "help" to list available commands.
+
+tags.dat> STOP
+Unrecognized command: STOP
+Use "help" to list available commands.
+
+tags.dat> 
+
+tags.dat> SetLocale US
+
+tags.dat> 
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B73 [Offset = 0x629BEA0, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B74 [Offset = 0x629BF1C, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B75 [Offset = 0x629BF98, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B76 [Offset = 0x629C014, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B77 [Offset = 0x629C090, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B78 [Offset = 0x629C10C, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B79 [Offset = 0x629C188, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B7A [Offset = 0x629C204, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B7B [Offset = 0x629C280, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B7C [Offset = 0x629C2FC, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B7D [Offset = 0x629C378, Size = 0x7C]
+
+tags.dat> 
+
+tags.dat> import modeShofp tags/H3Shofp.tag
+import: Import a tag from a file
+
+Usage:
+import <tag index> <filename>
+
+Use "help import" for more information.
+
+tags.dat> import modeSho3d tags/H3Sho3d.tag
+import: Import a tag from a file
+
+Usage:
+import <tag index> <filename>
+
+Use "help import" for more information.
+
+tags.dat> importmodelraw modeShofp tags/H3Shofp.raw
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> importmodelraw modeSho3d tags/H3Sho3d.raw
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> 
+
+tags.dat> importbitmap bitmShotGED DDS/ED.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> importbitmap bitmShobase DDS/shotgun.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> importbitmap bitmShobump DDS/shotgun_bump.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> importbitmap bitmShoillu DDS/shotgun_illum.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+ERROR: Object reference not set to an instance of an object.

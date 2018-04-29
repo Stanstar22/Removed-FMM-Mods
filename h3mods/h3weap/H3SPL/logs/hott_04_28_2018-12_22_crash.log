@@ -1,0 +1,225 @@
+Tag Tool [1.0.6040.37850]
+
+Please report any bugs and feature requests at
+<https://github.com/camden-smallwood/TagTool/issues>.
+
+Reading tags...23295 tags loaded.
+- Detected target engine version 1.106708 cert_ms23.
+- This cache file was built on 3/20/2015 at 2:40 PM.
+Reading stringIDs...39505 strings loaded.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> bitmSPLbase
+Unrecognized command: bitmSPLbase
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> bitmSPLbump
+Unrecognized command: bitmSPLbump
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> bitmSPLdec2
+Unrecognized command: bitmSPLdec2
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> bitmSPLdeca
+Unrecognized command: bitmSPLdeca
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadSPLbase
+Unrecognized command: shadSPLbase
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadSPLdec2
+Unrecognized command: shadSPLdec2
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadSPLdeca
+Unrecognized command: shadSPLdeca
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadSPLdull
+Unrecognized command: shadSPLdull
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadSPLillu
+Unrecognized command: shadSPLillu
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadSPLshin
+Unrecognized command: shadSPLshin
+Use "help" to list available commands.
+
+tags.dat> 24A8
+Unrecognized command: 24A8
+Use "help" to list available commands.
+
+tags.dat> modeSPLfp
+Unrecognized command: modeSPLfp
+Use "help" to list available commands.
+
+tags.dat> 2502
+Unrecognized command: 2502
+Use "help" to list available commands.
+
+tags.dat> modeSPL3d
+Unrecognized command: modeSPL3d
+Use "help" to list available commands.
+
+tags.dat> // Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+Unrecognized command: //
+Use "help" to list available commands.
+
+tags.dat> ====
+Unrecognized command: ====
+Use "help" to list available commands.
+
+tags.dat> echo
+
+tags.dat> //
+Unrecognized command: //
+Use "help" to list available commands.
+
+tags.dat> STOP
+Unrecognized command: STOP
+Use "help" to list available commands.
+
+tags.dat> 
+
+tags.dat> SetLocale US
+
+tags.dat> 
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005AFF [Offset = 0x6298D40, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B00 [Offset = 0x6298DBC, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B01 [Offset = 0x6298E38, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B02 [Offset = 0x6298EB4, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B03 [Offset = 0x6298F30, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B04 [Offset = 0x6298FAC, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B05 [Offset = 0x6299028, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B06 [Offset = 0x62990A4, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B07 [Offset = 0x6299120, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B08 [Offset = 0x629919C, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B09 [Offset = 0x6299218, Size = 0x7C]
+
+tags.dat> 
+
+tags.dat> import modeSPLfp tags/H3SPLfp.tag
+import: Import a tag from a file
+
+Usage:
+import <tag index> <filename>
+
+Use "help import" for more information.
+
+tags.dat> import modeSPL3d tags/H3SPL3d.tag
+import: Import a tag from a file
+
+Usage:
+import <tag index> <filename>
+
+Use "help import" for more information.
+
+tags.dat> importmodelraw modeSPLfp tags/H3SPLfp.raw
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> importmodelraw modeSPL3d tags/H3SPL3d.raw
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> 
+
+tags.dat> importbitmap bitmSPLbase DDS/spartan_laser.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> importbitmap bitmSPLbump DDS/spartan_laser_bump.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> importbitmap bitmSPLdec2 DDS/spartan_laser_decal2.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> importbitmap bitmSPLdeca DDS/spartan_laser_decal.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+ERROR: Object reference not set to an instance of an object.

@@ -1,0 +1,60 @@
+0000
+bitmBeabase
+0000
+bitmBeabump
+0000
+bitmBeaillu
+0000
+bitmBeamatr
+0000
+shadBeaAnim
+0000
+shadBeaIllu
+0000
+shadBeaMai0
+0000
+shadBeaMai2
+0000
+shadBeaTop0
+0000
+shadBeaRubb
+2456
+modeBeafp
+248E
+modeBea3d
+// Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+====
+echo
+//
+STOP
+
+SetLocale US
+
+duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0
+
+import modeBeafp tags/H3Beafp.tag
+import modeBea3d tags/H3Bea3d.tag
+importmodelraw modeBeafp tags/H3Beafp.raw
+importmodelraw modeBea3d tags/H3Bea3d.raw
+
+importbitmap bitmBeabase DDS/beam_rifle.dds
+importbitmap bitmBeabump DDS/beam_rifle_bump.dds
+importbitmap bitmBeaillu DDS/beam_rifle_illum.dds
+importbitmap bitmBeamatr DDS/beam_rifle_material_test.dds
+import shadBeaIllu tagTemplates/06B9_rmshTemplate
+import shadBeaMai0 tagTemplates/106E_rmshTemplate
+import shadBeaMai2 tagTemplates/212B_rmshTemplate
+import shadBeaTop0 tagTemplates/3890_rmshTemplate
+import shadBeaAnim tagTemplates/212B_rmshTemplate
+import shadBeaRubb tagTemplates/106E_rmshTemplate
+edit modeBeafp XXXX edit geometry.compression[0] XXXX SetField TextureMinV 0.34209 XXXX SetField TextureMaxV -1.306699 XXXX savechanges XXXX exitTo tags.dat
+edit modeBea3d XXXX edit geometry.compression[0] XXXX SetField TextureMinV 0.34209 XXXX SetField TextureMaxV -1.306699 XXXX savechanges XXXX exitTo tags.dat
+edit shadBeaMai0 XXXX SpecifyBitmaps XXXX bitmBeabase XXXX 20FD XXXX 02B9 XXXX bitmBeabump XXXX 02B9 XXXX bitmBeamatr XXXX bitmBeaillu XXXX exit
+edit shadBeaTop0 XXXX SpecifyBitmaps XXXX bitmBeabase XXXX 2BA9 XXXX bitmBeabump XXXX 111A XXXX 0EF7 XXXX exit
+edit shadBeaRubb XXXX SpecifyBitmaps XXXX bitmBeabase XXXX 20FD XXXX 02B9 XXXX bitmBeabump XXXX 02B9 XXXX bitmBeamatr XXXX bitmBeaillu XXXX exit
+edit shadBeaMai0 XXXX edit ShaderProperties[0] XXXX SetField arguments[13].arg1 5.0 XXXX savechanges XXXX exit XXXX exit
+edit shadBeaTop0 XXXX edit ShaderProperties[0] XXXX SetField arguments[03].Arg3 0.2 XXXX SetField arguments[03].Arg3 0.2 XXXX SetField arguments[03].Arg3 1.2 XXXX savechanges XXXX exit XXXX exit
+edit modeBeafp XXXX SpecifyShaders XXXX shadBeaMai0 XXXX shadBeaAnim XXXX shadBeaAnim XXXX shadBeaTop0 XXXX shadBeaRubb XXXX exit
+edit modeBea3d XXXX SpecifyShaders XXXX shadBeaTop0 XXXX shadBeaMai0 XXXX shadBeaAnim XXXX shadBeaAnim XXXX shadBeaRubb XXXX exit
+
+dumplog H3BeamRifle.log XXXX exit XXXX exit

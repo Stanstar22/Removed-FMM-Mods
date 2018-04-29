@@ -1,0 +1,64 @@
+0000
+bitmSPLbase
+0000
+bitmSPLbump
+0000
+bitmSPLdec2
+0000
+bitmSPLdeca
+0000
+shadSPLbase
+0000
+shadSPLdec2
+0000
+shadSPLdeca
+0000
+shadSPLdull
+0000
+shadSPLillu
+0000
+shadSPLshin
+24A8
+modeSPLfp
+2502
+modeSPL3d
+// Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+====
+echo
+//
+STOP
+
+SetLocale US
+
+duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0
+
+import modeSPLfp tags/H3SPLfp.tag
+import modeSPL3d tags/H3SPL3d.tag
+importmodelraw modeSPLfp tags/H3SPLfp.raw
+importmodelraw modeSPL3d tags/H3SPL3d.raw
+
+importbitmap bitmSPLbase DDS/spartan_laser.dds
+importbitmap bitmSPLbump DDS/spartan_laser_bump.dds
+importbitmap bitmSPLdec2 DDS/spartan_laser_decal2.dds
+importbitmap bitmSPLdeca DDS/spartan_laser_decal.dds
+import shadSPLbase tagTemplates/205B_rmshTemplate
+import shadSPLdec2 tagTemplates/1CA4_rmshTemplate
+import shadSPLdeca tagTemplates/1CA4_rmshTemplate
+import shadSPLdull tagTemplates/205B_rmshTemplate
+import shadSPLillu tagTemplates/1178_rmshTemplate
+import shadSPLshin tagTemplates/205B_rmshTemplate
+edit modeSPLfp XXXX edit geometry.compression[0] XXXX SetField TextureMinV 0 XXXX SetField TextureMaxV -1 XXXX savechanges XXXX exitTo tags.dat
+edit modeSPL3d XXXX edit geometry.compression[0] XXXX SetField TextureMinV 0 XXXX SetField TextureMaxV -1 XXXX savechanges XXXX exitTo tags.dat
+edit modeSPLfp XXXX SpecifyShaders XXXX 101F XXXX shadSPLdull XXXX shadSPLbase XXXX shadSPLdeca XXXX shadSPLshin XXXX shadSPLillu XXXX shadSPLdec2 XXXX exit
+edit modeSPL3d XXXX SpecifyShaders XXXX 101F XXXX shadSPLdull XXXX shadSPLillu XXXX shadSPLbase XXXX shadSPLshin XXXX exit
+edit shadSPLbase XXXX SpecifyBitmaps XXXX bitmSPLbase XXXX 0343 XXXX bitmSPLbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX 02B9 XXXX exit
+edit shadSPLdec2 XXXX SpecifyBitmaps XXXX bitmSPLdec2 XXXX 0343 XXXX exit
+edit shadSPLdeca XXXX SpecifyBitmaps XXXX bitmSPLdeca XXXX 0343 XXXX exit
+edit shadSPLdull XXXX SpecifyBitmaps XXXX bitmSPLbase XXXX 0343 XXXX bitmSPLbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX 02B9 XXXX exit
+edit shadSPLshin XXXX SpecifyBitmaps XXXX bitmSPLbase XXXX 0343 XXXX bitmSPLbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX 02B9 XXXX exit
+edit shadSPLbase XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 0 XXXX SetField arguments[28].arg1 0.0 XXXX SetField arguments[28].arg2 0.0 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 1.0 XXXX savechanges XXXX exit XXXX exit
+edit shadSPLdull XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 0 XXXX SetField arguments[28].arg1 0.0 XXXX SetField arguments[28].arg2 0.0 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 1.0 XXXX savechanges XXXX exit XXXX exit
+edit shadSPLillu XXXX edit ShaderProperties[0] XXXX SetField arguments[02].arg1 1.0 XXXX SetField arguments[02].arg2 1.0 XXXX SetField arguments[02].arg3 1 XXXX savechanges XXXX exit XXXX exit
+edit shadSPLshin XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 0 XXXX SetField arguments[28].arg1 0.0 XXXX SetField arguments[28].arg2 0.0 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 1.0 XXXX savechanges XXXX exit XXXX exit
+
+dumplog H3SpartanLaser.log XXXX exit XXXX exit

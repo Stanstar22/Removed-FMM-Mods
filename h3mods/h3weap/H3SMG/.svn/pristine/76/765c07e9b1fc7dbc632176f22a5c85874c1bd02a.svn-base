@@ -1,0 +1,273 @@
+0000
+57F0
+0000
+57F1
+0000
+57F2
+0000
+57F3
+0000
+57F4
+0000
+57F5
+0000
+57F6
+0000
+57F7
+0000
+57F8
+10C8
+10C8
+10D4
+10D4
+10E4
+10E4
+10F3
+10F3
+10FB
+10FB
+1F79
+1F79
+23D1
+23D1
+23DD
+23DD
+23E6
+23E6
+23EF
+23EF
+1F46
+1F46
+echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+echo
+echo
+STOP
+
+SetLocale US
+
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+
+import 10C8 tags/H3SMGfp.tag
+importmodelraw 10C8 tags/H3SMGfp.raw
+
+importbitmap 57F0 DDS/smg.dds
+importbitmap 57F1 DDS/smg_bump.dds
+importbitmap 57F2 DDS/smg_illum.dds
+import 57F3 tagTemplates/205B_rmshTemplate
+import 57F4 tagTemplates/205B_rmshTemplate
+import 57F5 tagTemplates/205B_rmshTemplate
+import 57F6 tagTemplates/205B_rmshTemplate
+import 57F7 tagTemplates/205B_rmshTemplate
+import 57F8 tagTemplates/205B_rmshTemplate
+edit 10C8
+edit geometry.compression[0]
+SetField TextureMinV 0
+SetField TextureMaxV -0.9982318
+savechanges
+exitTo tags.dat
+edit 10C8
+AddTo markergroups
+SetField markergroups[*].Name weapon_stow_anchor
+edit markergroups[*]
+AddTo markers
+exit
+SetField markergroups[*].markers[0].RegionIndex -1
+SetField markergroups[*].markers[0].PermutationIndex -1
+SetField markergroups[*].markers[0].NodeIndex 0
+SetField markergroups[*].markers[0].Unknown3 0
+SetField markergroups[*].markers[0].Translation -0.03480078 -0.009601063 0.001836636
+SetField markergroups[*].markers[0].Rotation 0.698242 0.01886404 0.08508977 -0.7105364
+SetField markergroups[*].markers[0].Scale 0
+savechanges
+exit
+extract 10C8 tempTag
+import 10C8 tempTag
+import 10D4 tempTag
+import 10E4 tempTag
+import 10F3 tempTag
+import 10FB tempTag
+edit 1F46
+SetField LODModel null
+savechanges
+exit
+edit 10C8
+SpecifyShaders
+57F3
+57F8
+exit
+edit 10D4
+SpecifyShaders
+57F4
+57F8
+exit
+edit 10E4
+SpecifyShaders
+57F5
+57F8
+exit
+edit 10F3
+SpecifyShaders
+57F6
+57F8
+exit
+edit 10FB
+SpecifyShaders
+57F7
+57F8
+exit
+extract 10C8 tempTag
+import 1F79 tempTag
+extract 10D4 tempTag
+import 23D1 tempTag
+extract 10E4 tempTag
+import 23DD tempTag
+extract 10F3 tempTag
+import 23E6 tempTag
+extract 10FB tempTag
+import 23EF tempTag
+edit 57F3
+SpecifyBitmaps
+57F0
+0343
+57F1
+0376
+02B7
+02B9
+57F2
+exit
+edit 57F4
+SpecifyBitmaps
+57F0
+0343
+57F1
+0376
+02B7
+02B9
+57F2
+exit
+edit 57F5
+SpecifyBitmaps
+57F0
+0343
+57F1
+0376
+02B7
+02B9
+57F2
+exit
+edit 57F6
+SpecifyBitmaps
+57F0
+0343
+57F1
+0376
+02B7
+02B9
+57F2
+exit
+edit 57F7
+SpecifyBitmaps
+57F0
+0343
+57F1
+0376
+02B7
+02B9
+57F2
+exit
+edit 57F8
+SpecifyBitmaps
+57F0
+0343
+57F1
+0376
+02B7
+02B9
+57F2
+exit
+edit 57F3
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 1
+SetField arguments[28].arg1 1
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 1.0
+savechanges
+exit
+exit
+edit 57F4
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 1
+SetField arguments[28].arg1 1
+SetField arguments[28].arg2 0.7
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 1.0
+savechanges
+exit
+exit
+edit 57F5
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 1
+SetField arguments[28].arg1 0
+SetField arguments[28].arg2 1.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 1.0
+savechanges
+exit
+exit
+edit 57F6
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 1
+SetField arguments[28].arg1 1
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 1.0
+savechanges
+exit
+exit
+edit 57F7
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 1
+SetField arguments[28].arg1 1
+SetField arguments[28].arg2 1.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 1.0
+savechanges
+exit
+exit
+edit 57F8
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 0
+SetField arguments[28].arg1 0
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 1.0
+savechanges
+exit
+exit
+
+dumplog H3SMG.log
+exit
+exit

@@ -1,0 +1,12 @@
+color 0A
+cd mods\tagMods\h3mods\h3weap\H3BR
+ECHO FMM_OUTPUT Installing Halo 3 Battle Rifle ...
+
+Type commands\genLastTag.cmds | TagTool.exe ..\..\..\..\..\maps\tags.dat
+timeout 1
+
+START /WAIT commands\TTCC.exe commands\H3BR.cmdX
+
+Type commands\H3BR.cmds | TagTool.exe ..\..\..\..\..\maps\tags.dat
+
+ECHO FMM_OUTPUT Halo 3 Battle Rifle Installation completed.

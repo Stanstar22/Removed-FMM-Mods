@@ -1,0 +1,343 @@
+Tag Tool [1.0.6040.37850]
+
+Please report any bugs and feature requests at
+<https://github.com/camden-smallwood/TagTool/issues>.
+
+Reading tags...23385 tags loaded.
+- Detected target engine version 1.106708 cert_ms23.
+- This cache file was built on 3/20/2015 at 2:40 PM.
+Reading stringIDs...39505 strings loaded.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> bitmSniLeds
+Unrecognized command: bitmSniLeds
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> bitmSniScr1
+Unrecognized command: bitmSniScr1
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> bitmSniScr2
+Unrecognized command: bitmSniScr2
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> bitmSnibase
+Unrecognized command: bitmSnibase
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> bitmSnibump
+Unrecognized command: bitmSnibump
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> bitmSniillu
+Unrecognized command: bitmSniillu
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadSniAlph
+Unrecognized command: shadSniAlph
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadSniGlas
+Unrecognized command: shadSniGlas
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadSniMeta
+Unrecognized command: shadSniMeta
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadSniPlas
+Unrecognized command: shadSniPlas
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadSniRubb
+Unrecognized command: shadSniRubb
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadSniScr1
+Unrecognized command: shadSniScr1
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadSniScr2
+Unrecognized command: shadSniScr2
+Use "help" to list available commands.
+
+tags.dat> 1F8D
+Unrecognized command: 1F8D
+Use "help" to list available commands.
+
+tags.dat> modeSnifp
+Unrecognized command: modeSnifp
+Use "help" to list available commands.
+
+tags.dat> 203C
+Unrecognized command: 203C
+Use "help" to list available commands.
+
+tags.dat> modeSni3d
+Unrecognized command: modeSni3d
+Use "help" to list available commands.
+
+tags.dat> // Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+Unrecognized command: //
+Use "help" to list available commands.
+
+tags.dat> ====
+Unrecognized command: ====
+Use "help" to list available commands.
+
+tags.dat> echo
+
+tags.dat> //
+Unrecognized command: //
+Use "help" to list available commands.
+
+tags.dat> STOP
+Unrecognized command: STOP
+Use "help" to list available commands.
+
+tags.dat> 
+
+tags.dat> SetLocale US
+
+tags.dat> 
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B59 [Offset = 0x629B208, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B5A [Offset = 0x629B284, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B5B [Offset = 0x629B300, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B5C [Offset = 0x629B37C, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B5D [Offset = 0x629B3F8, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B5E [Offset = 0x629B474, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B5F [Offset = 0x629B4F0, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B60 [Offset = 0x629B56C, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B61 [Offset = 0x629B5E8, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B62 [Offset = 0x629B664, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B63 [Offset = 0x629B6E0, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B64 [Offset = 0x629B75C, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B65 [Offset = 0x629B7D8, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B66 [Offset = 0x629B854, Size = 0x7C]
+
+tags.dat> 
+
+tags.dat> import modeSnifp tags/H3Snifp.tag
+import: Import a tag from a file
+
+Usage:
+import <tag index> <filename>
+
+Use "help import" for more information.
+
+tags.dat> import modeSni3d tags/H3Sni3d.tag
+import: Import a tag from a file
+
+Usage:
+import <tag index> <filename>
+
+Use "help import" for more information.
+
+tags.dat> 
+
+tags.dat> importmodelraw modeSnifp tags/H3Snifp.raw
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> importmodelraw modeSni3d tags/H3Sni3d.raw
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> 
+
+tags.dat> edit modeSnifp
+edit: Edit tag-specific data
+
+Usage:
+edit <tag index>
+
+Use "help edit" for more information.
+
+tags.dat> edit geometry.compression[0]
+edit: Edit tag-specific data
+
+Usage:
+edit <tag index>
+
+Use "help edit" for more information.
+
+tags.dat> SetField TextureMinV 0
+Unrecognized command: SetField
+Use "help" to list available commands.
+
+tags.dat> SetField TextureMaxV -0.9995005
+Unrecognized command: SetField
+Use "help" to list available commands.
+
+tags.dat> savechanges
+Unrecognized command: savechanges
+Use "help" to list available commands.
+
+tags.dat> exitTo tags.dat
+Unrecognized command: exitTo
+Use "help" to list available commands.
+
+tags.dat> edit modeSni3d
+edit: Edit tag-specific data
+
+Usage:
+edit <tag index>
+
+Use "help edit" for more information.
+
+tags.dat> edit geometry.compression[0]
+edit: Edit tag-specific data
+
+Usage:
+edit <tag index>
+
+Use "help edit" for more information.
+
+tags.dat> SetField TextureMinV 0
+Unrecognized command: SetField
+Use "help" to list available commands.
+
+tags.dat> SetField TextureMaxV -0.9995005
+Unrecognized command: SetField
+Use "help" to list available commands.
+
+tags.dat> savechanges
+Unrecognized command: savechanges
+Use "help" to list available commands.
+
+tags.dat> exitTo tags.dat
+Unrecognized command: exitTo
+Use "help" to list available commands.
+
+tags.dat> 
+
+tags.dat> 
+
+tags.dat> importbitmap bitmSniLeds DDS/sniper_rifle_scope_screen_luminous2.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> importbitmap bitmSniScr1 DDS/sniper_rifle_scope_screen.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> importbitmap bitmSniScr2 DDS/sniper_rifle_scope_screen2.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> importbitmap bitmSnibase DDS/sniper_rifle.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> importbitmap bitmSnibump DDS/sniper_rifle_bump.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> importbitmap bitmSniillu DDS/sniper_rifle_illum.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+ERROR: Object reference not set to an instance of an object.

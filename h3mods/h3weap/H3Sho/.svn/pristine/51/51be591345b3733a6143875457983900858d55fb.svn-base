@@ -1,0 +1,65 @@
+0000
+bitmShobase
+0000
+bitmShobump
+0000
+bitmShoillu
+0000
+bitmShotGED
+0000
+shadShoDull
+0000
+shadShoIllu
+0000
+shadShoMain
+0000
+shadShoShel
+0000
+shadShoShin
+0000
+shadShotGED
+1EFB
+modeShofp
+1F3F
+modeSho3d
+// Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+====
+echo
+//
+STOP
+
+SetLocale US
+
+duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0
+
+import modeShofp tags/H3Shofp.tag
+import modeSho3d tags/H3Sho3d.tag
+importmodelraw modeShofp tags/H3Shofp.raw
+importmodelraw modeSho3d tags/H3Sho3d.raw
+
+importbitmap bitmShotGED DDS/ED.dds
+importbitmap bitmShobase DDS/shotgun.dds
+importbitmap bitmShobump DDS/shotgun_bump.dds
+importbitmap bitmShoillu DDS/shotgun_illum.dds
+import shadShoDull tagTemplates/205B_rmshTemplate
+import shadShoIllu tagTemplates/1178_rmshTemplate 
+import shadShoMain tagTemplates/205B_rmshTemplate
+import shadShoShel tagTemplates/205B_rmshTemplate
+import shadShoShin tagTemplates/205B_rmshTemplate
+import shadShotGED tagTemplates/1CA4_rmshTemplate
+edit modeShofp XXXX edit geometry.compression[0] XXXX SetField TextureMinV 0 XXXX SetField TextureMaxV -0.9995005 XXXX savechanges XXXX exitTo tags.dat
+edit modeSho3d XXXX edit geometry.compression[0] XXXX SetField TextureMinV 0 XXXX SetField TextureMaxV -0.9995005 XXXX savechanges XXXX exitTo tags.dat
+edit modeShofp XXXX SpecifyShaders XXXX shadShoShin XXXX shadShoMain XXXX shadShoDull XXXX shadShoIllu XXXX shadShoShel XXXX exit
+edit modeSho3d XXXX SpecifyShaders XXXX shadShoMain XXXX shadShoDull XXXX shadShoIllu XXXX shadShotGED XXXX shadShoShin XXXX exit
+edit shadShoDull XXXX SpecifyBitmaps XXXX bitmShobase XXXX 0343 XXXX bitmShobump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmShoillu XXXX exit
+edit shadShotGED XXXX SpecifyBitmaps XXXX bitmShotGED XXXX 0343 XXXX exit
+edit shadShoMain XXXX SpecifyBitmaps XXXX bitmShobase XXXX 0343 XXXX bitmShobump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmShoillu XXXX exit
+edit shadShoShel XXXX SpecifyBitmaps XXXX bitmShobase XXXX 0343 XXXX bitmShobump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmShoillu XXXX exit
+edit shadShoShin XXXX SpecifyBitmaps XXXX bitmShobase XXXX 0343 XXXX bitmShobump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmShoillu XXXX exit
+edit shadShoDull XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 0 XXXX SetField arguments[28].arg1 0.0 XXXX SetField arguments[28].arg2 0.0 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 2.0 XXXX savechanges XXXX exit XXXX exit
+edit shadShoIllu XXXX edit ShaderProperties[0] XXXX SetField arguments[02].arg1 0.03 XXXX SetField arguments[02].arg2 0.5 XXXX SetField arguments[02].arg3 1 XXXX savechanges XXXX exit XXXX exit
+edit shadShoMain XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 0 XXXX SetField arguments[28].arg1 0.0 XXXX SetField arguments[28].arg2 0.0 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 2.0 XXXX savechanges XXXX exit XXXX exit
+edit shadShoShel XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 0 XXXX SetField arguments[28].arg1 0.0 XXXX SetField arguments[28].arg2 0.0 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 2.0 XXXX savechanges XXXX exit XXXX exit
+edit shadShoShin XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 0 XXXX SetField arguments[28].arg1 0.0 XXXX SetField arguments[28].arg2 0.0 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 2.0 XXXX savechanges XXXX exit XXXX exit
+
+dumplog H3Shotgun.log XXXX exit XXXX exit

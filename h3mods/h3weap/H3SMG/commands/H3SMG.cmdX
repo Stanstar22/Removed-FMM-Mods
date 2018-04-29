@@ -1,0 +1,95 @@
+0000
+bitmSMGbase
+0000
+bitmSMGbump
+0000
+bitmSMGillu
+0000
+shadSMG0def
+0000
+shadSMG1ora
+0000
+shadSMG2gre
+0000
+shadSMG4red
+0000
+shadSMG6yel
+0000
+shadSMGrubb
+10C8
+modeSMG0fp
+10D4
+modeSMG1fp
+10E4
+modeSMG2fp
+10F3
+modeSMG4fp
+10FB
+modeSMG6fp
+1F79
+modeSMG03d
+23D1
+modeSMG13d
+23DD
+modeSMG23d
+23E6
+modeSMG43d
+23EF
+modeSMG63d
+1F46
+hlmtSMG0
+// Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+====
+echo
+//
+STOP
+
+SetLocale US
+
+duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0
+
+import modeSMG0fp tags/H3SMGfp.tag
+importmodelraw modeSMG0fp tags/H3SMGfp.raw
+
+importbitmap bitmSMGbase DDS/smg.dds
+importbitmap bitmSMGbump DDS/smg_bump.dds
+importbitmap bitmSMGillu DDS/smg_illum.dds
+import shadSMG0def tagTemplates/205B_rmshTemplate
+import shadSMG1ora tagTemplates/205B_rmshTemplate
+import shadSMG2gre tagTemplates/205B_rmshTemplate
+import shadSMG4red tagTemplates/205B_rmshTemplate
+import shadSMG6yel tagTemplates/205B_rmshTemplate
+import shadSMGrubb tagTemplates/205B_rmshTemplate
+edit modeSMG0fp XXXX edit geometry.compression[0] XXXX SetField TextureMinV 0 XXXX SetField TextureMaxV -0.9982318 XXXX savechanges XXXX exitTo tags.dat
+edit modeSMG0fp XXXX AddTo markergroups XXXX SetField markergroups[*].Name weapon_stow_anchor XXXX edit markergroups[*] XXXX AddTo markers XXXX exit XXXX SetField markergroups[*].markers[0].RegionIndex -1 XXXX SetField markergroups[*].markers[0].PermutationIndex -1 XXXX SetField markergroups[*].markers[0].NodeIndex 0 XXXX SetField markergroups[*].markers[0].Unknown3 0 XXXX SetField markergroups[*].markers[0].Translation -0.03480078 -0.009601063 0.001836636 XXXX SetField markergroups[*].markers[0].Rotation 0.698242 0.01886404 0.08508977 -0.7105364 XXXX SetField markergroups[*].markers[0].Scale 0 XXXX savechanges XXXX exit
+extract modeSMG0fp tempTag
+import modeSMG0fp tempTag
+import modeSMG1fp tempTag
+import modeSMG2fp tempTag
+import modeSMG4fp tempTag
+import modeSMG6fp tempTag
+edit hlmtSMG0 XXXX SetField LODModel null XXXX savechanges XXXX exit
+edit modeSMG0fp XXXX SpecifyShaders XXXX shadSMG0def XXXX shadSMGrubb XXXX exit
+edit modeSMG1fp XXXX SpecifyShaders XXXX shadSMG1ora XXXX shadSMGrubb XXXX exit
+edit modeSMG2fp XXXX SpecifyShaders XXXX shadSMG2gre XXXX shadSMGrubb XXXX exit
+edit modeSMG4fp XXXX SpecifyShaders XXXX shadSMG4red XXXX shadSMGrubb XXXX exit
+edit modeSMG6fp XXXX SpecifyShaders XXXX shadSMG6yel XXXX shadSMGrubb XXXX exit
+extract modeSMG0fp tempTag XXXX import modeSMG03d tempTag
+extract modeSMG1fp tempTag XXXX import modeSMG13d tempTag
+extract modeSMG2fp tempTag XXXX import modeSMG23d tempTag
+extract modeSMG4fp tempTag XXXX import modeSMG43d tempTag
+extract modeSMG6fp tempTag XXXX import modeSMG63d tempTag
+edit shadSMG0def XXXX SpecifyBitmaps XXXX bitmSMGbase XXXX 0343 XXXX bitmSMGbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmSMGillu XXXX exit
+edit shadSMG1ora XXXX SpecifyBitmaps XXXX bitmSMGbase XXXX 0343 XXXX bitmSMGbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmSMGillu XXXX exit
+edit shadSMG2gre XXXX SpecifyBitmaps XXXX bitmSMGbase XXXX 0343 XXXX bitmSMGbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmSMGillu XXXX exit
+edit shadSMG4red XXXX SpecifyBitmaps XXXX bitmSMGbase XXXX 0343 XXXX bitmSMGbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmSMGillu XXXX exit
+edit shadSMG6yel XXXX SpecifyBitmaps XXXX bitmSMGbase XXXX 0343 XXXX bitmSMGbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmSMGillu XXXX exit
+edit shadSMGrubb XXXX SpecifyBitmaps XXXX bitmSMGbase XXXX 0343 XXXX bitmSMGbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmSMGillu XXXX exit
+edit shadSMG0def XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 1 XXXX SetField arguments[28].arg1 1 XXXX SetField arguments[28].arg2 0.0 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 1.0 XXXX savechanges XXXX exit XXXX exit
+edit shadSMG1ora XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 1 XXXX SetField arguments[28].arg1 1 XXXX SetField arguments[28].arg2 0.7 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 1.0 XXXX savechanges XXXX exit XXXX exit
+edit shadSMG2gre XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 1 XXXX SetField arguments[28].arg1 0 XXXX SetField arguments[28].arg2 1.0 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 1.0 XXXX savechanges XXXX exit XXXX exit
+edit shadSMG4red XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 1 XXXX SetField arguments[28].arg1 1 XXXX SetField arguments[28].arg2 0.0 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 1.0 XXXX savechanges XXXX exit XXXX exit
+edit shadSMG6yel XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 1 XXXX SetField arguments[28].arg1 1 XXXX SetField arguments[28].arg2 1.0 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 1.0 XXXX savechanges XXXX exit XXXX exit
+edit shadSMGrubb XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 0 XXXX SetField arguments[28].arg1 0 XXXX SetField arguments[28].arg2 0.0 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 1.0 XXXX savechanges XXXX exit XXXX exit
+
+dumplog H3SMG.log XXXX exit XXXX exit

@@ -1,0 +1,217 @@
+0000
+bitmBRbase
+0000
+bitmBRbump
+0000
+bitmBRillu
+0000
+bitmBROnes
+0000
+shadBR0def
+0000
+shadBR1ora
+0000
+shadBR2gre
+0000
+shadBR3blu
+0000
+shadBR4red
+0000
+shadBR5pur
+0000
+shadBR6yel
+0000
+shadBROnes
+0000
+shadBRTens
+0000
+shadBRlens
+0000
+shadBRrubb
+0F71
+modeBR0fp
+0F99
+modeBR1fp
+0FAE
+modeBR2fp
+0FBA
+modeBR3fp
+0FC6
+modeBR4fp
+0FD7
+modeBR5fp
+0FE1
+modeBR6fp
+1D85
+jmadBRdefault
+1DA0
+modeBR03d
+2368
+modeBR33d
+2375
+modeBR43d
+2386
+modeBR63d
+2587
+modeBR13d
+2591
+modeBR23d
+259A
+modeBR53d
+// Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+====
+0F96
+bitmBRDefaultOnes
+====
+====
+echo
+//
+STOP
+
+SetLocale US
+
+duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0
+
+import modeBR0fp tags/H3BRfp.tag
+import modeBR03d tags/H3BR3d.tag
+importresource resources.dat modeBR0fp tags/H3BRfp.raw
+importresource resources.dat modeBR03d tags/H3BR3d.raw
+
+import shadBR0def tagTemplates/205B_rmshTemplate
+import shadBR1ora tagTemplates/205B_rmshTemplate
+import shadBR2gre tagTemplates/205B_rmshTemplate
+import shadBR3blu tagTemplates/205B_rmshTemplate
+import shadBR4red tagTemplates/205B_rmshTemplate
+import shadBR5pur tagTemplates/205B_rmshTemplate
+import shadBR6yel tagTemplates/205B_rmshTemplate
+import shadBROnes tagTemplates/0F79_rmshTemplate
+import shadBRTens tagTemplates/0F7A_rmshTemplate
+import shadBRlens tagTemplates/0FD8_rmshTemplate
+import shadBRrubb tagTemplates/205B_rmshTemplate
+
+edit modeBR0fp XXXX edit geometry.compression[0] XXXX SetField TextureMinV 0 XXXX SetField TextureMaxV -1 XXXX savechanges XXXX exitTo tags.dat
+edit modeBR03d XXXX edit geometry.compression[0] XXXX SetField TextureMinV 0 XXXX SetField TextureMaxV -1 XXXX savechanges XXXX exitTo tags.dat
+
+edit modeBR0fp XXXX SetField markergroups[01].markers[0].Translation 0.1009767 -0.003126469 0.01598142 XXXX SetField markergroups[01].markers[0].Rotation -0.6101443 0.1782749 -0.4519773 0.6258264 XXXX addTo markerGroups XXXX edit markerGroups[*] XXXX SetField Name weapon_stow_anchor XXXX addTo markers XXXX edit markers[0] XXXX SetField RegionIndex -1 XXXX SetField PermutationIndex -1 XXXX SetField NodeIndex 0 XXXX SetField Unknown3 0 XXXX SetField Translation 0.01313229 -0.0006892266 0.04759113 XXXX SetField Rotation -0.6870458 0.3631848 0.2264535 0.587183 XXXX SetField Scale 0 XXXX savechanges XXXX exitTo tags.dat
+
+extract modeBR0fp tempTag
+import modeBR1fp tempTag
+import modeBR2fp tempTag
+import modeBR3fp tempTag
+import modeBR4fp tempTag
+import modeBR5fp tempTag
+import modeBR6fp tempTag
+
+extract modeBR03d tempTag
+import modeBR13d tempTag
+import modeBR23d tempTag
+import modeBR33d tempTag
+import modeBR43d tempTag
+import modeBR53d tempTag
+import modeBR63d tempTag
+
+edit modeBR0fp XXXX SpecifyShaders XXXX shadBR0def XXXX shadBRrubb XXXX shadBRlens XXXX shadBROnes XXXX shadBRTens XXXX exit
+edit modeBR1fp XXXX SpecifyShaders XXXX shadBR1ora XXXX shadBRrubb XXXX shadBRlens XXXX shadBROnes XXXX shadBRTens XXXX exit
+edit modeBR2fp XXXX SpecifyShaders XXXX shadBR2gre XXXX shadBRrubb XXXX shadBRlens XXXX shadBROnes XXXX shadBRTens XXXX exit
+edit modeBR3fp XXXX SpecifyShaders XXXX shadBR3blu XXXX shadBRrubb XXXX shadBRlens XXXX shadBROnes XXXX shadBRTens XXXX exit
+edit modeBR4fp XXXX SpecifyShaders XXXX shadBR4red XXXX shadBRrubb XXXX shadBRlens XXXX shadBROnes XXXX shadBRTens XXXX exit
+edit modeBR5fp XXXX SpecifyShaders XXXX shadBR5pur XXXX shadBRrubb XXXX shadBRlens XXXX shadBROnes XXXX shadBRTens XXXX exit
+edit modeBR6fp XXXX SpecifyShaders XXXX shadBR6yel XXXX shadBRrubb XXXX shadBRlens XXXX shadBROnes XXXX shadBRTens XXXX exit
+edit modeBR03d XXXX SpecifyShaders XXXX shadBR0def XXXX shadBRrubb XXXX shadBRlens XXXX shadBROnes XXXX shadBRTens XXXX exit
+edit modeBR13d XXXX SpecifyShaders XXXX shadBR1ora XXXX shadBRrubb XXXX shadBRlens XXXX shadBROnes XXXX shadBRTens XXXX exit
+edit modeBR23d XXXX SpecifyShaders XXXX shadBR2gre XXXX shadBRrubb XXXX shadBRlens XXXX shadBROnes XXXX shadBRTens XXXX exit
+edit modeBR33d XXXX SpecifyShaders XXXX shadBR3blu XXXX shadBRrubb XXXX shadBRlens XXXX shadBROnes XXXX shadBRTens XXXX exit
+edit modeBR43d XXXX SpecifyShaders XXXX shadBR4red XXXX shadBRrubb XXXX shadBRlens XXXX shadBROnes XXXX shadBRTens XXXX exit
+edit modeBR53d XXXX SpecifyShaders XXXX shadBR5pur XXXX shadBRrubb XXXX shadBRlens XXXX shadBROnes XXXX shadBRTens XXXX exit
+edit modeBR63d XXXX SpecifyShaders XXXX shadBR6yel XXXX shadBRrubb XXXX shadBRlens XXXX shadBROnes XXXX shadBRTens XXXX exit
+
+
+edit shadBR0def XXXX SpecifyBitmaps XXXX bitmBRbase XXXX 0343 XXXX bitmBRbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmBRillu XXXX exit
+edit shadBR1ora XXXX SpecifyBitmaps XXXX bitmBRbase XXXX 0343 XXXX bitmBRbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmBRillu XXXX exit
+edit shadBR2gre XXXX SpecifyBitmaps XXXX bitmBRbase XXXX 0343 XXXX bitmBRbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmBRillu XXXX exit
+edit shadBR3blu XXXX SpecifyBitmaps XXXX bitmBRbase XXXX 0343 XXXX bitmBRbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmBRillu XXXX exit
+edit shadBR4red XXXX SpecifyBitmaps XXXX bitmBRbase XXXX 0343 XXXX bitmBRbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmBRillu XXXX exit
+edit shadBR5pur XXXX SpecifyBitmaps XXXX bitmBRbase XXXX 0343 XXXX bitmBRbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmBRillu XXXX exit
+edit shadBR6yel XXXX SpecifyBitmaps XXXX bitmBRbase XXXX 0343 XXXX bitmBRbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmBRillu XXXX exit
+
+edit shadBROnes XXXX SpecifyBitmaps XXXX bitmBROnes XXXX exit
+edit shadBRTens XXXX SpecifyBitmaps XXXX bitmBROnes XXXX exit
+edit shadBRlens XXXX SpecifyBitmaps XXXX 0343 XXXX 0343 XXXX 02B9 XXXX 0343 XXXX exit
+edit shadBRrubb XXXX SpecifyBitmaps XXXX bitmBRbase XXXX 0343 XXXX bitmBRbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmBRillu XXXX exit
+
+edit shadBR0def XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 0.8 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 1 XXXX SetField arguments[28].arg1 1.0 XXXX SetField arguments[28].arg2 0.0 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 3.0 XXXX savechanges XXXX exit XXXX exit
+edit shadBR1ora XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 0.8 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 1 XXXX SetField arguments[28].arg1 1.0 XXXX SetField arguments[28].arg2 0.7 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 3.0 XXXX savechanges XXXX exit XXXX exit
+edit shadBR2gre XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 0.8 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 1 XXXX SetField arguments[28].arg1 0.0 XXXX SetField arguments[28].arg2 1.0 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 3.0 XXXX savechanges XXXX exit XXXX exit
+edit shadBR3blu XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 0.8 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 1 XXXX SetField arguments[28].arg1 0.0 XXXX SetField arguments[28].arg2 0.4 XXXX SetField arguments[28].arg3 1 XXXX SetField arguments[06].arg1 3.0 XXXX savechanges XXXX exit XXXX exit
+edit shadBR4red XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 0.8 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 1 XXXX SetField arguments[28].arg1 1.0 XXXX SetField arguments[28].arg2 0.0 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 3.0 XXXX savechanges XXXX exit XXXX exit
+edit shadBR5pur XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 0.8 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 1 XXXX SetField arguments[28].arg1 0.7 XXXX SetField arguments[28].arg2 0.0 XXXX SetField arguments[28].arg3 1 XXXX SetField arguments[06].arg1 3.0 XXXX savechanges XXXX exit XXXX exit
+edit shadBR6yel XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 0.8 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 1 XXXX SetField arguments[28].arg1 1.0 XXXX SetField arguments[28].arg2 1.0 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 3.0 XXXX savechanges XXXX exit XXXX exit
+edit shadBRlens XXXX edit ShaderProperties[0] XXXX SetField arguments[02].Arg1 0.0 XXXX SetField arguments[02].Arg2 0.0 XXXX SetField arguments[02].Arg3 0.0 XXXX SetField arguments[05].Arg1 0.02 XXXX SetField arguments[09].Arg1 0.5 XXXX SetField arguments[10].Arg1 1 XXXX SetField arguments[12].Arg1 0.4 XXXX SetField arguments[12].Arg2 2 XXXX SetField arguments[12].Arg3 16 XXXX SetField arguments[16].Arg1 0 XXXX savechanges XXXX exit XXXX exit
+edit shadBRrubb XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 0 XXXX SetField arguments[28].arg1 0.0 XXXX SetField arguments[28].arg2 0.0 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 1.0 XXXX savechanges XXXX exit XXXX exit
+
+importbitmap bitmBRbase DDS/battle_rifle.dds
+importbitmap bitmBRbump DDS/battle_rifle_bump.dds
+importbitmap bitmBRillu DDS/battle_rifle_illum.dds
+
+// edit bitmBRDefaultOnes
+// import 0 DDS/LCD/0.dds
+// import 1 DDS/LCD/1.dds
+// import 2 DDS/LCD/2.dds
+// import 3 DDS/LCD/3.dds
+// import 4 DDS/LCD/4.dds
+// import 5 DDS/LCD/5.dds
+// import 6 DDS/LCD/6.dds
+// import 7 DDS/LCD/7.dds
+// import 8 DDS/LCD/8.dds
+// import 9 DDS/LCD/9.dds
+// exit
+// extract bitmBRDefaultOnes tags\bitm_BROnes.tag
+// extractresource textures.dat bitmBRDefaultOnes tags\ones\bitm_BROnes_0.bitm 0
+// extractresource textures.dat bitmBRDefaultOnes tags\ones\bitm_BROnes_1.bitm 1
+// extractresource textures.dat bitmBRDefaultOnes tags\ones\bitm_BROnes_2.bitm 2
+// extractresource textures.dat bitmBRDefaultOnes tags\ones\bitm_BROnes_3.bitm 3
+// extractresource textures.dat bitmBRDefaultOnes tags\ones\bitm_BROnes_4.bitm 4
+// extractresource textures.dat bitmBRDefaultOnes tags\ones\bitm_BROnes_5.bitm 5
+// extractresource textures.dat bitmBRDefaultOnes tags\ones\bitm_BROnes_6.bitm 6
+// extractresource textures.dat bitmBRDefaultOnes tags\ones\bitm_BROnes_7.bitm 7
+// extractresource textures.dat bitmBRDefaultOnes tags\ones\bitm_BROnes_8.bitm 8
+// extractresource textures.dat bitmBRDefaultOnes tags\ones\bitm_BROnes_9.bitm 9
+
+import bitmBROnes tags/bitm_BROnes.tag
+
+importresource textures.dat bitmBROnes tags/ones
+
+dumplog H3BR.log XXXX exit XXXX exit
+
+// TAGS LIST AFTER CONVERSION
+bitmBROnes bitm_BROnes
+bitmBRbase bitm_BRbase
+bitmBRbump bitm_BRbump
+bitmBRillu bitm_BRillu
+modeBR03d mode_BR03d
+modeBR0fp mode_BR0fp
+modeBR13d mode_BR13d
+modeBR1fp mode_BR1fp
+modeBR23d mode_BR23d
+modeBR2fp mode_BR2fp
+modeBR33d mode_BR33d
+modeBR3fp mode_BR3fp
+modeBR43d mode_BR43d
+modeBR4fp mode_BR4fp
+modeBR53d mode_BR53d
+modeBR5fp mode_BR5fp
+modeBR63d mode_BR63d
+modeBR6fp mode_BR6fp
+shadBR0def shad_BR0def
+shadBR1ora shad_BR1ora
+shadBR2gre shad_BR2gre
+shadBR3blu shad_BR3blu
+shadBR4red shad_BR4red
+shadBR5pur shad_BR5pur
+shadBR6yel shad_BR6yel
+shadBROnes shad_BROnes
+shadBRTens shad_BRTens
+shadBRlens shad_BRlens
+shadBRrubb shad_BRrubb
+
+To tweak shaders, check the arguments tagblock in the rmt2 tag in the rmsh shader tag.

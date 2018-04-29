@@ -1,0 +1,133 @@
+0000
+5850
+0000
+5851
+0000
+5852
+0000
+5853
+0000
+5854
+0000
+5855
+0000
+5856
+0000
+5857
+0000
+5858
+0000
+5859
+2456
+2456
+248E
+248E
+echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+echo
+echo
+STOP
+
+SetLocale US
+
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+
+import 2456 tags/H3Beafp.tag
+import 248E tags/H3Bea3d.tag
+importmodelraw 2456 tags/H3Beafp.raw
+importmodelraw 248E tags/H3Bea3d.raw
+
+importbitmap 5850 DDS/beam_rifle.dds
+importbitmap 5851 DDS/beam_rifle_bump.dds
+importbitmap 5852 DDS/beam_rifle_illum.dds
+importbitmap 5853 DDS/beam_rifle_material_test.dds
+import 5855 tagTemplates/06B9_rmshTemplate
+import 5856 tagTemplates/106E_rmshTemplate
+import 5857 tagTemplates/212B_rmshTemplate
+import 5858 tagTemplates/3890_rmshTemplate
+import 5854 tagTemplates/212B_rmshTemplate
+import 5859 tagTemplates/106E_rmshTemplate
+edit 2456
+edit geometry.compression[0]
+SetField TextureMinV 0.34209
+SetField TextureMaxV -1.306699
+savechanges
+exitTo tags.dat
+edit 248E
+edit geometry.compression[0]
+SetField TextureMinV 0.34209
+SetField TextureMaxV -1.306699
+savechanges
+exitTo tags.dat
+edit 5856
+SpecifyBitmaps
+5850
+20FD
+02B9
+5851
+02B9
+5853
+5852
+exit
+edit 5858
+SpecifyBitmaps
+5850
+2BA9
+5851
+111A
+0EF7
+exit
+edit 5859
+SpecifyBitmaps
+5850
+20FD
+02B9
+5851
+02B9
+5853
+5852
+exit
+edit 5856
+edit ShaderProperties[0]
+SetField arguments[13].arg1 5.0
+savechanges
+exit
+exit
+edit 5858
+edit ShaderProperties[0]
+SetField arguments[03].Arg3 0.2
+SetField arguments[03].Arg3 0.2
+SetField arguments[03].Arg3 1.2
+savechanges
+exit
+exit
+edit 2456
+SpecifyShaders
+5856
+5854
+5854
+5858
+5859
+exit
+edit 248E
+SpecifyShaders
+5858
+5856
+5854
+5854
+5859
+exit
+
+dumplog H3BeamRifle.log
+exit
+exit

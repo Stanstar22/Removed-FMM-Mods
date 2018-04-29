@@ -1,0 +1,92 @@
+0000
+bitmSniLeds
+0000
+bitmSniScr1
+0000
+bitmSniScr2
+0000
+bitmSnibase
+0000
+bitmSnibump
+0000
+bitmSniillu
+0000
+shadSniAlph
+0000
+shadSniGlas
+0000
+shadSniMeta
+0000
+shadSniPlas
+0000
+shadSniRubb
+0000
+shadSniScr1
+0000
+shadSniScr2
+1F8D
+modeSnifp
+203C
+modeSni3d
+// Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+====
+echo
+//
+STOP
+
+SetLocale US
+
+duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0
+
+import modeSnifp tags/H3Snifp.tag
+import modeSni3d tags/H3Sni3d.tag
+
+importmodelraw modeSnifp tags/H3Snifp.raw
+importmodelraw modeSni3d tags/H3Sni3d.raw
+
+edit modeSnifp XXXX edit geometry.compression[0] XXXX SetField TextureMinV 0 XXXX SetField TextureMaxV -0.9995005 XXXX savechanges XXXX exitTo tags.dat
+edit modeSni3d XXXX edit geometry.compression[0] XXXX SetField TextureMinV 0 XXXX SetField TextureMaxV -0.9995005 XXXX savechanges XXXX exitTo tags.dat
+
+
+importbitmap bitmSniLeds DDS/sniper_rifle_scope_screen_luminous2.dds
+importbitmap bitmSniScr1 DDS/sniper_rifle_scope_screen.dds
+importbitmap bitmSniScr2 DDS/sniper_rifle_scope_screen2.dds
+importbitmap bitmSnibase DDS/sniper_rifle.dds
+importbitmap bitmSnibump DDS/sniper_rifle_bump.dds
+importbitmap bitmSniillu DDS/sniper_rifle_illum.dds
+
+import shadSniMeta tagTemplates/205B_rmshTemplate
+import shadSniPlas tagTemplates/205B_rmshTemplate
+import shadSniRubb tagTemplates/205B_rmshTemplate
+import shadSniScr2 tagTemplates/1CA4_rmshTemplate
+import shadSniScr1 tagTemplates/0F16_rmshTemplate
+import shadSniAlph tagTemplates/1F97_rmhgTemplate
+import shadSniGlas tagTemplates/1CA4_rmshTemplate
+
+edit modeSnifp XXXX SpecifyShaders XXXX shadSniMeta XXXX shadSniPlas XXXX shadSniRubb XXXX shadSniScr2 XXXX shadSniScr1 XXXX shadSniAlph XXXX shadSniGlas XXXX exit
+edit modeSni3d XXXX SpecifyShaders XXXX shadSniMeta XXXX shadSniPlas XXXX shadSniRubb XXXX shadSniScr1 XXXX shadSniScr2 XXXX exit
+
+edit shadSniMeta XXXX SpecifyBitmaps XXXX bitmSnibase XXXX 0343 XXXX bitmSnibump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmSniillu XXXX exit
+edit shadSniPlas XXXX SpecifyBitmaps XXXX bitmSnibase XXXX 0343 XXXX bitmSnibump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmSniillu XXXX exit
+edit shadSniRubb XXXX SpecifyBitmaps XXXX bitmSnibase XXXX 0343 XXXX bitmSnibump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmSniillu XXXX exit
+edit shadSniScr2 XXXX SpecifyBitmaps XXXX bitmSniScr2 XXXX 0343 XXXX exit
+edit shadSniScr1 XXXX SpecifyBitmaps XXXX 1FA6 XXXX exit
+edit shadSniAlph XXXX SpecifyBitmaps XXXX 0343 XXXX 0343 XXXX 0EF7 XXXX 0379 XXXX 0343 XXXX exit
+edit shadSniGlas XXXX SpecifyBitmaps XXXX bitmSniScr1 XXXX 0343 XXXX exit
+
+edit shadSniMeta XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 0 XXXX SetField arguments[28].arg1 0.0 XXXX SetField arguments[28].arg2 0.0 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 1.0 XXXX savechanges XXXX exit XXXX exit
+edit shadSniPlas XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 0 XXXX SetField arguments[28].arg1 0.0 XXXX SetField arguments[28].arg2 0.0 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 0.5 XXXX savechanges XXXX exit XXXX exit
+edit shadSniRubb XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 0 XXXX SetField arguments[28].arg1 0.0 XXXX SetField arguments[28].arg2 0.0 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 0.5 XXXX savechanges XXXX exit XXXX exit
+edit shadSniScr2 XXXX edit ShaderProperties[0] XXXX SetField arguments[02].arg1 0.0 XXXX SetField arguments[02].arg2 1.0 XXXX SetField arguments[02].arg3 0 XXXX savechanges XXXX exit XXXX exit
+edit shadSniScr1 XXXX edit ShaderProperties[0] XXXX SetField arguments[02].Arg1 0.00 XXXX SetField arguments[02].Arg2 1.0 XXXX SetField arguments[02].Arg3 0.0 XXXX SetField arguments[01].Arg1 0.0 XXXX SetField arguments[01].Arg2 15 XXXX SetField arguments[01].Arg3 0 XXXX savechanges XXXX exit XXXX exit
+edit shadSniAlph XXXX edit ShaderProperties[0] XXXX SetField arguments[04].Arg1 0.00 XXXX SetField arguments[04].Arg2 1.0 XXXX SetField arguments[04].Arg3 0.0 XXXX SetField arguments[03].Arg1 0.9 XXXX SetField arguments[03].Arg2 0.8 XXXX SetField arguments[03].Arg3 0.1 XXXX SetField arguments[03].Arg4 -0.1 XXXX SetField arguments[9].Arg2 0.01 XXXX savechanges XXXX exit XXXX exit
+edit shadSniGlas XXXX edit ShaderProperties[0] XXXX SetField arguments[02].arg1 0 XXXX SetField arguments[02].arg2 1 XXXX SetField arguments[02].arg3 0 XXXX savechanges XXXX exit XXXX exit
+
+// Patch for Flatgrass
+dep remove 6E23 6E09 XXXX dep remove 6E23 6E08 
+
+edit 6E07 XXXX SetField rendermodel 203C XXXX savechanges XXXX exitTo tags.dat
+
+edit 6E06 XXXX SetField FirstPerson[0].FirstPersonModel 1F8D XXXX SetField FirstPerson[1].FirstPersonModel 1F8D XXXX savechanges XXXX exitTo tags.dat
+
+dumplog H3Sniper.log XXXX exit XXXX exit

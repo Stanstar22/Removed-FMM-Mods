@@ -1,0 +1,14 @@
+color 0A
+cd mods\tagMods\h3mods\h3weap\H3Sho
+ECHO FMM_OUTPUT Installing Halo 3 Shotgun ...
+
+Type commands\genLastTag.cmds | TagTool.exe ..\..\..\..\..\maps\tags.dat
+timeout 1
+
+START /WAIT commands\TTCC.exe commands\H3Sho.cmdX
+
+MOVE ..\..\..\..\..\maps\resources.dat resources.dat
+Type commands\H3Sho.cmds | TagTool.exe ..\..\..\..\..\maps\tags.dat
+MOVE resources.dat ..\..\..\..\..\maps\resources.dat
+
+ECHO FMM_OUTPUT Halo 3 Shotgun Installation completed.

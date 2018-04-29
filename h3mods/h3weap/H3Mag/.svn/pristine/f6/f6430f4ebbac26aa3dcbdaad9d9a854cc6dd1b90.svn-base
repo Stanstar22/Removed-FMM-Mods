@@ -1,0 +1,81 @@
+0000
+bitmMagbase
+0000
+bitmMagbump
+0000
+bitmMagillu
+0000
+shadMag0Ill
+0000
+shadMag0def
+0000
+shadMag1red
+0000
+shadMag2Ill
+0000
+shadMag2yel
+0000
+shadMag3Ill
+0000
+shadMagDull
+115F
+modeMag0fp
+1177
+modeMag2fp
+117B
+modeMag3fp
+20D9
+modeMag03d
+2417
+modeMag23d
+241E
+modeMag33d
+// Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+====
+echo
+//
+STOP
+
+SetLocale US
+
+duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0
+
+import modeMag0fp tags/H3Magfp.tag
+import modeMag03d tags/H3Mag3d.tag
+importmodelraw modeMag0fp tags/H3Magfp.raw
+importmodelraw modeMag03d tags/H3Mag3d.raw
+
+importbitmap bitmMagbase DDS/magnum.dds
+importbitmap bitmMagbump DDS/magnum_bump.dds
+importbitmap bitmMagillu DDS/magnum_illum.dds
+import shadMag0Ill tagTemplates/1178_rmshTemplate 
+import shadMag0def tagTemplates/205B_rmshTemplate
+import shadMag1red tagTemplates/205B_rmshTemplate
+import shadMag2Ill tagTemplates/1178_rmshTemplate 
+import shadMag2yel tagTemplates/205B_rmshTemplate
+import shadMag3Ill tagTemplates/1178_rmshTemplate 
+import shadMagDull tagTemplates/205B_rmshTemplate
+edit modeMag0fp XXXX edit markerGroups[01] XXXX edit markers[0] XXXX SetField RegionIndex -1 XXXX SetField PermutationIndex -1 XXXX SetField Translation 0.003737968 -0.002770302 -0.03149237 XXXX SetField Rotation -0.4730325 -0.0267203 -0.3264062 0.81791520 XXXX SetField Scale 0 XXXX savechanges XXXX exitTo tags.dat
+edit modeMag0fp XXXX edit geometry.compression[0] XXXX SetField TextureMinV 0 XXXX SetField TextureMaxV -1.004819 XXXX savechanges XXXX exitTo tags.dat
+edit modeMag03d XXXX edit geometry.compression[0] XXXX SetField TextureMinV 0 XXXX SetField TextureMaxV -0.9996192 XXXX savechanges XXXX exitTo tags.dat
+extract modeMag0fp tempTag XXXX import modeMag2fp tempTag XXXX import modeMag3fp tempTag
+extract modeMag03d tempTag XXXX import modeMag23d tempTag XXXX import modeMag33d tempTag
+edit modeMag0fp XXXX SpecifyShaders XXXX shadMag0def XXXX shadMag0Ill XXXX shadMagDull XXXX exit
+edit modeMag2fp XXXX SpecifyShaders XXXX shadMag1red XXXX shadMag2Ill XXXX shadMagDull XXXX exit
+edit modeMag3fp XXXX SpecifyShaders XXXX shadMag2yel XXXX shadMag3Ill XXXX shadMagDull XXXX exit
+edit modeMag03d XXXX SpecifyShaders XXXX shadMag0def XXXX shadMagDull XXXX shadMag0Ill XXXX exit
+edit modeMag23d XXXX SpecifyShaders XXXX shadMag1red XXXX shadMagDull XXXX shadMag2Ill XXXX exit
+edit modeMag33d XXXX SpecifyShaders XXXX shadMag2yel XXXX shadMagDull XXXX shadMag3Ill XXXX exit
+edit shadMag0def XXXX SpecifyBitmaps XXXX bitmMagbase XXXX 0343 XXXX bitmMagbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmMagillu XXXX exit
+edit shadMag1red XXXX SpecifyBitmaps XXXX bitmMagbase XXXX 0343 XXXX bitmMagbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmMagillu XXXX exit
+edit shadMag2yel XXXX SpecifyBitmaps XXXX bitmMagbase XXXX 0343 XXXX bitmMagbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmMagillu XXXX exit
+edit shadMagDull XXXX SpecifyBitmaps XXXX bitmMagbase XXXX 0343 XXXX bitmMagbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmMagillu XXXX exit
+edit shadMag0Ill XXXX edit ShaderProperties[0] XXXX SetField arguments[02].arg1 1.0 XXXX SetField arguments[02].arg2 0.4 XXXX SetField arguments[02].arg3 0.0 XXXX SetField arguments[03].arg1 10 XXXX savechanges XXXX exit XXXX exit
+edit shadMag0def XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 1.0 XXXX SetField arguments[28].arg1 1.0 XXXX SetField arguments[28].arg2 1.0 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 1.0 XXXX savechanges XXXX exit XXXX exit
+edit shadMag1red XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 1.0 XXXX SetField arguments[28].arg1 1.0 XXXX SetField arguments[28].arg2 0.0 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 1.0 XXXX savechanges XXXX exit XXXX exit
+edit shadMag2Ill XXXX edit ShaderProperties[0] XXXX SetField arguments[02].arg1 1.0 XXXX SetField arguments[02].arg2 0.0 XXXX SetField arguments[02].arg3 0.0 XXXX SetField arguments[03].arg1 10 XXXX savechanges XXXX exit XXXX exit
+edit shadMag2yel XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 1.0 XXXX SetField arguments[28].arg1 1.0 XXXX SetField arguments[28].arg2 1.0 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 1.0 XXXX savechanges XXXX exit XXXX exit
+edit shadMag3Ill XXXX edit ShaderProperties[0] XXXX SetField arguments[02].arg1 0.00 XXXX SetField arguments[02].arg2 1.0 XXXX SetField arguments[02].arg3 0 XXXX SetField arguments[03].arg1 10 XXXX savechanges XXXX exit XXXX exit
+edit shadMagDull XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 0 XXXX SetField arguments[28].arg1 0.0 XXXX SetField arguments[28].arg2 0.0 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 1.0 XXXX savechanges XXXX exit XXXX exit
+
+dumplog H3Magnum.log XXXX exit XXXX exit

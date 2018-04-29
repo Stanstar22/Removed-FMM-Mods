@@ -1,0 +1,126 @@
+0000
+5B47
+0000
+5B48
+0000
+5B49
+0000
+5B4A
+0000
+5B4B
+0000
+5B4C
+21DA
+21DA
+21DC
+21DC
+echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+echo
+echo
+STOP
+
+SetLocale US
+
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+
+import 21DA tags/H3Flakfp.tag
+import 21DC tags/H3Flak3d.tag
+importmodelraw 21DA tags/H3Flakfp.raw
+importmodelraw 21DC tags/H3Flak3d.raw
+
+importbitmap 5B47 DDS/flak_cannon.dds
+importbitmap 5B48 DDS/flak_cannon_bump.dds
+importbitmap 5B49 DDS/flak_cannon_illum.dds
+import 5B4A tagTemplates/205B_rmshTemplate
+import 5B4B tagTemplates/04F8_rmshTemplate
+import 5B4C tagTemplates/205B_rmshTemplate
+edit 21DA
+edit geometry.compression[0]
+SetField TextureMinV 0
+SetField TextureMaxV -0.996
+savechanges
+exitTo tags.dat
+edit 21DC
+edit geometry.compression[0]
+SetField TextureMinV 0
+SetField TextureMaxV -0.996
+savechanges
+exitTo tags.dat
+edit 21DA
+SpecifyShaders
+5B4C
+5B4A
+5B4B
+exit
+edit 21DC
+SpecifyShaders
+101F
+5B4C
+5B4A
+5B4B
+exit
+edit 5B4A
+SpecifyBitmaps
+5B47
+0343
+5B48
+0376
+02B7
+02B9
+0EF7
+exit
+edit 5B4C
+SpecifyBitmaps
+5B47
+0343
+5B48
+0376
+02B7
+02B9
+0EF7
+exit
+edit 5B4A
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 0
+SetField arguments[28].arg1 0.0
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 2.0
+savechanges
+exit
+exit
+edit 5B4B
+edit ShaderProperties[0]
+SetField Arguments[04].Arg1 0.0
+SetField Arguments[04].Arg2 1.0
+SetField Arguments[04].Arg3 0
+savechanges
+exit
+exit
+edit 5B4C
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 0
+SetField arguments[28].arg1 0.0
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 2.0
+savechanges
+exit
+exit
+
+dumplog H3FuelRod.log
+exit
+exit
+
+
+

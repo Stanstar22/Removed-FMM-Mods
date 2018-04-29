@@ -1,0 +1,247 @@
+Tag Tool [1.0.6040.37850]
+
+Please report any bugs and feature requests at
+<https://github.com/camden-smallwood/TagTool/issues>.
+
+Reading tags...23324 tags loaded.
+- Detected target engine version 1.106708 cert_ms23.
+- This cache file was built on 3/20/2015 at 2:40 PM.
+Reading stringIDs...39505 strings loaded.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> bitmMagbase
+Unrecognized command: bitmMagbase
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> bitmMagbump
+Unrecognized command: bitmMagbump
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> bitmMagillu
+Unrecognized command: bitmMagillu
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadMag0Ill
+Unrecognized command: shadMag0Ill
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadMag0def
+Unrecognized command: shadMag0def
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadMag1red
+Unrecognized command: shadMag1red
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadMag2Ill
+Unrecognized command: shadMag2Ill
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadMag2yel
+Unrecognized command: shadMag2yel
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadMag3Ill
+Unrecognized command: shadMag3Ill
+Use "help" to list available commands.
+
+tags.dat> 0000
+Unrecognized command: 0000
+Use "help" to list available commands.
+
+tags.dat> shadMagDull
+Unrecognized command: shadMagDull
+Use "help" to list available commands.
+
+tags.dat> 115F
+Unrecognized command: 115F
+Use "help" to list available commands.
+
+tags.dat> modeMag0fp
+Unrecognized command: modeMag0fp
+Use "help" to list available commands.
+
+tags.dat> 1177
+Unrecognized command: 1177
+Use "help" to list available commands.
+
+tags.dat> modeMag2fp
+Unrecognized command: modeMag2fp
+Use "help" to list available commands.
+
+tags.dat> 117B
+Unrecognized command: 117B
+Use "help" to list available commands.
+
+tags.dat> modeMag3fp
+Unrecognized command: modeMag3fp
+Use "help" to list available commands.
+
+tags.dat> 20D9
+Unrecognized command: 20D9
+Use "help" to list available commands.
+
+tags.dat> modeMag03d
+Unrecognized command: modeMag03d
+Use "help" to list available commands.
+
+tags.dat> 2417
+Unrecognized command: 2417
+Use "help" to list available commands.
+
+tags.dat> modeMag23d
+Unrecognized command: modeMag23d
+Use "help" to list available commands.
+
+tags.dat> 241E
+Unrecognized command: 241E
+Use "help" to list available commands.
+
+tags.dat> modeMag33d
+Unrecognized command: modeMag33d
+Use "help" to list available commands.
+
+tags.dat> // Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+Unrecognized command: //
+Use "help" to list available commands.
+
+tags.dat> ====
+Unrecognized command: ====
+Use "help" to list available commands.
+
+tags.dat> echo
+
+tags.dat> //
+Unrecognized command: //
+Use "help" to list available commands.
+
+tags.dat> STOP
+Unrecognized command: STOP
+Use "help" to list available commands.
+
+tags.dat> 
+
+tags.dat> SetLocale US
+
+tags.dat> 
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B1C [Offset = 0x6299B4C, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B1D [Offset = 0x6299BC8, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B1E [Offset = 0x6299C44, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B1F [Offset = 0x6299CC0, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B20 [Offset = 0x6299D3C, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B21 [Offset = 0x6299DB8, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B22 [Offset = 0x6299E34, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B23 [Offset = 0x6299EB0, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B24 [Offset = 0x6299F2C, Size = 0x7C]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: @ 00005B25 [Offset = 0x6299FA8, Size = 0x7C]
+
+tags.dat> 
+
+tags.dat> import modeMag0fp tags/H3Magfp.tag
+import: Import a tag from a file
+
+Usage:
+import <tag index> <filename>
+
+Use "help import" for more information.
+
+tags.dat> import modeMag03d tags/H3Mag3d.tag
+import: Import a tag from a file
+
+Usage:
+import <tag index> <filename>
+
+Use "help import" for more information.
+
+tags.dat> importmodelraw modeMag0fp tags/H3Magfp.raw
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> importmodelraw modeMag03d tags/H3Mag3d.raw
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> 
+
+tags.dat> importbitmap bitmMagbase DDS/magnum.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> importbitmap bitmMagbump DDS/magnum_bump.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+ERROR: Object reference not set to an instance of an object.
+
+tags.dat> importbitmap bitmMagillu DDS/magnum_illum.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+ERROR: Object reference not set to an instance of an object.

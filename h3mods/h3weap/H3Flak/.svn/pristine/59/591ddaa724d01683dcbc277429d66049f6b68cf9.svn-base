@@ -1,0 +1,51 @@
+0000
+bitmFlakbase
+0000
+bitmFlakbump
+0000
+bitmFlakillu
+0000
+shadFlakDull
+0000
+shadFlakIllu
+0000
+shadFlakMain
+21DA
+modeFlakfp
+21DC
+modeFlak3d
+// Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+====
+echo
+//
+STOP
+
+SetLocale US
+
+duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0
+
+import modeFlakfp tags/H3Flakfp.tag
+import modeFlak3d tags/H3Flak3d.tag
+importmodelraw modeFlakfp tags/H3Flakfp.raw
+importmodelraw modeFlak3d tags/H3Flak3d.raw
+
+importbitmap bitmFlakbase DDS/flak_cannon.dds
+importbitmap bitmFlakbump DDS/flak_cannon_bump.dds
+importbitmap bitmFlakillu DDS/flak_cannon_illum.dds
+import shadFlakDull tagTemplates/205B_rmshTemplate
+import shadFlakIllu tagTemplates/04F8_rmshTemplate
+import shadFlakMain tagTemplates/205B_rmshTemplate
+edit modeFlakfp XXXX edit geometry.compression[0] XXXX SetField TextureMinV 0 XXXX SetField TextureMaxV -0.996 XXXX savechanges XXXX exitTo tags.dat
+edit modeFlak3d XXXX edit geometry.compression[0] XXXX SetField TextureMinV 0 XXXX SetField TextureMaxV -0.996 XXXX savechanges XXXX exitTo tags.dat
+edit modeFlakfp XXXX SpecifyShaders XXXX shadFlakMain XXXX shadFlakDull XXXX shadFlakIllu XXXX exit
+edit modeFlak3d XXXX SpecifyShaders XXXX 101F XXXX shadFlakMain XXXX shadFlakDull XXXX shadFlakIllu XXXX exit
+edit shadFlakDull XXXX SpecifyBitmaps XXXX bitmFlakbase XXXX 0343 XXXX bitmFlakbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX 0EF7 XXXX exit
+edit shadFlakMain XXXX SpecifyBitmaps XXXX bitmFlakbase XXXX 0343 XXXX bitmFlakbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX 0EF7 XXXX exit
+edit shadFlakDull XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 0 XXXX SetField arguments[28].arg1 0.0 XXXX SetField arguments[28].arg2 0.0 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 2.0 XXXX savechanges XXXX exit XXXX exit
+edit shadFlakIllu XXXX edit ShaderProperties[0] XXXX SetField Arguments[04].Arg1 0.0 XXXX SetField Arguments[04].Arg2 1.0 XXXX SetField Arguments[04].Arg3 0 XXXX savechanges XXXX exit XXXX exit
+edit shadFlakMain XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 0 XXXX SetField arguments[28].arg1 0.0 XXXX SetField arguments[28].arg2 0.0 XXXX SetField arguments[28].arg3 0 XXXX SetField arguments[06].arg1 2.0 XXXX savechanges XXXX exit XXXX exit
+
+dumplog H3FuelRod.log XXXX exit XXXX exit
+
+
+

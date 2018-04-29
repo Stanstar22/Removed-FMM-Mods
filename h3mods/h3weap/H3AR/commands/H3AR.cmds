@@ -1,0 +1,516 @@
+0000
+5B0C
+0000
+5B0D
+0000
+5B0E
+0000
+5B0F
+0000
+5B10
+0000
+5B11
+0000
+5B12
+0000
+5B13
+0000
+5B14
+0000
+5B15
+0000
+5B16
+0000
+5B17
+0000
+5B18
+0000
+5B19
+0000
+5B1A
+0000
+5B1B
+0000
+5B1C
+0EE1
+0EE1
+0F22
+0F22
+0F32
+0F32
+0F52
+0F52
+0F61
+0F61
+1C7B
+1C7B
+2329
+2329
+233A
+233A
+2347
+2347
+2358
+2358
+echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+0F09
+0F09
+0F40
+0F40
+echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+echo
+echo
+STOP
+
+SetLocale US
+
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+
+import 0EE1 tags/H3ARfp.tag
+import 1C7B tags/H3AR3d.tag
+importresource resources.dat 0EE1 tags/H3ARfp.raw
+importresource resources.dat 1C7B tags/H3AR3d.raw
+
+edit 0EE1
+edit geometry.compression[0]
+SetField TextureMinV 0.04066753
+SetField TextureMaxV -1.039278
+savechanges
+exitTo tags.dat
+edit 1C7B
+edit geometry.compression[0]
+SetField TextureMinV 0.007111788
+SetField TextureMaxV -1.000966
+savechanges
+exitTo tags.dat
+
+edit 0EE1
+SetField markergroups[01].markers[0].RegionIndex -1
+SetField markergroups[01].markers[0].PermutationIndex -1
+SetField markergroups[01].markers[0].NodeIndex 0
+SetField markergroups[01].markers[0].Unknown3 0
+SetField markergroups[01].markers[0].Translation 0.1010085 -0.002260342 0.01560136
+SetField markergroups[01].markers[0].Rotation -0.6241202 0.1670771 -0.45504 0.6127788
+SetField markergroups[01].markers[0].Scale 0
+savechanges
+exit
+
+extract 0EE1 tempTag
+import 0F22 tempTag
+import 0F32 tempTag
+import 0F52 tempTag
+import 0F61 tempTag
+
+extract 1C7B tempTag
+import 2329 tempTag
+import 233A tempTag
+import 2347 tempTag
+import 2358 tempTag
+
+importbitmap 5B0C DDS/Display.dds
+importbitmap 5B0D DDS/assault_rifle.dds
+importbitmap 5B0E DDS/assault_rifle_bump.dds
+importbitmap 5B0F DDS/assault_rifle_illum.dds
+
+import 5B12 tagTemplates/205B_rmshTemplate
+import 5B13 tagTemplates/205B_rmshTemplate
+import 5B14 tagTemplates/205B_rmshTemplate
+import 5B15 tagTemplates/205B_rmshTemplate
+import 5B16 tagTemplates/205B_rmshTemplate
+import 5B17 tagTemplates/0EEA_rmshTemplate
+import 5B18 tagTemplates/0F11_rmshTemplate
+import 5B19 tagTemplates/0F79_rmshTemplate
+import 5B1A tagTemplates/0F7A_rmshTemplate
+import 5B1B tagTemplates/205B_rmshTemplate
+import 5B1C tagTemplates/205B_rmshTemplate
+
+edit 0EE1
+SpecifyShaders
+5B12
+5B1C
+5B12
+5B17
+5B18
+5B1A
+5B19
+exit
+edit 0F22
+SpecifyShaders
+5B13
+5B1C
+5B13
+5B17
+5B18
+5B1A
+5B19
+exit
+edit 0F32
+SpecifyShaders
+5B14
+5B1C
+5B14
+5B17
+5B18
+5B1A
+5B19
+exit
+edit 0F52
+SpecifyShaders
+5B15
+5B1C
+5B15
+5B17
+5B18
+5B1A
+5B19
+exit
+edit 0F61
+SpecifyShaders
+5B16
+5B1C
+5B16
+5B17
+5B18
+5B1A
+5B19
+exit
+edit 1C7B
+SpecifyShaders
+5B1A
+5B19
+5B18
+5B12
+5B1C
+5B12
+exit
+edit 2329
+SpecifyShaders
+5B1A
+5B19
+5B18
+5B13
+5B1C
+5B13
+exit
+edit 233A
+SpecifyShaders
+5B1A
+5B19
+5B18
+5B14
+5B1C
+5B14
+exit
+edit 2347
+SpecifyShaders
+5B1A
+5B19
+5B18
+5B15
+5B1C
+5B15
+exit
+edit 2358
+SpecifyShaders
+5B1A
+5B19
+5B18
+5B16
+5B1C
+5B16
+exit
+
+edit 5B12
+SpecifyBitmaps
+5B0D
+0343
+5B0E
+0376
+02B7
+02B9
+5B0F
+exit
+edit 5B13
+SpecifyBitmaps
+5B0D
+0343
+5B0E
+0376
+02B7
+02B9
+5B0F
+exit
+edit 5B14
+SpecifyBitmaps
+5B0D
+0343
+5B0E
+0376
+02B7
+02B9
+5B0F
+exit
+edit 5B15
+SpecifyBitmaps
+5B0D
+0343
+5B0E
+0376
+02B7
+02B9
+5B0F
+exit
+edit 5B16
+SpecifyBitmaps
+5B0D
+0343
+5B0E
+0376
+02B7
+02B9
+5B0F
+exit
+edit 5B1B
+SpecifyBitmaps
+5B0D
+0343
+5B0E
+0376
+02B7
+02B9
+5B0F
+exit
+edit 5B1C
+SpecifyBitmaps
+5B0D
+0343
+5B0E
+0376
+02B7
+02B9
+5B0F
+exit
+edit 5B19
+SpecifyBitmaps
+5B10
+exit
+edit 5B1A
+SpecifyBitmaps
+5B10
+exit
+edit 5B18
+SpecifyBitmaps
+5B0C
+exit
+edit 5B17
+SpecifyBitmaps
+5B11
+exit
+
+edit 5B12
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0
+SetField arguments[29].arg1 5
+SetField arguments[28].arg1 0.0
+SetField arguments[28].arg2 1.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 1.0
+savechanges
+exit
+exit
+edit 5B13
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0
+SetField arguments[29].arg1 5
+SetField arguments[28].arg1 1.0
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 1.0
+savechanges
+exit
+exit
+edit 5B14
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0
+SetField arguments[29].arg1 5
+SetField arguments[28].arg1 1.0
+SetField arguments[28].arg2 0.7
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 1.0
+savechanges
+exit
+exit
+edit 5B15
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0
+SetField arguments[29].arg1 5
+SetField arguments[28].arg1 0.0
+SetField arguments[28].arg2 1.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 1.0
+savechanges
+exit
+exit
+edit 5B16
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0
+SetField arguments[29].arg1 5
+SetField arguments[28].arg1 1.0
+SetField arguments[28].arg2 1.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 1.0
+savechanges
+exit
+exit
+edit 5B1B
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 0
+SetField arguments[28].arg1 0.0
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 1.0
+savechanges
+exit
+exit
+edit 5B1C
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 0
+SetField arguments[28].arg1 0.0
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 1.0
+savechanges
+exit
+exit
+edit 5B17
+edit ShaderProperties[0]
+SetField arguments[01].arg4 1.0
+savechanges
+exit
+exit
+edit 5B18
+edit ShaderProperties[0]
+SetField arguments[02].Arg1 0.0
+SetField arguments[02].Arg2 0.5
+SetField arguments[02].Arg3 0.5
+savechanges
+exit
+exit
+
+echo edit 0F09
+echo import 0 DDS/LCD/0.dds
+echo import 1 DDS/LCD/1.dds
+echo import 2 DDS/LCD/2.dds
+echo import 3 DDS/LCD/3.dds
+echo import 4 DDS/LCD/4.dds
+echo import 5 DDS/LCD/5.dds
+echo import 6 DDS/LCD/6.dds
+echo import 7 DDS/LCD/7.dds
+echo import 8 DDS/LCD/8.dds
+echo import 9 DDS/LCD/9.dds
+echo exit
+echo edit 0F40
+echo import 0 DDS/compass/compass0.dds
+echo import 1 DDS/compass/compass1.dds
+echo import 2 DDS/compass/compass2.dds
+echo import 3 DDS/compass/compass3.dds
+echo import 4 DDS/compass/compass4.dds
+echo import 5 DDS/compass/compass5.dds
+echo import 6 DDS/compass/compass6.dds
+echo import 7 DDS/compass/compass7.dds
+echo exit
+echo extract 0F09 tags\bitm_H3Ones.tag
+echo extract 0F40 tags\bitm_H3Compass.tag
+echo extractresource textures.dat 0F09 tags\ones\bitm_ARones_0.bitm 0
+echo extractresource textures.dat 0F09 tags\ones\bitm_ARones_1.bitm 1
+echo extractresource textures.dat 0F09 tags\ones\bitm_ARones_2.bitm 2
+echo extractresource textures.dat 0F09 tags\ones\bitm_ARones_3.bitm 3
+echo extractresource textures.dat 0F09 tags\ones\bitm_ARones_4.bitm 4
+echo extractresource textures.dat 0F09 tags\ones\bitm_ARones_5.bitm 5
+echo extractresource textures.dat 0F09 tags\ones\bitm_ARones_6.bitm 6
+echo extractresource textures.dat 0F09 tags\ones\bitm_ARones_7.bitm 7
+echo extractresource textures.dat 0F09 tags\ones\bitm_ARones_8.bitm 8
+echo extractresource textures.dat 0F09 tags\ones\bitm_ARones_9.bitm 9
+echo extractresource textures.dat 0F40 tags\compass\bitm_AROnes_0.bitm 0
+echo extractresource textures.dat 0F40 tags\compass\bitm_AROnes_1.bitm 1
+echo extractresource textures.dat 0F40 tags\compass\bitm_AROnes_2.bitm 2
+echo extractresource textures.dat 0F40 tags\compass\bitm_AROnes_3.bitm 3
+echo extractresource textures.dat 0F40 tags\compass\bitm_AROnes_4.bitm 4
+echo extractresource textures.dat 0F40 tags\compass\bitm_AROnes_5.bitm 5
+echo extractresource textures.dat 0F40 tags\compass\bitm_AROnes_6.bitm 6
+echo extractresource textures.dat 0F40 tags\compass\bitm_AROnes_7.bitm 7
+
+import 5B10 tags/bitm_H3Ones.tag
+import 5B11 tags/bitm_H3Compass.tag
+
+importresource textures.dat 5B10 tags/ones
+importresource textures.dat 5B11 tags/compass
+
+dumplog H3AR.log
+exit
+exit
+
+5B0C bitm_ARDisp
+5B0D bitm_ARbase
+5B0E bitm_ARbump
+5B0F bitm_ARillu
+5B12 shad_AR0def
+5B13 shad_AR2red
+5B14 shad_AR3ora
+5B15 shad_AR5gre
+5B16 shad_AR6yel
+5B17 shad_ARComp
+5B18 shad_ARDisp
+5B19 shad_AROnes
+5B1A shad_ARTens
+5B1B shad_ARenvi
+5B1C shad_ARrubb
+0EE1 mode_AR0fp
+0F22 mode_AR2fp
+0F32 mode_AR3fp
+5B10 bitm_AROnes
+bitmARCompass bitm_ARCompass
+0F52 mode_AR5fp
+0F61 mode_AR6fp
+1C7B mode_AR03d
+2329 mode_AR23d
+233A mode_AR33d
+2347 mode_AR53d
+2358 mode_AR63d
+
+echo INFO for all Halo 3 weapons
+06 diffuse_coefficient
+19 albedo_blend
+29 self_illum_intensity
+28 self_illum_color
+16 environment_map_specular_contribution; watery reflections 0

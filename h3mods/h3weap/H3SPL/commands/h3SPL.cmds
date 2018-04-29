@@ -1,0 +1,177 @@
+0000
+5B1F
+0000
+5B20
+0000
+5B21
+0000
+5B22
+0000
+5B23
+0000
+5B24
+0000
+5B25
+0000
+5B26
+0000
+5B27
+0000
+5B28
+24A8
+24A8
+2502
+2502
+echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+echo
+echo
+STOP
+
+SetLocale US
+
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+
+import 24A8 tags/H3SPLfp.tag
+import 2502 tags/H3SPL3d.tag
+importmodelraw 24A8 tags/H3SPLfp.raw
+importmodelraw 2502 tags/H3SPL3d.raw
+
+importbitmap 5B1F DDS/spartan_laser.dds
+importbitmap 5B20 DDS/spartan_laser_bump.dds
+importbitmap 5B21 DDS/spartan_laser_decal2.dds
+importbitmap 5B22 DDS/spartan_laser_decal.dds
+import 5B23 tagTemplates/205B_rmshTemplate
+import 5B24 tagTemplates/1CA4_rmshTemplate
+import 5B25 tagTemplates/1CA4_rmshTemplate
+import 5B26 tagTemplates/205B_rmshTemplate
+import 5B27 tagTemplates/1178_rmshTemplate
+import 5B28 tagTemplates/205B_rmshTemplate
+edit 24A8
+edit geometry.compression[0]
+SetField TextureMinV 0
+SetField TextureMaxV -1
+savechanges
+exitTo tags.dat
+edit 2502
+edit geometry.compression[0]
+SetField TextureMinV 0
+SetField TextureMaxV -1
+savechanges
+exitTo tags.dat
+edit 24A8
+SpecifyShaders
+101F
+5B26
+5B23
+5B25
+5B28
+5B27
+5B24
+exit
+edit 2502
+SpecifyShaders
+101F
+5B26
+5B27
+5B23
+5B28
+exit
+edit 5B23
+SpecifyBitmaps
+5B1F
+0343
+5B20
+0376
+02B7
+02B9
+02B9
+exit
+edit 5B24
+SpecifyBitmaps
+5B21
+0343
+exit
+edit 5B25
+SpecifyBitmaps
+5B22
+0343
+exit
+edit 5B26
+SpecifyBitmaps
+5B1F
+0343
+5B20
+0376
+02B7
+02B9
+02B9
+exit
+edit 5B28
+SpecifyBitmaps
+5B1F
+0343
+5B20
+0376
+02B7
+02B9
+02B9
+exit
+edit 5B23
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 0
+SetField arguments[28].arg1 0.0
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 1.0
+savechanges
+exit
+exit
+edit 5B26
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 0
+SetField arguments[28].arg1 0.0
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 1.0
+savechanges
+exit
+exit
+edit 5B27
+edit ShaderProperties[0]
+SetField arguments[02].arg1 1.0
+SetField arguments[02].arg2 1.0
+SetField arguments[02].arg3 1
+savechanges
+exit
+exit
+edit 5B28
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 0
+SetField arguments[28].arg1 0.0
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 1.0
+savechanges
+exit
+exit
+
+dumplog H3SpartanLaser.log
+exit
+exit

@@ -1,0 +1,185 @@
+0000
+5807
+0000
+5808
+0000
+5809
+0000
+580A
+0000
+580B
+0000
+580C
+0000
+580D
+0000
+580E
+0000
+580F
+1C96
+1C96
+1C9C
+1C9C
+1D06
+1D06
+echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+echo
+echo
+STOP
+
+SetLocale US
+
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+
+import 1C9C tags/H3RLfp.tag
+import 1D06 tags/H3RL3d.tag
+importmodelraw 1C9C tags/H3RLfp.raw
+importmodelraw 1D06 tags/H3RL3d.raw
+
+importbitmap 5807 DDS/rocket_launcher.dds
+importbitmap 5808 DDS/rocket_launcher_bump.dds
+importbitmap 5809 DDS/rocket_launcher_decal.dds
+importbitmap 580A DDS/rocket_launcher_illum.dds
+import 580B tagTemplates/1CA4_rmshTemplate
+import 580C tagTemplates/205B_rmshTemplate
+import 580D tagTemplates/205B_rmshTemplate
+import 580E tagTemplates/205B_rmshTemplate
+import 580F tagTemplates/205B_rmshTemplate
+edit 1C9C
+edit geometry.compression[0]
+SetField TextureMinV -0.0002542734
+SetField TextureMaxV -1.007422
+savechanges
+exitTo tags.dat
+edit 1D06
+edit geometry.compression[0]
+SetField TextureMinV -0.0002542734
+SetField TextureMaxV -1.007422
+savechanges
+exitTo tags.dat
+edit 1C96
+SetField LODmodel null
+savechanges
+exit
+edit 1C9C
+SpecifyShaders
+580E
+580D
+580B
+580C
+580F
+exit
+edit 1D06
+SpecifyShaders
+580E
+580D
+580B
+580C
+580F
+exit
+edit 580C
+SpecifyBitmaps
+5807
+0343
+5808
+0376
+02B7
+02B9
+0EF7
+exit
+edit 580D
+SpecifyBitmaps
+5807
+0343
+5808
+0376
+02B7
+02B9
+0EF7
+exit
+edit 580E
+SpecifyBitmaps
+5807
+0343
+5808
+0376
+02B7
+02B9
+0EF7
+exit
+edit 580F
+SpecifyBitmaps
+5807
+0343
+5808
+0376
+02B7
+02B9
+580A
+exit
+edit 580B
+SpecifyBitmaps
+5809
+0343
+exit
+edit 580C
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 0
+SetField arguments[28].arg1 1
+SetField arguments[28].arg2 1
+SetField arguments[28].arg3 1
+SetField arguments[06].arg1 1
+savechanges
+exit
+exit
+edit 580D
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 0
+SetField arguments[28].arg1 1
+SetField arguments[28].arg2 1
+SetField arguments[28].arg3 1
+SetField arguments[06].arg1 1
+savechanges
+exit
+exit
+edit 580E
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 0
+SetField arguments[28].arg1 1
+SetField arguments[28].arg2 1
+SetField arguments[28].arg3 1
+SetField arguments[06].arg1 1
+savechanges
+exit
+exit
+edit 580F
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 5
+SetField arguments[28].arg1 1
+SetField arguments[28].arg2 1
+SetField arguments[28].arg3 1
+SetField arguments[06].arg1 1
+savechanges
+exit
+exit 
+
+dumplog H3RocketLauncher.log
+exit
+exit

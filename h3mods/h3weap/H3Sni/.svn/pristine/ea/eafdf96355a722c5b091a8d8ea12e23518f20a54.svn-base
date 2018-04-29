@@ -1,0 +1,255 @@
+0000
+57E1
+0000
+57E2
+0000
+57E3
+0000
+57E4
+0000
+57E5
+0000
+57E6
+0000
+57E7
+0000
+57E8
+0000
+57E9
+0000
+57EA
+0000
+57EB
+0000
+57EC
+0000
+57ED
+1F8D
+1F8D
+203C
+203C
+echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+echo
+echo
+STOP
+
+SetLocale US
+
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+
+import 1F8D tags/H3Snifp.tag
+import 203C tags/H3Sni3d.tag
+
+importmodelraw 1F8D tags/H3Snifp.raw
+importmodelraw 203C tags/H3Sni3d.raw
+
+edit 1F8D
+edit geometry.compression[0]
+SetField TextureMinV 0
+SetField TextureMaxV -0.9995005
+savechanges
+exitTo tags.dat
+edit 203C
+edit geometry.compression[0]
+SetField TextureMinV 0
+SetField TextureMaxV -0.9995005
+savechanges
+exitTo tags.dat
+
+
+importbitmap 57E1 DDS/sniper_rifle_scope_screen_luminous2.dds
+importbitmap 57E2 DDS/sniper_rifle_scope_screen.dds
+importbitmap 57E3 DDS/sniper_rifle_scope_screen2.dds
+importbitmap 57E4 DDS/sniper_rifle.dds
+importbitmap 57E5 DDS/sniper_rifle_bump.dds
+importbitmap 57E6 DDS/sniper_rifle_illum.dds
+
+import 57E9 tagTemplates/205B_rmshTemplate
+import 57EA tagTemplates/205B_rmshTemplate
+import 57EB tagTemplates/205B_rmshTemplate
+import 57ED tagTemplates/1CA4_rmshTemplate
+import 57EC tagTemplates/0F16_rmshTemplate
+import 57E7 tagTemplates/1F97_rmhgTemplate
+import 57E8 tagTemplates/1CA4_rmshTemplate
+
+edit 1F8D
+SpecifyShaders
+57E9
+57EA
+57EB
+57ED
+57EC
+57E7
+57E8
+exit
+edit 203C
+SpecifyShaders
+57E9
+57EA
+57EB
+57EC
+57ED
+exit
+
+edit 57E9
+SpecifyBitmaps
+57E4
+0343
+57E5
+0376
+02B7
+02B9
+57E6
+exit
+edit 57EA
+SpecifyBitmaps
+57E4
+0343
+57E5
+0376
+02B7
+02B9
+57E6
+exit
+edit 57EB
+SpecifyBitmaps
+57E4
+0343
+57E5
+0376
+02B7
+02B9
+57E6
+exit
+edit 57ED
+SpecifyBitmaps
+57E3
+0343
+exit
+edit 57EC
+SpecifyBitmaps
+1FA6
+exit
+edit 57E7
+SpecifyBitmaps
+0343
+0343
+0EF7
+0379
+0343
+exit
+edit 57E8
+SpecifyBitmaps
+57E2
+0343
+exit
+
+edit 57E9
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 0
+SetField arguments[28].arg1 0.0
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 1.0
+savechanges
+exit
+exit
+edit 57EA
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 0
+SetField arguments[28].arg1 0.0
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 0.5
+savechanges
+exit
+exit
+edit 57EB
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 0
+SetField arguments[28].arg1 0.0
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 0.5
+savechanges
+exit
+exit
+edit 57ED
+edit ShaderProperties[0]
+SetField arguments[02].arg1 0.0
+SetField arguments[02].arg2 1.0
+SetField arguments[02].arg3 0
+savechanges
+exit
+exit
+edit 57EC
+edit ShaderProperties[0]
+SetField arguments[02].Arg1 0.00
+SetField arguments[02].Arg2 1.0
+SetField arguments[02].Arg3 0.0
+SetField arguments[01].Arg1 0.0
+SetField arguments[01].Arg2 15
+SetField arguments[01].Arg3 0
+savechanges
+exit
+exit
+edit 57E7
+edit ShaderProperties[0]
+SetField arguments[04].Arg1 0.00
+SetField arguments[04].Arg2 1.0
+SetField arguments[04].Arg3 0.0
+SetField arguments[03].Arg1 0.9
+SetField arguments[03].Arg2 0.8
+SetField arguments[03].Arg3 0.1
+SetField arguments[03].Arg4 -0.1
+SetField arguments[9].Arg2 0.01
+savechanges
+exit
+exit
+edit 57E8
+edit ShaderProperties[0]
+SetField arguments[02].arg1 0
+SetField arguments[02].arg2 1
+SetField arguments[02].arg3 0
+savechanges
+exit
+exit
+
+echo Patch for Flatgrass
+dep remove 6E23 6E09
+dep remove 6E23 6E08 
+
+edit 6E07
+SetField rendermodel 203C
+savechanges
+exitTo tags.dat
+
+edit 6E06
+SetField FirstPerson[0].FirstPersonModel 1F8D
+SetField FirstPerson[1].FirstPersonModel 1F8D
+savechanges
+exitTo tags.dat
+
+dumplog H3Sniper.log
+exit
+exit

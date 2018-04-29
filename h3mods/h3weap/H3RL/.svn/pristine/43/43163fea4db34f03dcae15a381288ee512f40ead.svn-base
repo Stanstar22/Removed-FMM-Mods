@@ -1,0 +1,64 @@
+0000
+bitmRLbase
+0000
+bitmRLbump
+0000
+bitmRLdeca
+0000
+bitmRLillu
+0000
+shadRLdeca
+0000
+shadRLdull
+0000
+shadRLmeta
+0000
+shadRLshin
+0000
+shadRLtest
+1C96
+hlmtRL
+1C9C
+modeRLfp
+1D06
+modeRL3d
+// Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+====
+echo
+//
+STOP
+
+SetLocale US
+
+duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0
+
+import modeRLfp tags/H3RLfp.tag
+import modeRL3d tags/H3RL3d.tag
+importmodelraw modeRLfp tags/H3RLfp.raw
+importmodelraw modeRL3d tags/H3RL3d.raw
+
+importbitmap bitmRLbase DDS/rocket_launcher.dds
+importbitmap bitmRLbump DDS/rocket_launcher_bump.dds
+importbitmap bitmRLdeca DDS/rocket_launcher_decal.dds
+importbitmap bitmRLillu DDS/rocket_launcher_illum.dds
+import shadRLdeca tagTemplates/1CA4_rmshTemplate
+import shadRLdull tagTemplates/205B_rmshTemplate
+import shadRLmeta tagTemplates/205B_rmshTemplate
+import shadRLshin tagTemplates/205B_rmshTemplate
+import shadRLtest tagTemplates/205B_rmshTemplate
+edit modeRLfp XXXX edit geometry.compression[0] XXXX SetField TextureMinV -0.0002542734 XXXX SetField TextureMaxV -1.007422 XXXX savechanges XXXX exitTo tags.dat
+edit modeRL3d XXXX edit geometry.compression[0] XXXX SetField TextureMinV -0.0002542734 XXXX SetField TextureMaxV -1.007422 XXXX savechanges XXXX exitTo tags.dat
+edit hlmtRL XXXX SetField LODmodel null XXXX savechanges XXXX exit
+edit modeRLfp XXXX SpecifyShaders XXXX shadRLshin XXXX shadRLmeta XXXX shadRLdeca XXXX shadRLdull XXXX shadRLtest XXXX exit
+edit modeRL3d XXXX SpecifyShaders XXXX shadRLshin XXXX shadRLmeta XXXX shadRLdeca XXXX shadRLdull XXXX shadRLtest XXXX exit
+edit shadRLdull XXXX SpecifyBitmaps XXXX bitmRLbase XXXX 0343 XXXX bitmRLbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX 0EF7 XXXX exit
+edit shadRLmeta XXXX SpecifyBitmaps XXXX bitmRLbase XXXX 0343 XXXX bitmRLbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX 0EF7 XXXX exit
+edit shadRLshin XXXX SpecifyBitmaps XXXX bitmRLbase XXXX 0343 XXXX bitmRLbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX 0EF7 XXXX exit
+edit shadRLtest XXXX SpecifyBitmaps XXXX bitmRLbase XXXX 0343 XXXX bitmRLbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmRLillu XXXX exit
+edit shadRLdeca XXXX SpecifyBitmaps XXXX bitmRLdeca XXXX 0343 XXXX exit
+edit shadRLdull XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 0 XXXX SetField arguments[28].arg1 1 XXXX SetField arguments[28].arg2 1 XXXX SetField arguments[28].arg3 1 XXXX SetField arguments[06].arg1 1 XXXX savechanges XXXX exit XXXX exit
+edit shadRLmeta XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 0 XXXX SetField arguments[28].arg1 1 XXXX SetField arguments[28].arg2 1 XXXX SetField arguments[28].arg3 1 XXXX SetField arguments[06].arg1 1 XXXX savechanges XXXX exit XXXX exit
+edit shadRLshin XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 0 XXXX SetField arguments[28].arg1 1 XXXX SetField arguments[28].arg2 1 XXXX SetField arguments[28].arg3 1 XXXX SetField arguments[06].arg1 1 XXXX savechanges XXXX exit XXXX exit
+edit shadRLtest XXXX edit ShaderProperties[0] XXXX SetField arguments[19].arg1 1.0 XXXX SetField arguments[16].arg1 0.0 XXXX SetField arguments[29].arg1 5 XXXX SetField arguments[28].arg1 1 XXXX SetField arguments[28].arg2 1 XXXX SetField arguments[28].arg3 1 XXXX SetField arguments[06].arg1 1 XXXX savechanges XXXX exit XXXX exit 
+
+dumplog H3RocketLauncher.log XXXX exit XXXX exit

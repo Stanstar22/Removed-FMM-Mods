@@ -1,0 +1,249 @@
+0000
+5811
+0000
+5812
+0000
+5813
+0000
+5814
+0000
+5815
+0000
+5816
+0000
+5817
+0000
+5818
+0000
+5819
+0000
+581A
+115F
+115F
+1177
+1177
+117B
+117B
+20D9
+20D9
+2417
+2417
+241E
+241E
+echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+echo Halo 3 weapon (local cosmetic) for Halo Online Eldewrito (ms23; Eldewrito 0.5.1.1)
+echo
+echo
+STOP
+
+SetLocale US
+
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+
+import 115F tags/H3Magfp.tag
+import 20D9 tags/H3Mag3d.tag
+importmodelraw 115F tags/H3Magfp.raw
+importmodelraw 20D9 tags/H3Mag3d.raw
+
+importbitmap 5811 DDS/magnum.dds
+importbitmap 5812 DDS/magnum_bump.dds
+importbitmap 5813 DDS/magnum_illum.dds
+import 5814 tagTemplates/1178_rmshTemplate 
+import 5815 tagTemplates/205B_rmshTemplate
+import 5816 tagTemplates/205B_rmshTemplate
+import 5817 tagTemplates/1178_rmshTemplate 
+import 5818 tagTemplates/205B_rmshTemplate
+import 5819 tagTemplates/1178_rmshTemplate 
+import 581A tagTemplates/205B_rmshTemplate
+edit 115F
+edit markerGroups[01]
+edit markers[0]
+SetField RegionIndex -1
+SetField PermutationIndex -1
+SetField Translation 0.003737968 -0.002770302 -0.03149237
+SetField Rotation -0.4730325 -0.0267203 -0.3264062 0.81791520
+SetField Scale 0
+savechanges
+exitTo tags.dat
+edit 115F
+edit geometry.compression[0]
+SetField TextureMinV 0
+SetField TextureMaxV -1.004819
+savechanges
+exitTo tags.dat
+edit 20D9
+edit geometry.compression[0]
+SetField TextureMinV 0
+SetField TextureMaxV -0.9996192
+savechanges
+exitTo tags.dat
+extract 115F tempTag
+import 1177 tempTag
+import 117B tempTag
+extract 20D9 tempTag
+import 2417 tempTag
+import 241E tempTag
+edit 115F
+SpecifyShaders
+5815
+5814
+581A
+exit
+edit 1177
+SpecifyShaders
+5816
+5817
+581A
+exit
+edit 117B
+SpecifyShaders
+5818
+5819
+581A
+exit
+edit 20D9
+SpecifyShaders
+5815
+581A
+5814
+exit
+edit 2417
+SpecifyShaders
+5816
+581A
+5817
+exit
+edit 241E
+SpecifyShaders
+5818
+581A
+5819
+exit
+edit 5815
+SpecifyBitmaps
+5811
+0343
+5812
+0376
+02B7
+02B9
+5813
+exit
+edit 5816
+SpecifyBitmaps
+5811
+0343
+5812
+0376
+02B7
+02B9
+5813
+exit
+edit 5818
+SpecifyBitmaps
+5811
+0343
+5812
+0376
+02B7
+02B9
+5813
+exit
+edit 581A
+SpecifyBitmaps
+5811
+0343
+5812
+0376
+02B7
+02B9
+5813
+exit
+edit 5814
+edit ShaderProperties[0]
+SetField arguments[02].arg1 1.0
+SetField arguments[02].arg2 0.4
+SetField arguments[02].arg3 0.0
+SetField arguments[03].arg1 10
+savechanges
+exit
+exit
+edit 5815
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 1.0
+SetField arguments[28].arg1 1.0
+SetField arguments[28].arg2 1.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 1.0
+savechanges
+exit
+exit
+edit 5816
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 1.0
+SetField arguments[28].arg1 1.0
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 1.0
+savechanges
+exit
+exit
+edit 5817
+edit ShaderProperties[0]
+SetField arguments[02].arg1 1.0
+SetField arguments[02].arg2 0.0
+SetField arguments[02].arg3 0.0
+SetField arguments[03].arg1 10
+savechanges
+exit
+exit
+edit 5818
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 1.0
+SetField arguments[28].arg1 1.0
+SetField arguments[28].arg2 1.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 1.0
+savechanges
+exit
+exit
+edit 5819
+edit ShaderProperties[0]
+SetField arguments[02].arg1 0.00
+SetField arguments[02].arg2 1.0
+SetField arguments[02].arg3 0
+SetField arguments[03].arg1 10
+savechanges
+exit
+exit
+edit 581A
+edit ShaderProperties[0]
+SetField arguments[19].arg1 1.0
+SetField arguments[16].arg1 0.0
+SetField arguments[29].arg1 0
+SetField arguments[28].arg1 0.0
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 0
+SetField arguments[06].arg1 1.0
+savechanges
+exit
+exit
+
+dumplog H3Magnum.log
+exit
+exit
