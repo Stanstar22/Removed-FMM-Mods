@@ -1,0 +1,191 @@
+// Reach DMR visual mod for Halo Online Eldewrito (any version) ms23. Made by Bungie, ported by dany5639 with Shockfire's tools and Camden's commands. Fixed for 0.6 by Bangs.
+====
+1580 
+weapRDMR0
+0FF3 
+modeRDMRfp0
+1E25 
+modeRDMR3d0
+====
+====
+0000
+bitmRDMR0defa
+0000
+bitmRDMRillu
+0000
+bitmRDMRbump
+0000
+bitmRDMRdeca
+0000
+bitmRDMRones
+====
+====
+1017
+bitmRDMRdefaultones
+====
+====
+0000
+shadRDMRglass
+0000
+shadRDMRshin0
+0000
+shadRDMRrubb0
+0000
+shadRDMRdecal
+0000
+shadRDMRlens0
+0000
+shadRDMRones0
+0000
+shadRDMRtens0
+0000
+shadRDMRdefaC
+0000
+shadRDMRdefaM
+====
+====
+echo 
+// 
+====
+====
+STOP
+
+SetLocale US
+
+duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0
+
+import modeRDMRfp0 tags/modeReachDMRfp
+importresource resources.dat modeRDMRfp0 tags/reachDMRfp.raw
+
+// fix mode
+edit modeRDMRfp0 XXXX SetField Nodes[0].Name gun XXXX SetField Nodes[1].Name magazine XXXX SetField Nodes[2].Name safety XXXX SetField Nodes[3].Name ophandle XXXX SetField Nodes[3].DefaultTranslation 0.0035 0.003885493 0.05554584
+SetField markergroups[1].markers[0].Translation 0.1009767 -0.003126469 0.02598142 XXXX SetField markergroups[1].markers[0].Rotation -0.6101443 0.1782749 -0.4519773 0.6258264
+SetField Geometry.Compression[0].TextureMinV 0.0003441572 XXXX SetField Geometry.Compression[0].TextureMaxV -1.006082 XXXX savechanges XXXX exit
+
+extract modeRDMRfp0 tempTag
+
+// IMPORT TEXTURES
+importbitmap bitmRDMR0defa DDS/dmr_diffuse_default.dds
+importbitmap bitmRDMRbump DDS/dmr_normal.dds
+importbitmap bitmRDMRillu DDS/dmr_illu.dds
+importbitmap bitmRDMRdeca DDS/unsc_decals_diffuse.dds
+
+// import shader templates
+import shadRDMRdecal tagTemplates/1CA4_rmshTemplate
+import shadRDMRones0 tagTemplates/105F_rmshTemplate
+import shadRDMRtens0 tagTemplates/105D_rmshTemplate
+import shadRDMRshin0 tagTemplates/205B_rmshTemplate
+import shadRDMRrubb0 tagTemplates/205B_rmshTemplate
+import shadRDMRglass tagTemplates/0FD8_rmshTemplate
+import shadRDMRlens0 tagTemplates/321E_rmshTemplate
+import shadRDMRdefaC tagTemplates/205B_rmshTemplate
+
+edit shadRDMRdefaC XXXX edit ShaderProperties[0] XXXX SetField Arguments[06].arg1 1 XXXX SetField Arguments[07].arg1 0.2 XXXX SetField Arguments[16].arg1 0.5 XXXX Setfield Arguments[19].arg1 0 XXXX SetField Arguments[25].arg1 0 XXXX SetField Arguments[25].arg2 0 XXXX SetField Arguments[25].arg3 0 XXXX SetField Arguments[28].arg1 0 XXXX SetField Arguments[28].arg2 1 XXXX SetField Arguments[28].arg3 0 XXXX SetField Arguments[29].arg1 0 XXXX savechanges XXXX exit XXXX exit
+
+extract shadRDMRdefaC tempTag
+import shadRDMRdefaC tempTag
+import shadRDMRdefaM tempTag
+
+edit shadRDMRdefaC XXXX SpecifyBitmaps XXXX bitmRDMR0defa XXXX 0343 XXXX bitmRDMRbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmRDMRillu XXXX exit
+
+edit shadRDMRdefaM XXXX SpecifyBitmaps XXXX bitmRDMR0defa XXXX 0343 XXXX bitmRDMRbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmRDMRillu XXXX exit
+
+edit shadRDMRrubb0 XXXX SpecifyBitmaps XXXX bitmRDMR0defa XXXX 0343 XXXX bitmRDMRbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmRDMRillu XXXX exit
+edit shadRDMRshin0 XXXX SpecifyBitmaps XXXX bitmRDMR0defa XXXX 0343 XXXX bitmRDMRbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX bitmRDMRillu XXXX exit
+edit shadRDMRones0 XXXX SpecifyBitmaps XXXX bitmRDMRones XXXX exit
+edit shadRDMRtens0 XXXX SpecifyBitmaps XXXX bitmRDMRones XXXX exit
+edit shadRDMRdecal XXXX SpecifyBitmaps XXXX bitmRDMRdeca XXXX 0343 XXXX exit
+edit shadRDMRglass XXXX SpecifyBitmaps XXXX 0343 XXXX 0343 XXXX bitmRDMR0defa XXXX 0343 XXXX exit
+
+edit shadRDMRrubb0 XXXX edit ShaderProperties[0] XXXX SetField Arguments[06].arg1 1 XXXX SetField Arguments[07].arg1 0.2 XXXX SetField Arguments[16].arg1 0.5 XXXX Setfield Arguments[19].arg1 0 XXXX SetField Arguments[25].arg1 0 XXXX SetField Arguments[25].arg2 0 XXXX SetField Arguments[25].arg3 0 XXXX SetField Arguments[28].arg1 0 XXXX SetField Arguments[28].arg2 1 XXXX SetField Arguments[28].arg3 0 XXXX SetField Arguments[29].arg1 0 XXXX savechanges XXXX exit XXXX exit XXXX // gold
+edit shadRDMRshin0 XXXX edit ShaderProperties[0] XXXX SetField Arguments[06].arg1 1 XXXX SetField Arguments[07].arg1 0.2 XXXX SetField Arguments[16].arg1 0.5 XXXX Setfield Arguments[19].arg1 0 XXXX SetField Arguments[25].arg1 0 XXXX SetField Arguments[25].arg2 0 XXXX SetField Arguments[25].arg3 0 XXXX SetField Arguments[28].arg1 0 XXXX SetField Arguments[28].arg2 1 XXXX SetField Arguments[28].arg3 0 XXXX SetField Arguments[29].arg1 0 XXXX savechanges XXXX exit XXXX exit XXXX // gold
+edit shadRDMRglass XXXX edit ShaderProperties[0] XXXX SetField Arguments[05].Arg1 1 XXXX SetField Arguments[02].Arg1 0.2 XXXX SetField Arguments[02].Arg1 1.0 XXXX SetField Arguments[02].Arg1 0.2 XXXX SetField Arguments[02].Arg1 0 XXXX SetField Arguments[02].Arg2 0 XXXX SetField Arguments[02].Arg3 0 XXXX SetField Arguments[05].Arg1 0.3 XXXX SetField Arguments[09].Arg1 1 XXXX SetField Arguments[10].Arg1 1 XXXX SetField Arguments[12].Arg1 1 XXXX SetField Arguments[12].Arg2 2 XXXX SetField Arguments[12].Arg3 0 XXXX SetField Arguments[16].Arg1 0 XXXX savechanges XXXX exit XXXX exit
+
+edit modeRDMRfp0 XXXX SpecifyShaders XXXX shadRDMRdefaC XXXX shadRDMRlens0 XXXX shadRDMRdefaM XXXX shadRDMRshin0 XXXX shadRDMRrubb0 XXXX shadRDMRdecal XXXX shadRDMRglass XXXX shadRDMRones0 XXXX shadRDMRtens0 XXXX exit
+
+extract modeRDMRfp0 tempTag XXXX import modeRDMR3d0 tempTag
+
+// fix: crouch melee, crouch reloading; only works if host has it;
+// disabled in case hosts with it cause the game to crash for those who don't have it; untested.
+// edit weapRDMR0 YYYY SetField WeaponName br YYYY savechanges YYYY exit
+// edit weapRDMR1 YYYY SetField WeaponName br YYYY savechanges YYYY exit
+// edit weapRDMR2 YYYY SetField WeaponName br YYYY savechanges YYYY exit
+// edit weapRDMR3 YYYY SetField WeaponName br YYYY savechanges YYYY exit
+// edit weapRDMR4 YYYY SetField WeaponName br YYYY savechanges YYYY exit
+// edit weapRDMR5 YYYY SetField WeaponName br YYYY savechanges YYYY exit
+// edit weapRDMR6 YYYY SetField WeaponName br YYYY savechanges YYYY exit
+
+// edit bitmRDMRdefaultones
+// import 0 DDS/ones/numbers_plate_0.dds
+// import 1 DDS/ones/numbers_plate_1.dds
+// import 2 DDS/ones/numbers_plate_2.dds
+// import 3 DDS/ones/numbers_plate_3.dds
+// import 4 DDS/ones/numbers_plate_4.dds
+// import 5 DDS/ones/numbers_plate_5.dds
+// import 6 DDS/ones/numbers_plate_6.dds
+// import 7 DDS/ones/numbers_plate_7.dds
+// import 8 DDS/ones/numbers_plate_8.dds
+// import 9 DDS/ones/numbers_plate_9.dds
+// exit
+// extract bitmRDMRdefaultones tags\bitm_HRDMROnes.tag
+// extractresource textures.dat bitmRDMRdefaultones tags\ones\bitm_HRDMRones_0.bitm 0
+// extractresource textures.dat bitmRDMRdefaultones tags\ones\bitm_HRDMRones_1.bitm 1
+// extractresource textures.dat bitmRDMRdefaultones tags\ones\bitm_HRDMRones_2.bitm 2
+// extractresource textures.dat bitmRDMRdefaultones tags\ones\bitm_HRDMRones_3.bitm 3
+// extractresource textures.dat bitmRDMRdefaultones tags\ones\bitm_HRDMRones_4.bitm 4
+// extractresource textures.dat bitmRDMRdefaultones tags\ones\bitm_HRDMRones_5.bitm 5
+// extractresource textures.dat bitmRDMRdefaultones tags\ones\bitm_HRDMRones_6.bitm 6
+// extractresource textures.dat bitmRDMRdefaultones tags\ones\bitm_HRDMRones_7.bitm 7
+// extractresource textures.dat bitmRDMRdefaultones tags\ones\bitm_HRDMRones_8.bitm 8
+// extractresource textures.dat bitmRDMRdefaultones tags\ones\bitm_HRDMRones_9.bitm 9
+
+import bitmRDMRones tags/bitm_HRDMROnes.tag
+
+importresource textures.dat bitmRDMRones tags/ones
+
+dumplog reachDMR.log XXXX exit XXXX exit
+
+
+modeRDMR3d0 mode_RDMR3d0
+modeRDMRfp0 mode_RDMRfp0
+shadRDMRdecal shad_RDMRdecal
+shadRDMRdefaC shad_RDMRdefaC
+shadRDMRdefaM shad_RDMRdefaM
+shadRDMRglass shad_RDMRglass
+shadRDMRlens0 shad_RDMRlens0
+shadRDMRones0 shad_RDMRones0
+shadRDMRrubb0 shad_RDMRrubb0
+shadRDMRshin0 shad_RDMRshin0
+shadRDMRtens0 shad_RDMRtens0
+
+// DEBUG
+
+// fix 3d placement
+edit modeRDMR3d0
+AddTo 
+SetField markergroups[1].markers[0].Translation 0.09338641 0.001719005 0.0184621
+SetField markergroups[1].markers[0].Rotation -0.5104933 0.4780588 -0.3749495 0.6084975
+savechanges
+exit
+
+// REACH SHADERS
+objects\weapons\rifle\dmr\shaders\dmr_composite  ; shadRDMRdefaC; composite, middle
+objects\weapons\rifle\dmr\shaders\dmr_lens       ; shadRDMRlens0 ; lens
+objects\weapons\rifle\dmr\shaders\dmr_metal      ; shadRDMRmetal ; metal, main
+objects\weapons\rifle\dmr\shaders\dmr_metal_shiny; shadRDMRshin0 ; metal, shiny, accessory
+objects\weapons\rifle\dmr\shaders\dmr_rubber     ; shadRDMRrubb0 ; rubber
+objects\bitmaps\decals\shaders\unsc_decals_fp    ; shadRDMRdecal ; decals
+objects\weapons\rifle\dmr\shaders\dmr_lens_glass ; shadRDMRglass ; glass
+objects\weapons\rifle\dmr\shaders\ones_dmr       ; shadRDMRones0 ; ammunition_ones
+objects\weapons\rifle\dmr\shaders\tens_dmr       ; shadRDMRtens0 ; ammunition_tens
+ shadRDMRdefaC XXXX shadRDMRlens0 XXXX shadRDMRdefaM XXXX shadRDMRshin0 XXXX shadRDMRrubb0 XXXX shadRDMRdecal XXXX shadRDMRglass XXXX shadRDMRones0 XXXX shadRDMRtens0
+
+// HO tags
+variant defaul; weap 1580; mode 0FF3; mode 1E25; hlmt 1E0B; default
+variant dmr_v1; weap 15BF; mode 1057; mode 25AD; hlmt 25A6; purple
+variant dmr_v2; weap 1588; mode 1031; mode 239A; hlmt 2391; green
+variant dmr_v3; weap 1589; mode 103D; mode 23AA; hlmt 23A4; orange
+variant dmr_v4; weap 158A; mode 1048; mode 23B9; hlmt 23B0; red
+variant dmr_v5; weap 15BE; mode 101E; mode 25A3; hlmt 259D; blue
+variant dmr_v6; weap 158B; mode 1059; mode 23C5; hlmt 23BF; golden
+

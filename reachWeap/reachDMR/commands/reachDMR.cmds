@@ -1,0 +1,376 @@
+echo Reach DMR visual mod for Halo Online Eldewrito (any version) ms23. Made by Bungie, ported by dany5639 with Shockfire's tools and Camden's commands.
+echo Reach DMR visual mod for Halo Online Eldewrito (any version) ms23. Made by Bungie, ported by dany5639 with Shockfire's tools and Camden's commands.
+1580 
+1580 
+0FF3 
+0FF3 
+1E25 
+1E25 
+echo Reach DMR visual mod for Halo Online Eldewrito (any version) ms23. Made by Bungie, ported by dany5639 with Shockfire's tools and Camden's commands.
+echo Reach DMR visual mod for Halo Online Eldewrito (any version) ms23. Made by Bungie, ported by dany5639 with Shockfire's tools and Camden's commands.
+0000
+5ADF
+0000
+5AE0
+0000
+5AE1
+0000
+5AE2
+0000
+5AE3
+echo Reach DMR visual mod for Halo Online Eldewrito (any version) ms23. Made by Bungie, ported by dany5639 with Shockfire's tools and Camden's commands.
+echo Reach DMR visual mod for Halo Online Eldewrito (any version) ms23. Made by Bungie, ported by dany5639 with Shockfire's tools and Camden's commands.
+1017
+1017
+echo Reach DMR visual mod for Halo Online Eldewrito (any version) ms23. Made by Bungie, ported by dany5639 with Shockfire's tools and Camden's commands.
+echo Reach DMR visual mod for Halo Online Eldewrito (any version) ms23. Made by Bungie, ported by dany5639 with Shockfire's tools and Camden's commands.
+0000
+5AE4
+0000
+5AE5
+0000
+5AE6
+0000
+5AE7
+0000
+5AE8
+0000
+5AE9
+0000
+5AEA
+0000
+5AEB
+0000
+5AEC
+echo Reach DMR visual mod for Halo Online Eldewrito (any version) ms23. Made by Bungie, ported by dany5639 with Shockfire's tools and Camden's commands.
+echo Reach DMR visual mod for Halo Online Eldewrito (any version) ms23. Made by Bungie, ported by dany5639 with Shockfire's tools and Camden's commands.
+echo 
+echo 
+echo Reach DMR visual mod for Halo Online Eldewrito (any version) ms23. Made by Bungie, ported by dany5639 with Shockfire's tools and Camden's commands.
+echo Reach DMR visual mod for Halo Online Eldewrito (any version) ms23. Made by Bungie, ported by dany5639 with Shockfire's tools and Camden's commands.
+STOP
+
+SetLocale US
+
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+
+import 0FF3  tags/modeReachDMRfp
+importresource resources.dat 0FF3  tags/reachDMRfp.raw
+
+echo fix mode
+edit 0FF3 
+SetField Nodes[0].Name gun
+SetField Nodes[1].Name magazine
+SetField Nodes[2].Name safety
+SetField Nodes[3].Name ophandle
+SetField Nodes[3].DefaultTranslation 0.0035 0.003885493 0.05554584
+SetField markergroups[1].markers[0].Translation 0.1009767 -0.003126469 0.02598142
+SetField markergroups[1].markers[0].Rotation -0.6101443 0.1782749 -0.4519773 0.6258264
+SetField Geometry.Compression[0].TextureMinV 0.0003441572
+SetField Geometry.Compression[0].TextureMaxV -1.006082
+savechanges
+exit
+
+extract 0FF3  tempTag
+
+echo IMPORT TEXTURES
+importbitmap 5ADF DDS/dmr_diffuse_default.dds
+importbitmap 5AE1 DDS/dmr_normal.dds
+importbitmap 5AE0 DDS/dmr_illu.dds
+importbitmap 5AE2 DDS/unsc_decals_diffuse.dds
+
+echo import shader templates
+import 5AE7 tagTemplates/1CA4_rmshTemplate
+import 5AE9 tagTemplates/105F_rmshTemplate
+import 5AEA tagTemplates/105D_rmshTemplate
+import 5AE5 tagTemplates/205B_rmshTemplate
+import 5AE6 tagTemplates/205B_rmshTemplate
+import 5AE4 tagTemplates/0FD8_rmshTemplate
+import 5AE8 tagTemplates/321E_rmshTemplate
+import 5AEB tagTemplates/205B_rmshTemplate
+
+edit 5AEB
+edit ShaderProperties[0]
+SetField Arguments[06].arg1 1
+SetField Arguments[07].arg1 0.2
+SetField Arguments[16].arg1 0.5
+Setfield Arguments[19].arg1 0
+SetField Arguments[25].arg1 0
+SetField Arguments[25].arg2 0
+SetField Arguments[25].arg3 0
+SetField Arguments[28].arg1 0
+SetField Arguments[28].arg2 1
+SetField Arguments[28].arg3 0
+SetField Arguments[29].arg1 0
+savechanges
+exit
+exit
+
+extract 5AEB tempTag
+import 5AEB tempTag
+import 5AEC tempTag
+
+edit 5AEB
+SpecifyBitmaps
+5ADF
+0343
+5AE1
+0376
+02B7
+02B9
+5AE0
+exit
+
+edit 5AEC
+SpecifyBitmaps
+5ADF
+0343
+5AE1
+0376
+02B7
+02B9
+5AE0
+exit
+
+edit 5AE6
+SpecifyBitmaps
+5ADF
+0343
+5AE1
+0376
+02B7
+02B9
+5AE0
+exit
+edit 5AE5
+SpecifyBitmaps
+5ADF
+0343
+5AE1
+0376
+02B7
+02B9
+5AE0
+exit
+edit 5AE9
+SpecifyBitmaps
+5AE3
+exit
+edit 5AEA
+SpecifyBitmaps
+5AE3
+exit
+edit 5AE7
+SpecifyBitmaps
+5AE2
+0343
+exit
+edit 5AE4
+SpecifyBitmaps
+0343
+0343
+5ADF
+0343
+exit
+
+edit 5AE6
+edit ShaderProperties[0]
+SetField Arguments[06].arg1 1
+SetField Arguments[07].arg1 0.2
+SetField Arguments[16].arg1 0.5
+Setfield Arguments[19].arg1 0
+SetField Arguments[25].arg1 0
+SetField Arguments[25].arg2 0
+SetField Arguments[25].arg3 0
+SetField Arguments[28].arg1 0
+SetField Arguments[28].arg2 1
+SetField Arguments[28].arg3 0
+SetField Arguments[29].arg1 0
+savechanges
+exit
+exit
+echo gold
+edit 5AE5
+edit ShaderProperties[0]
+SetField Arguments[06].arg1 1
+SetField Arguments[07].arg1 0.2
+SetField Arguments[16].arg1 0.5
+Setfield Arguments[19].arg1 0
+SetField Arguments[25].arg1 0
+SetField Arguments[25].arg2 0
+SetField Arguments[25].arg3 0
+SetField Arguments[28].arg1 0
+SetField Arguments[28].arg2 1
+SetField Arguments[28].arg3 0
+SetField Arguments[29].arg1 0
+savechanges
+exit
+exit
+echo gold
+edit 5AE4
+edit ShaderProperties[0]
+SetField Arguments[05].Arg1 1
+SetField Arguments[02].Arg1 0.2
+SetField Arguments[02].Arg1 1.0
+SetField Arguments[02].Arg1 0.2
+SetField Arguments[02].Arg1 0
+SetField Arguments[02].Arg2 0
+SetField Arguments[02].Arg3 0
+SetField Arguments[05].Arg1 0.3
+SetField Arguments[09].Arg1 1
+SetField Arguments[10].Arg1 1
+SetField Arguments[12].Arg1 1
+SetField Arguments[12].Arg2 2
+SetField Arguments[12].Arg3 0
+SetField Arguments[16].Arg1 0
+savechanges
+exit
+exit
+
+edit 0FF3 
+SpecifyShaders
+5AEB
+5AE8
+5AEC
+5AE5
+5AE6
+5AE7
+5AE4
+5AE9
+5AEA
+exit
+
+extract 0FF3  tempTag
+import 1E25  tempTag
+
+echo fix reloading animation
+edit 1E0F
+SetField modes[0].weaponclass[0].weapontype[0].actions[8].animation 17
+savechanges
+exit
+
+echo fix: crouch melee, crouch reloading; only works if host has it;
+echo disabled in case hosts with it cause the game to crash for those who don't have it; untested.
+echo edit 1580  YYYY SetField WeaponName br YYYY savechanges YYYY exit
+echo edit weapRDMR1 YYYY SetField WeaponName br YYYY savechanges YYYY exit
+echo edit weapRDMR2 YYYY SetField WeaponName br YYYY savechanges YYYY exit
+echo edit weapRDMR3 YYYY SetField WeaponName br YYYY savechanges YYYY exit
+echo edit weapRDMR4 YYYY SetField WeaponName br YYYY savechanges YYYY exit
+echo edit weapRDMR5 YYYY SetField WeaponName br YYYY savechanges YYYY exit
+echo edit weapRDMR6 YYYY SetField WeaponName br YYYY savechanges YYYY exit
+
+echo edit 1017
+echo import 0 DDS/ones/numbers_plate_0.dds
+echo import 1 DDS/ones/numbers_plate_1.dds
+echo import 2 DDS/ones/numbers_plate_2.dds
+echo import 3 DDS/ones/numbers_plate_3.dds
+echo import 4 DDS/ones/numbers_plate_4.dds
+echo import 5 DDS/ones/numbers_plate_5.dds
+echo import 6 DDS/ones/numbers_plate_6.dds
+echo import 7 DDS/ones/numbers_plate_7.dds
+echo import 8 DDS/ones/numbers_plate_8.dds
+echo import 9 DDS/ones/numbers_plate_9.dds
+echo exit
+echo extract 1017 tags\bitm_HRDMROnes.tag
+echo extractresource textures.dat 1017 tags\ones\bitm_HRDMRones_0.bitm 0
+echo extractresource textures.dat 1017 tags\ones\bitm_HRDMRones_1.bitm 1
+echo extractresource textures.dat 1017 tags\ones\bitm_HRDMRones_2.bitm 2
+echo extractresource textures.dat 1017 tags\ones\bitm_HRDMRones_3.bitm 3
+echo extractresource textures.dat 1017 tags\ones\bitm_HRDMRones_4.bitm 4
+echo extractresource textures.dat 1017 tags\ones\bitm_HRDMRones_5.bitm 5
+echo extractresource textures.dat 1017 tags\ones\bitm_HRDMRones_6.bitm 6
+echo extractresource textures.dat 1017 tags\ones\bitm_HRDMRones_7.bitm 7
+echo extractresource textures.dat 1017 tags\ones\bitm_HRDMRones_8.bitm 8
+echo extractresource textures.dat 1017 tags\ones\bitm_HRDMRones_9.bitm 9
+
+import 5AE3 tags/bitm_HRDMROnes.tag
+
+importresource textures.dat 5AE3 tags/ones
+
+dumplog reachDMR.log
+exit
+exit
+
+
+1E25  mode_RDMR3d0
+0FF3  mode_RDMRfp0
+5AE7 shad_RDMRdecal
+5AEB shad_RDMRdefaC
+5AEC shad_RDMRdefaM
+5AE4 shad_RDMRglass
+5AE8 shad_RDMRlens0
+5AE9 shad_RDMRones0
+5AE6 shad_RDMRrubb0
+5AE5 shad_RDMRshin0
+5AEA shad_RDMRtens0
+
+echo DEBUG
+
+echo fix 3d placement
+edit 1E25 
+AddTo 
+SetField markergroups[1].markers[0].Translation 0.09338641 0.001719005 0.0184621
+SetField markergroups[1].markers[0].Rotation -0.5104933 0.4780588 -0.3749495 0.6084975
+savechanges
+exit
+
+echo REACH SHADERS
+objects\weapons\rifle\dmr\shaders\dmr_composite  ; 5AEB; composite, middle
+objects\weapons\rifle\dmr\shaders\dmr_lens       ; 5AE8 ; lens
+objects\weapons\rifle\dmr\shaders\dmr_metal      ; shadRDMRmetal ; metal, main
+objects\weapons\rifle\dmr\shaders\dmr_metal_shiny; 5AE5 ; metal, shiny, accessory
+objects\weapons\rifle\dmr\shaders\dmr_rubber     ; 5AE6 ; rubber
+objects\bitmaps\decals\shaders\unsc_decals_fp    ; 5AE7 ; decals
+objects\weapons\rifle\dmr\shaders\dmr_lens_glass ; 5AE4 ; glass
+objects\weapons\rifle\dmr\shaders\ones_dmr       ; 5AE9 ; ammunition_ones
+objects\weapons\rifle\dmr\shaders\tens_dmr       ; 5AEA ; ammunition_tens
+ 5AEB
+5AE8
+5AEC
+5AE5
+5AE6
+5AE7
+5AE4
+5AE9
+5AEA
+
+echo HO tags
+variant defaul; weap 1580; mode 0FF3; mode 1E25; hlmt 1E0B; default
+variant dmr_v1; weap 15BF; mode 1057; mode 25AD; hlmt 25A6; purple
+variant dmr_v2; weap 1588; mode 1031; mode 239A; hlmt 2391; green
+variant dmr_v3; weap 1589; mode 103D; mode 23AA; hlmt 23A4; orange
+variant dmr_v4; weap 158A; mode 1048; mode 23B9; hlmt 23B0; red
+variant dmr_v5; weap 15BE; mode 101E; mode 25A3; hlmt 259D; blue
+variant dmr_v6; weap 158B; mode 1059; mode 23C5; hlmt 23BF; golden
+
