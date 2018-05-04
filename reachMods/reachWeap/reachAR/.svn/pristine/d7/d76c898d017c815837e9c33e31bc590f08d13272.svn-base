@@ -1,0 +1,346 @@
+// REACH ASSAULT RIFLE MOD FOR HALO ONLINE ELDORITO MS23 0.5.1.1; made by BUNGIE, rebuilt by dany5639 using HaloOnlineTagTool
+====
+151E
+weapHRARDef0
+1581
+weapHRARRed2
+1582
+weapHRAROra3
+1583
+weapHRARGre5
+1584
+weapHRARYel6
+0EE1
+modeHRARfpDef0
+0F22
+modeHRARfpRed2
+0F32
+modeHRARfpOra3
+0F52
+modeHRARfpGre5
+0F61
+modeHRARfpYel6
+1C7B
+modeHRAR3dDef0
+2329
+modeHRAR3dRed2
+233A
+modeHRAR3dOra3
+2347
+modeHRAR3dGre5
+2358
+modeHRAR3dYel6
+====
+====
+0000
+shadHRARmeta
+0000
+shadHRARshin
+0000
+shadHRARrubb
+0000
+shadHRARdeca
+0000
+shadHRARmainDef
+0000
+shadHRARmainRed
+0000
+shadHRARmainOra
+0000
+shadHRARmainGre
+0000
+shadHRARmainYel
+0000
+shadHRARdisp
+0000
+shadHRARtens
+0000
+shadHRARones
+0000
+shadHRARitem
+0000
+shadHRARcmps
+====
+====
+0000
+bitmHRARdisp
+0000
+bitmHRARbull
+0000
+bitmHRARbump
+0000
+bitmHRARdeca
+0000
+bitmHRARDefa
+0000
+bitmHRARRed0
+0000
+bitmHRAROran
+0000
+bitmHRARGree
+0000
+bitmHRARYell
+0000
+bitmHRARones
+0000
+bitmHRARcomp
+====
+====
+0F09
+bitmHRARdefaultOnes
+0F05
+bitmHRARdefaultComp
+====
+====
+1B80
+hlmtHRAR0
+231E
+hlmtHRAR2
+2333
+hlmtHRAR3
+2341
+hlmtHRAR5
+2352
+hlmtHRAR6
+====
+====
+echo
+//
+====
+====
+STOP
+
+SetLocale US
+
+duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0
+
+import modeHRARfpDef0 tags/mode_HRAR.tag
+importresource resources.dat modeHRARfpDef0 tags/HRAR.raw
+
+importbitmap bitmHRARbump DDS/assault_rifle_normal.dds
+importbitmap bitmHRARdisp DDS/display_plate.dds
+importbitmap bitmHRARbull DDS/bullet_plate.dds
+importbitmap bitmHRARdeca DDS/unsc_decals_diffuse.dds
+importbitmap bitmHRARDefa DDS/assault_rifle_diffuse_def.dds
+importbitmap bitmHRARRed0 DDS/assault_rifle_diffuse_red.dds
+importbitmap bitmHRARGree DDS/assault_rifle_diffuse_green.dds
+importbitmap bitmHRARYell DDS/assault_rifle_diffuse_yellow.dds
+importbitmap bitmHRAROran DDS/assault_rifle_diffuse_orange.dds
+
+import shadHRARmainDef tagTemplates/205B_rmshTemplate
+import shadHRARmainRed tagTemplates/205B_rmshTemplate
+import shadHRARmainOra tagTemplates/205B_rmshTemplate
+import shadHRARmainGre tagTemplates/205B_rmshTemplate
+import shadHRARmainYel tagTemplates/205B_rmshTemplate
+
+import shadHRARdisp tagTemplates/0F11_rmshTemplate
+import shadHRARones tagTemplates/0EEB_rmshTemplate
+import shadHRARtens tagTemplates/0EEC_rmshTemplate
+import shadHRARmeta tagTemplates/205B_rmshTemplate
+import shadHRARshin tagTemplates/205B_rmshTemplate
+import shadHRARrubb tagTemplates/205B_rmshTemplate
+import shadHRARdeca tagTemplates/1CA4_rmshTemplate
+import shadHRARcmps tagTemplates/0EEA_rmshTemplate
+import shadHRARitem tagTemplates/0F11_rmshTemplate
+
+edit shadHRARmainDef XXXX SpecifyBitmaps XXXX bitmHRARDefa XXXX 0343 XXXX bitmHRARbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX 0379 XXXX exit
+edit shadHRARmainRed XXXX SpecifyBitmaps XXXX bitmHRARRed0 XXXX 0343 XXXX bitmHRARbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX 0379 XXXX exit
+edit shadHRARmainOra XXXX SpecifyBitmaps XXXX bitmHRAROran XXXX 0343 XXXX bitmHRARbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX 0379 XXXX exit
+edit shadHRARmainGre XXXX SpecifyBitmaps XXXX bitmHRARGree XXXX 0343 XXXX bitmHRARbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX 0379 XXXX exit
+edit shadHRARmainYel XXXX SpecifyBitmaps XXXX bitmHRARYell XXXX 0343 XXXX bitmHRARbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX 0379 XXXX exit
+
+edit shadHRARmeta XXXX SpecifyBitmaps XXXX bitmHRARDefa XXXX 0343 XXXX bitmHRARbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX 0379 XXXX exit
+edit shadHRARshin XXXX SpecifyBitmaps XXXX bitmHRARDefa XXXX 0343 XXXX bitmHRARbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX 0379 XXXX exit
+edit shadHRARrubb XXXX SpecifyBitmaps XXXX bitmHRARDefa XXXX 0343 XXXX bitmHRARbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX 0379 XXXX exit
+edit shadHRARdeca XXXX SpecifyBitmaps XXXX bitmHRARdeca XXXX 0343 XXXX exit
+edit shadHRARitem XXXX SpecifyBitmaps XXXX bitmHRARbull XXXX exit
+edit shadHRARdisp XXXX SpecifyBitmaps XXXX bitmHRARdisp XXXX exit
+edit shadHRARones XXXX SpecifyBitmaps XXXX bitmHRARones XXXX exit
+edit shadHRARtens XXXX SpecifyBitmaps XXXX bitmHRARones XXXX exit
+
+edit shadHRARmainDef XXXX edit ShaderProperties[0] XXXX SetField Arguments[06].arg1 1.0 XXXX SetField Arguments[07].arg1 0.2 XXXX SetField Arguments[16].arg1 0.5 XXXX Setfield Arguments[19].arg1 0 XXXX SetField Arguments[25].arg1 0 XXXX SetField Arguments[25].arg2 0 XXXX SetField Arguments[25].arg3 0 XXXX SetField Arguments[28].arg1 0 XXXX SetField Arguments[28].arg2 1 XXXX SetField Arguments[28].arg3 0 XXXX SetField Arguments[29].arg1 0 XXXX savechanges XXXX exit XXXX exit
+edit shadHRARmainRed XXXX edit ShaderProperties[0] XXXX SetField Arguments[06].arg1 1.0 XXXX SetField Arguments[07].arg1 0.2 XXXX SetField Arguments[16].arg1 0.5 XXXX Setfield Arguments[19].arg1 0 XXXX SetField Arguments[25].arg1 0 XXXX SetField Arguments[25].arg2 0 XXXX SetField Arguments[25].arg3 0 XXXX SetField Arguments[28].arg1 0 XXXX SetField Arguments[28].arg2 1 XXXX SetField Arguments[28].arg3 0 XXXX SetField Arguments[29].arg1 0 XXXX savechanges XXXX exit XXXX exit
+edit shadHRARmainOra XXXX edit ShaderProperties[0] XXXX SetField Arguments[06].arg1 1.0 XXXX SetField Arguments[07].arg1 0.2 XXXX SetField Arguments[16].arg1 0.5 XXXX Setfield Arguments[19].arg1 0 XXXX SetField Arguments[25].arg1 0 XXXX SetField Arguments[25].arg2 0 XXXX SetField Arguments[25].arg3 0 XXXX SetField Arguments[28].arg1 0 XXXX SetField Arguments[28].arg2 1 XXXX SetField Arguments[28].arg3 0 XXXX SetField Arguments[29].arg1 0 XXXX savechanges XXXX exit XXXX exit
+edit shadHRARmainGre XXXX edit ShaderProperties[0] XXXX SetField Arguments[06].arg1 1.0 XXXX SetField Arguments[07].arg1 0.2 XXXX SetField Arguments[16].arg1 0.5 XXXX Setfield Arguments[19].arg1 0 XXXX SetField Arguments[25].arg1 0 XXXX SetField Arguments[25].arg2 0 XXXX SetField Arguments[25].arg3 0 XXXX SetField Arguments[28].arg1 0 XXXX SetField Arguments[28].arg2 1 XXXX SetField Arguments[28].arg3 0 XXXX SetField Arguments[29].arg1 0 XXXX savechanges XXXX exit XXXX exit
+edit shadHRARmainYel XXXX edit ShaderProperties[0] XXXX SetField Arguments[06].arg1 1.0 XXXX SetField Arguments[07].arg1 0.2 XXXX SetField Arguments[16].arg1 0.5 XXXX Setfield Arguments[19].arg1 0 XXXX SetField Arguments[25].arg1 0 XXXX SetField Arguments[25].arg2 0 XXXX SetField Arguments[25].arg3 0 XXXX SetField Arguments[28].arg1 0 XXXX SetField Arguments[28].arg2 1 XXXX SetField Arguments[28].arg3 0 XXXX SetField Arguments[29].arg1 0 XXXX savechanges XXXX exit XXXX exit
+
+edit shadHRARcmps XXXX edit ShaderProperties[0] XXXX Setfield Arguments[02].arg1 0.0 XXXX Setfield Arguments[02].arg2 0.7 XXXX Setfield Arguments[02].arg3 1.0 XXXX SetField Arguments[03].arg1 6.0 XXXX SetField Arguments[01].arg4 1 XXXX savechanges XXXX exit XXXX exit
+edit shadHRARdisp XXXX edit ShaderProperties[0] XXXX Setfield Arguments[02].arg1 0.0 XXXX Setfield Arguments[02].arg2 0.7 XXXX Setfield Arguments[02].arg3 1.0 XXXX Setfield Arguments[03].arg1 6.0 XXXX savechanges XXXX exit XXXX exit
+edit shadHRARitem XXXX edit ShaderProperties[0] XXXX Setfield Arguments[02].arg1 0.0 XXXX Setfield Arguments[02].arg2 0.7 XXXX Setfield Arguments[02].arg3 1.0 XXXX Setfield Arguments[03].arg1 10 XXXX savechanges XXXX exit XXXX exit
+edit shadHRARones XXXX edit ShaderProperties[0] XXXX Setfield Arguments[02].arg1 0.0 XXXX Setfield Arguments[02].arg2 0.7 XXXX Setfield Arguments[02].arg3 1.0 XXXX Setfield Arguments[03].arg1 6.0 XXXX savechanges XXXX exit XXXX exit
+edit shadHRARtens XXXX edit ShaderProperties[0] XXXX Setfield Arguments[02].arg1 0.0 XXXX Setfield Arguments[02].arg2 0.7 XXXX Setfield Arguments[02].arg3 1.0 XXXX Setfield Arguments[03].arg1 6.0 XXXX savechanges XXXX exit XXXX exit
+
+edit shadHRARmeta XXXX edit ShaderProperties[0] XXXX SetField Arguments[06].arg1 1 XXXX SetField Arguments[07].arg1 0.2 XXXX SetField Arguments[16].arg1 0.5 XXXX Setfield Arguments[19].arg1 0 XXXX SetField Arguments[25].arg1 0 XXXX SetField Arguments[25].arg2 0 XXXX SetField Arguments[25].arg3 0 XXXX SetField Arguments[28].arg1 0 XXXX SetField Arguments[28].arg2 1 XXXX SetField Arguments[28].arg3 0 XXXX SetField Arguments[29].arg1 0 XXXX savechanges XXXX exit XXXX exit 
+edit shadHRARrubb XXXX edit ShaderProperties[0] XXXX SetField Arguments[06].arg1 1 XXXX SetField Arguments[07].arg1 0.2 XXXX SetField Arguments[16].arg1 0.0 XXXX Setfield Arguments[19].arg1 1 XXXX SetField Arguments[25].arg1 0 XXXX SetField Arguments[25].arg2 0 XXXX SetField Arguments[25].arg3 0 XXXX SetField Arguments[28].arg1 0 XXXX SetField Arguments[28].arg2 1 XXXX SetField Arguments[28].arg3 0 XXXX SetField Arguments[29].arg1 0 XXXX savechanges XXXX exit XXXX exit 
+edit shadHRARshin XXXX edit ShaderProperties[0] XXXX SetField Arguments[06].arg1 1 XXXX SetField Arguments[07].arg1 0.2 XXXX SetField Arguments[16].arg1 0.5 XXXX Setfield Arguments[19].arg1 0 XXXX SetField Arguments[25].arg1 0 XXXX SetField Arguments[25].arg2 0 XXXX SetField Arguments[25].arg3 0 XXXX SetField Arguments[28].arg1 0 XXXX SetField Arguments[28].arg2 1 XXXX SetField Arguments[28].arg3 0 XXXX SetField Arguments[29].arg1 0 XXXX savechanges XXXX exit XXXX exit 
+
+edit modeHRARfpDef0
+SetField Nodes[0].Name gun XXXX SetField Nodes[1].Name switch XXXX SetField Nodes[2].Name safety XXXX SetField Nodes[3].Name magazine XXXX SetField Nodes[4].Name ophandle
+SetField markergroups[2].markers[0].RegionIndex -1 XXXX SetField markergroups[2].markers[0].PermutationIndex -1 XXXX SetField markergroups[2].markers[0].Translation 0.1010085 -0.007 0.01560136
+SetField markergroups[2].markers[0].Rotation -0.6241202 0.1670771 -0.45504 0.6127788 XXXX SetField markergroups[2].markers[0].Scale 0
+SetField geometry.compression[0].TextureMinV 1.192093E-07 XXXX SetField geometry.compression[0].TextureMaxV -1
+savechanges XXXX exit
+
+extract modeHRARfpDef0 tempTag
+import modeHRARfpRed2 tempTag
+import modeHRARfpOra3 tempTag
+import modeHRARfpGre5 tempTag
+import modeHRARfpYel6 tempTag
+
+import modeHRAR3dDef0 tempTag
+import modeHRAR3dRed2 tempTag
+import modeHRAR3dOra3 tempTag
+import modeHRAR3dGre5 tempTag
+import modeHRAR3dYel6 tempTag
+
+edit modeHRAR3dDef0 XXXX SetField Nodes[0].Name gun XXXX SetField Nodes[1].ParentNode -1 XXXX SetField Nodes[2].ParentNode -1 XXXX SetField Nodes[3].ParentNode -1 XXXX SetField Nodes[4].ParentNode -1 XXXX savechanges XXXX exit
+edit modeHRAR3dRed2 XXXX SetField Nodes[0].Name gun XXXX SetField Nodes[1].ParentNode -1 XXXX SetField Nodes[2].ParentNode -1 XXXX SetField Nodes[3].ParentNode -1 XXXX SetField Nodes[4].ParentNode -1 XXXX savechanges XXXX exit
+edit modeHRAR3dOra3 XXXX SetField Nodes[0].Name gun XXXX SetField Nodes[1].ParentNode -1 XXXX SetField Nodes[2].ParentNode -1 XXXX SetField Nodes[3].ParentNode -1 XXXX SetField Nodes[4].ParentNode -1 XXXX savechanges XXXX exit
+edit modeHRAR3dGre5 XXXX SetField Nodes[0].Name gun XXXX SetField Nodes[1].ParentNode -1 XXXX SetField Nodes[2].ParentNode -1 XXXX SetField Nodes[3].ParentNode -1 XXXX SetField Nodes[4].ParentNode -1 XXXX savechanges XXXX exit
+edit modeHRAR3dYel6 XXXX SetField Nodes[0].Name gun XXXX SetField Nodes[1].ParentNode -1 XXXX SetField Nodes[2].ParentNode -1 XXXX SetField Nodes[3].ParentNode -1 XXXX SetField Nodes[4].ParentNode -1 XXXX savechanges XXXX exit
+
+// move fp model
+edit weapHRARDef0 XXXX SetField FirstPersonWeaponOffseti -0.035 XXXX SetField FirstPersonWeaponOffsetj 0 XXXX SetField FirstPersonWeaponOffseti -0.008 XXXX savechanges XXXX exit
+edit weapHRARRed2 XXXX SetField FirstPersonWeaponOffseti -0.035 XXXX SetField FirstPersonWeaponOffsetj 0 XXXX SetField FirstPersonWeaponOffseti -0.008 XXXX savechanges XXXX exit
+edit weapHRAROra3 XXXX SetField FirstPersonWeaponOffseti -0.035 XXXX SetField FirstPersonWeaponOffsetj 0 XXXX SetField FirstPersonWeaponOffseti -0.008 XXXX savechanges XXXX exit
+edit weapHRARGre5 XXXX SetField FirstPersonWeaponOffseti -0.035 XXXX SetField FirstPersonWeaponOffsetj 0 XXXX SetField FirstPersonWeaponOffseti -0.008 XXXX savechanges XXXX exit
+edit weapHRARYel6 XXXX SetField FirstPersonWeaponOffseti -0.035 XXXX SetField FirstPersonWeaponOffsetj 0 XXXX SetField FirstPersonWeaponOffseti -0.008 XXXX savechanges XXXX exit
+
+edit modeHRARfpDef0 XXXX SpecifyShaders XXXX shadHRARmainDef XXXX shadHRARmeta XXXX shadHRARshin XXXX shadHRARrubb XXXX shadHRARdeca XXXX shadHRARcmps XXXX shadHRARdisp XXXX shadHRARitem XXXX shadHRARones XXXX shadHRARtens XXXX exit
+edit modeHRARfpRed2 XXXX SpecifyShaders XXXX shadHRARmainRed XXXX shadHRARmeta XXXX shadHRARshin XXXX shadHRARrubb XXXX shadHRARdeca XXXX shadHRARcmps XXXX shadHRARdisp XXXX shadHRARitem XXXX shadHRARones XXXX shadHRARtens XXXX exit
+edit modeHRARfpOra3 XXXX SpecifyShaders XXXX shadHRARmainOra XXXX shadHRARmeta XXXX shadHRARshin XXXX shadHRARrubb XXXX shadHRARdeca XXXX shadHRARcmps XXXX shadHRARdisp XXXX shadHRARitem XXXX shadHRARones XXXX shadHRARtens XXXX exit
+edit modeHRARfpGre5 XXXX SpecifyShaders XXXX shadHRARmainGre XXXX shadHRARmeta XXXX shadHRARshin XXXX shadHRARrubb XXXX shadHRARdeca XXXX shadHRARcmps XXXX shadHRARdisp XXXX shadHRARitem XXXX shadHRARones XXXX shadHRARtens XXXX exit
+edit modeHRARfpYel6 XXXX SpecifyShaders XXXX shadHRARmainYel XXXX shadHRARmeta XXXX shadHRARshin XXXX shadHRARrubb XXXX shadHRARdeca XXXX shadHRARcmps XXXX shadHRARdisp XXXX shadHRARitem XXXX shadHRARones XXXX shadHRARtens XXXX exit
+
+edit modeHRAR3dDef0 XXXX SpecifyShaders XXXX shadHRARmainDef XXXX shadHRARmeta XXXX shadHRARshin XXXX shadHRARrubb XXXX shadHRARdeca XXXX shadHRARcmps XXXX shadHRARdisp XXXX shadHRARitem XXXX shadHRARones XXXX shadHRARtens XXXX exit
+edit modeHRAR3dRed2 XXXX SpecifyShaders XXXX shadHRARmainRed XXXX shadHRARmeta XXXX shadHRARshin XXXX shadHRARrubb XXXX shadHRARdeca XXXX shadHRARcmps XXXX shadHRARdisp XXXX shadHRARitem XXXX shadHRARones XXXX shadHRARtens XXXX exit
+edit modeHRAR3dOra3 XXXX SpecifyShaders XXXX shadHRARmainOra XXXX shadHRARmeta XXXX shadHRARshin XXXX shadHRARrubb XXXX shadHRARdeca XXXX shadHRARcmps XXXX shadHRARdisp XXXX shadHRARitem XXXX shadHRARones XXXX shadHRARtens XXXX exit
+edit modeHRAR3dGre5 XXXX SpecifyShaders XXXX shadHRARmainGre XXXX shadHRARmeta XXXX shadHRARshin XXXX shadHRARrubb XXXX shadHRARdeca XXXX shadHRARcmps XXXX shadHRARdisp XXXX shadHRARitem XXXX shadHRARones XXXX shadHRARtens XXXX exit
+edit modeHRAR3dYel6 XXXX SpecifyShaders XXXX shadHRARmainYel XXXX shadHRARmeta XXXX shadHRARshin XXXX shadHRARrubb XXXX shadHRARdeca XXXX shadHRARcmps XXXX shadHRARdisp XXXX shadHRARitem XXXX shadHRARones XXXX shadHRARtens XXXX exit
+
+edit hlmtHRAR0 XXXX RemoveFrom Nodes 5 * XXXX AddTo Nodes XXXX SetField Nodes[*].Name default XXXX savechanges XXXX exit
+edit hlmtHRAR2 XXXX RemoveFrom Nodes 5 * XXXX AddTo Nodes XXXX SetField Nodes[*].Name default XXXX savechanges XXXX exit
+edit hlmtHRAR3 XXXX RemoveFrom Nodes 5 * XXXX AddTo Nodes XXXX SetField Nodes[*].Name default XXXX savechanges XXXX exit
+edit hlmtHRAR5 XXXX RemoveFrom Nodes 5 * XXXX AddTo Nodes XXXX SetField Nodes[*].Name default XXXX savechanges XXXX exit
+edit hlmtHRAR6 XXXX RemoveFrom Nodes 5 * XXXX AddTo Nodes XXXX SetField Nodes[*].Name default XXXX savechanges XXXX exit
+
+// edit bitmHRARdefaultOnes
+// import 0 DDS/ammu/numbers_plate.dds
+// import 1 DDS/ammu/numbers_plate1.dds
+// import 2 DDS/ammu/numbers_plate2.dds
+// import 3 DDS/ammu/numbers_plate3.dds
+// import 4 DDS/ammu/numbers_plate4.dds
+// import 5 DDS/ammu/numbers_plate5.dds
+// import 6 DDS/ammu/numbers_plate6.dds
+// import 7 DDS/ammu/numbers_plate7.dds
+// import 8 DDS/ammu/numbers_plate8.dds
+// import 9 DDS/ammu/numbers_plate9.dds
+// exit
+// edit bitmHRARdefaultComp
+// import 0 DDS/compass/compass0.dds
+// import 1 DDS/compass/compass1.dds
+// import 2 DDS/compass/compass2.dds
+// import 3 DDS/compass/compass3.dds
+// import 4 DDS/compass/compass4.dds
+// import 5 DDS/compass/compass5.dds
+// import 6 DDS/compass/compass6.dds
+// import 7 DDS/compass/compass7.dds
+// exit
+// extract bitmHRARdefaultOnes tags\bitm_HRAROnes.tag
+// extract bitmHRARdefaultComp tags\bitm_HRARComp.tag
+// extractresource textures.dat bitmHRARdefaultOnes tags\ones\bitm_HRARones_0.bitm 0
+// extractresource textures.dat bitmHRARdefaultOnes tags\ones\bitm_HRARones_1.bitm 1
+// extractresource textures.dat bitmHRARdefaultOnes tags\ones\bitm_HRARones_2.bitm 2
+// extractresource textures.dat bitmHRARdefaultOnes tags\ones\bitm_HRARones_3.bitm 3
+// extractresource textures.dat bitmHRARdefaultOnes tags\ones\bitm_HRARones_4.bitm 4
+// extractresource textures.dat bitmHRARdefaultOnes tags\ones\bitm_HRARones_5.bitm 5
+// extractresource textures.dat bitmHRARdefaultOnes tags\ones\bitm_HRARones_6.bitm 6
+// extractresource textures.dat bitmHRARdefaultOnes tags\ones\bitm_HRARones_7.bitm 7
+// extractresource textures.dat bitmHRARdefaultOnes tags\ones\bitm_HRARones_8.bitm 8
+// extractresource textures.dat bitmHRARdefaultOnes tags\ones\bitm_HRARones_9.bitm 9
+// extractresource textures.dat bitmHRARdefaultComp tags\compass\bitm_HRAROnes_0.bitm 0
+// extractresource textures.dat bitmHRARdefaultComp tags\compass\bitm_HRAROnes_1.bitm 1
+// extractresource textures.dat bitmHRARdefaultComp tags\compass\bitm_HRAROnes_2.bitm 2
+// extractresource textures.dat bitmHRARdefaultComp tags\compass\bitm_HRAROnes_3.bitm 3
+// extractresource textures.dat bitmHRARdefaultComp tags\compass\bitm_HRAROnes_4.bitm 4
+// extractresource textures.dat bitmHRARdefaultComp tags\compass\bitm_HRAROnes_5.bitm 5
+// extractresource textures.dat bitmHRARdefaultComp tags\compass\bitm_HRAROnes_6.bitm 6
+// extractresource textures.dat bitmHRARdefaultComp tags\compass\bitm_HRAROnes_7.bitm 7
+
+import bitmHRARones tags/bitm_HRAROnes.tag
+import bitmHRARcomp tags/bitm_HRARComp.tag
+
+importresource textures.dat bitmHRARones tags/ones
+importresource textures.dat bitmHRARcomp tags/compass
+
+dumplog reachAR.log XXXX exit XXXX exit
+
+
+
+// END OF COMMANDS
+
+// TAGS LIST as of last install; check the cmds to see the last installed tags
+bitmHRARDefa bitm_HRARDefa
+bitmHRARGree bitm_HRARGree
+bitmHRAROran bitm_HRAROran
+bitmHRARRed0 bitm_HRARRed0
+bitmHRARYell bitm_HRARYell
+bitmHRARones bitm_HRARammu
+bitmHRARbull bitm_HRARbull
+bitmHRARbump bitm_HRARbump
+bitmHRARcomp bitm_HRARcomp
+bitmHRARdeca bitm_HRARdeca
+bitmHRARdisp bitm_HRARdisp
+hlmtHRAR0 hlmt_HRAR0
+hlmtHRAR2 hlmt_HRAR2
+hlmtHRAR3 hlmt_HRAR3
+hlmtHRAR5 hlmt_HRAR5
+hlmtHRAR6 hlmt_HRAR6
+modeHRAR3dDef0 mode_HRAR3dDef0
+modeHRAR3dGre5 mode_HRAR3dGre5
+modeHRAR3dOra3 mode_HRAR3dOra3
+modeHRAR3dRed2 mode_HRAR3dRed2
+modeHRAR3dYel6 mode_HRAR3dYel6
+modeHRARfpDef0 mode_HRARfpDef0
+modeHRARfpGre5 mode_HRARfpGre5
+modeHRARfpOra3 mode_HRARfpOra3
+modeHRARfpRed2 mode_HRARfpRed2
+modeHRARfpYel6 mode_HRARfpYel6
+shadHRARcmps shad_HRARcmps
+shadHRARdeca shad_HRARdeca
+shadHRARdisp shad_HRARdisp
+shadHRARitem shad_HRARitem
+shadHRARmainDef shad_HRARmainDef
+shadHRARmainGre shad_HRARmainGre
+shadHRARmainOra shad_HRARmainOra
+shadHRARmainRed shad_HRARmainRed
+shadHRARmainYel shad_HRARmainYel
+shadHRARmeta shad_HRARmeta
+shadHRARones shad_HRARones
+shadHRARrubb shad_HRARrubb
+shadHRARshin shad_HRARshin
+shadHRARtens shad_HRARtens
+weapHRARDef0 weap_HRARDef0
+weapHRARGre5 weap_HRARGre5
+weapHRAROra3 weap_HRAROra3
+weapHRARRed2 weap_HRARRed2
+weapHRARYel6 weap_HRARYel6
+
+// DEBUG
+assault_rifle_composite     shadHRARmeta; 0 top
+assault_rifle_metal         shadHRARmain; 1 mid
+assault_rifle_metal_shiny   shadHRARshin; 2 shiny
+assault_rifle_rubb          shadHRARrubb; 3 rubber
+unsc_decals_fp              shadHRARdeca; 4 decals
+comps                       shadHRARcmps; 5 compass
+display                     shadHRARdisp; 6 display
+item                        shadHRARitem; 7 LCD bullets
+ones                        shadHRARones; 8 ammo
+tens                        shadHRARtens; 9 ammo
+
+// Shaders tweak:
+argument 06 diffuse_coefficient
+argument 19 albedo_blend
+argument 16 envinment_map_specular_contribution; watery reflections 0
+argument 29 self_illum_intensity
+argument 28 self_illum_color

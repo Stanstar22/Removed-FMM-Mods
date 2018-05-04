@@ -1,0 +1,17 @@
+cd mods\tagMods\reachMods\reachSMG
+ECHO FMM_OUTPUT Installing Halo Reach SMG ...
+color 0A
+
+Type commands\genLastTag.cmds | TagTool.exe ../../../../maps/tags.dat
+timeout 1
+
+Type commands\reserveTags.cmds | TagTool.exe ../../../../maps/tags.dat
+timeout 1
+
+START /WAIT commands\TTCC.exe commands\reachSMG.cmdX
+
+MOVE ..\..\..\..\maps\resources.dat resources.dat
+Type commands\reachSMG.cmds | TagTool.exe ../../../../maps/tags.dat
+MOVE resources.dat ..\..\..\..\maps\resources.dat
+
+ECHO FMM_OUTPUT Halo Reach SMG installation complete ...

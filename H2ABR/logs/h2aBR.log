@@ -1,0 +1,1153 @@
+Tag Tool [1.0.5907.15260]
+
+Please report any bugs and feature requests at
+<https://github.com/camden-smallwood/TagTool/issues>.
+
+Reading tags...29102 tags loaded.
+- Detected target engine version 1.106708 cert_ms23.
+- This cache file was built on 20/03/2015 at 14:40.
+Reading stringIDs...37422 strings loaded.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags.dat> Halo 2 Anniversary Battle Rifle port V2 for Halo Online Eldewrito ms23; from Halo Online MS30 build
+Unrecognized command: Halo
+Use "help" to list available commands.
+
+tags.dat> 
+
+tags.dat> 
+
+tags.dat> 
+
+tags.dat> echo duplicate tags/reserve; 123 dupes
+duplicate tags/reserve; 123 dupes 
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071AE [Offset = 0x7F1D760, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071AF [Offset = 0x7F1D900, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071B0 [Offset = 0x7F1DAA0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071B1 [Offset = 0x7F1DC40, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071B2 [Offset = 0x7F1DDE0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071B3 [Offset = 0x7F1DF80, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071B4 [Offset = 0x7F1E120, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071B5 [Offset = 0x7F1E2C0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071B6 [Offset = 0x7F1E460, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071B7 [Offset = 0x7F1E600, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071B8 [Offset = 0x7F1E7A0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071B9 [Offset = 0x7F1E940, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071BA [Offset = 0x7F1EAE0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071BB [Offset = 0x7F1EC80, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071BC [Offset = 0x7F1EE20, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071BD [Offset = 0x7F1EFC0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071BE [Offset = 0x7F1F160, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071BF [Offset = 0x7F1F300, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071C0 [Offset = 0x7F1F4A0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071C1 [Offset = 0x7F1F640, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071C2 [Offset = 0x7F1F7E0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071C3 [Offset = 0x7F1F980, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071C4 [Offset = 0x7F1FB20, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071C5 [Offset = 0x7F1FCC0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071C6 [Offset = 0x7F1FE60, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071C7 [Offset = 0x7F20000, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071C8 [Offset = 0x7F201A0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071C9 [Offset = 0x7F20340, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071CA [Offset = 0x7F204E0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071CB [Offset = 0x7F20680, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071CC [Offset = 0x7F20820, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071CD [Offset = 0x7F209C0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071CE [Offset = 0x7F20B60, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071CF [Offset = 0x7F20D00, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071D0 [Offset = 0x7F20EA0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071D1 [Offset = 0x7F21040, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071D2 [Offset = 0x7F211E0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071D3 [Offset = 0x7F21380, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071D4 [Offset = 0x7F21520, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071D5 [Offset = 0x7F216C0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071D6 [Offset = 0x7F21860, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071D7 [Offset = 0x7F21A00, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071D8 [Offset = 0x7F21BA0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071D9 [Offset = 0x7F21D40, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071DA [Offset = 0x7F21EE0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071DB [Offset = 0x7F22080, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071DC [Offset = 0x7F22220, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071DD [Offset = 0x7F223C0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071DE [Offset = 0x7F22560, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071DF [Offset = 0x7F22700, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071E0 [Offset = 0x7F228A0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071E1 [Offset = 0x7F22A40, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071E2 [Offset = 0x7F22BE0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071E3 [Offset = 0x7F22D80, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071E4 [Offset = 0x7F22F20, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071E5 [Offset = 0x7F230C0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071E6 [Offset = 0x7F23260, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071E7 [Offset = 0x7F23400, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071E8 [Offset = 0x7F235A0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071E9 [Offset = 0x7F23740, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071EA [Offset = 0x7F238E0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071EB [Offset = 0x7F23A80, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071EC [Offset = 0x7F23C20, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071ED [Offset = 0x7F23DC0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071EE [Offset = 0x7F23F60, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071EF [Offset = 0x7F24100, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071F0 [Offset = 0x7F242A0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071F1 [Offset = 0x7F24440, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071F2 [Offset = 0x7F245E0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071F3 [Offset = 0x7F24780, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071F4 [Offset = 0x7F24920, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071F5 [Offset = 0x7F24AC0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071F6 [Offset = 0x7F24C60, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071F7 [Offset = 0x7F24E00, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071F8 [Offset = 0x7F24FA0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071F9 [Offset = 0x7F25140, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071FA [Offset = 0x7F252E0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071FB [Offset = 0x7F25480, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071FC [Offset = 0x7F25620, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071FD [Offset = 0x7F257C0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071FE [Offset = 0x7F25960, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 000071FF [Offset = 0x7F25B00, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007200 [Offset = 0x7F25CA0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007201 [Offset = 0x7F25E40, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007202 [Offset = 0x7F25FE0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007203 [Offset = 0x7F26180, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007204 [Offset = 0x7F26320, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007205 [Offset = 0x7F264C0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007206 [Offset = 0x7F26660, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007207 [Offset = 0x7F26800, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007208 [Offset = 0x7F269A0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007209 [Offset = 0x7F26B40, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 0000720A [Offset = 0x7F26CE0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 0000720B [Offset = 0x7F26E80, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 0000720C [Offset = 0x7F27020, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 0000720D [Offset = 0x7F271C0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 0000720E [Offset = 0x7F27360, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 0000720F [Offset = 0x7F27500, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007210 [Offset = 0x7F276A0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007211 [Offset = 0x7F27840, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007212 [Offset = 0x7F279E0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007213 [Offset = 0x7F27B80, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007214 [Offset = 0x7F27D20, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007215 [Offset = 0x7F27EC0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007216 [Offset = 0x7F28060, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007217 [Offset = 0x7F28200, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007218 [Offset = 0x7F283A0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007219 [Offset = 0x7F28540, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 0000721A [Offset = 0x7F286E0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 0000721B [Offset = 0x7F28880, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 0000721C [Offset = 0x7F28A20, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 0000721D [Offset = 0x7F28BC0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 0000721E [Offset = 0x7F28D60, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 0000721F [Offset = 0x7F28F00, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007220 [Offset = 0x7F290A0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007221 [Offset = 0x7F29240, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007222 [Offset = 0x7F293E0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007223 [Offset = 0x7F29580, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007224 [Offset = 0x7F29720, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007225 [Offset = 0x7F298C0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007226 [Offset = 0x7F29A60, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007227 [Offset = 0x7F29C00, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007228 [Offset = 0x7F29DA0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 00007229 [Offset = 0x7F29F40, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 0000722A [Offset = 0x7F2A0E0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 0000722B [Offset = 0x7F2A280, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 0000722C [Offset = 0x7F2A420, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 0000722D [Offset = 0x7F2A5C0, Size = 0x1A0]
+
+tags.dat> duplicate 0
+Tag duplicated successfully!
+New tag: cfgt 0000722E [Offset = 0x7F2A760, Size = 0x1A0]
+
+tags.dat> echo END OF dupe tags
+END OF dupe tags 
+tags.dat> 
+
+tags.dat> echo IMPORT RESOURCE DATA
+IMPORT RESOURCE DATA 
+tags.dat> resourcedata import resources.dat 0054 tags/H2ABR.raw
+Imported 0x76434 bytes.
+Compressed size = 0x29C4F
+
+tags.dat> echo END OF IMPORT RESOURCE DATA
+END OF IMPORT RESOURCE DATA 
+tags.dat> 
+
+tags.dat> echo IMPORT TAGS
+IMPORT TAGS 
+tags.dat> import 5767 tags/glps_5767.tag
+Imported 0x470 bytes.
+
+tags.dat> import 5768 tags/glvs_5768.tag
+Imported 0x2B3B0 bytes.
+
+tags.dat> import 5771 tags/pixl_5771.tag
+Imported 0x191C0 bytes.
+
+tags.dat> import 5777 tags/pixl_5777.tag
+Imported 0x18310 bytes.
+
+tags.dat> import 577D tags/pixl_577D.tag
+Imported 0x16E50 bytes.
+
+tags.dat> import 5782 tags/pixl_5782.tag
+Imported 0xA9B0 bytes.
+
+tags.dat> import 5788 tags/pixl_5788.tag
+Imported 0x4080 bytes.
+
+tags.dat> import 5728 tags/rmdf_5728.tag
+Imported 0xCC0 bytes.
+
+tags.dat> import 5729 tags/rmop_5729.tag
+Imported 0x360 bytes.
+
+tags.dat> import 572A tags/rmop_572A.tag
+Imported 0x120 bytes.
+
+tags.dat> import 572D tags/rmop_572D.tag
+Imported 0x120 bytes.
+
+tags.dat> import 572E tags/rmop_572E.tag
+Imported 0x90 bytes.
+
+tags.dat> import 572F tags/rmop_572F.tag
+Imported 0x1B0 bytes.
+
+tags.dat> import 5730 tags/rmop_5730.tag
+Imported 0x240 bytes.
+
+tags.dat> import 5731 tags/rmop_5731.tag
+Imported 0x160 bytes.
+
+tags.dat> import 5732 tags/rmop_5732.tag
+Imported 0x160 bytes.
+
+tags.dat> import 5733 tags/rmop_5733.tag
+Imported 0x120 bytes.
+
+tags.dat> import 5734 tags/rmop_5734.tag
+Imported 0x250 bytes.
+
+tags.dat> import 5736 tags/rmop_5736.tag
+Imported 0x120 bytes.
+
+tags.dat> import 5737 tags/rmop_5737.tag
+Imported 0x240 bytes.
+
+tags.dat> import 5738 tags/rmop_5738.tag
+Imported 0x2D0 bytes.
+
+tags.dat> import 5739 tags/rmop_5739.tag
+Imported 0x430 bytes.
+
+tags.dat> import 573A tags/rmop_573A.tag
+Imported 0x320 bytes.
+
+tags.dat> import 573C tags/rmop_573C.tag
+Imported 0x170 bytes.
+
+tags.dat> import 573D tags/rmop_573D.tag
+Imported 0x1B0 bytes.
+
+tags.dat> import 573E tags/rmop_573E.tag
+Imported 0x3A0 bytes.
+
+tags.dat> import 573F tags/rmop_573F.tag
+Imported 0x40 bytes.
+
+tags.dat> import 5740 tags/rmop_5740.tag
+Imported 0x90 bytes.
+
+tags.dat> import 5742 tags/rmop_5742.tag
+Imported 0x120 bytes.
+
+tags.dat> import 5743 tags/rmop_5743.tag
+Imported 0x1B0 bytes.
+
+tags.dat> import 5744 tags/rmop_5744.tag
+Imported 0x1F0 bytes.
+
+tags.dat> import 5745 tags/rmop_5745.tag
+Imported 0x40 bytes.
+
+tags.dat> import 5746 tags/rmop_5746.tag
+Imported 0x90 bytes.
+
+tags.dat> import 5748 tags/rmop_5748.tag
+Imported 0x90 bytes.
+
+tags.dat> import 5749 tags/rmop_5749.tag
+Imported 0x90 bytes.
+
+tags.dat> import 574A tags/rmop_574A.tag
+Imported 0x750 bytes.
+
+tags.dat> import 574B tags/rmop_574B.tag
+Imported 0x430 bytes.
+
+tags.dat> import 574C tags/rmop_574C.tag
+Imported 0x90 bytes.
+
+tags.dat> import 574D tags/rmop_574D.tag
+Imported 0x2D0 bytes.
+
+tags.dat> import 574E tags/rmop_574E.tag
+Imported 0x8B0 bytes.
+
+tags.dat> import 574F tags/rmop_574F.tag
+Imported 0x2D0 bytes.
+
+tags.dat> import 5750 tags/rmop_5750.tag
+Imported 0xA20 bytes.
+
+tags.dat> import 5752 tags/rmop_5752.tag
+Imported 0x120 bytes.
+
+tags.dat> import 5754 tags/rmop_5754.tag
+Imported 0x160 bytes.
+
+tags.dat> import 5755 tags/rmop_5755.tag
+Imported 0x280 bytes.
+
+tags.dat> import 5757 tags/rmop_5757.tag
+Imported 0x120 bytes.
+
+tags.dat> import 5758 tags/rmop_5758.tag
+Imported 0x1B0 bytes.
+
+tags.dat> import 5759 tags/rmop_5759.tag
+Imported 0x310 bytes.
+
+tags.dat> import 575B tags/rmop_575B.tag
+Imported 0xD0 bytes.
+
+tags.dat> import 575C tags/rmop_575C.tag
+Imported 0x160 bytes.
+
+tags.dat> import 575D tags/rmop_575D.tag
+Imported 0x160 bytes.
+
+tags.dat> import 575F tags/rmop_575F.tag
+Imported 0x160 bytes.
+
+tags.dat> import 5760 tags/rmop_5760.tag
+Imported 0x120 bytes.
+
+tags.dat> import 5761 tags/rmop_5761.tag
+Imported 0x160 bytes.
+
+tags.dat> import 5762 tags/rmop_5762.tag
+Imported 0xD0 bytes.
+
+tags.dat> import 5764 tags/rmop_5764.tag
+Imported 0x120 bytes.
+
+tags.dat> import 5765 tags/rmop_5765.tag
+Imported 0x160 bytes.
+
+tags.dat> import 5766 tags/rmop_5766.tag
+Imported 0x1F0 bytes.
+
+tags.dat> import 5727 tags/rmsh_5727.tag
+Imported 0xE30 bytes.
+
+tags.dat> import 5772 tags/rmsh_5772.tag
+Imported 0xD90 bytes.
+
+tags.dat> import 5778 tags/rmsh_5778.tag
+Imported 0xBC0 bytes.
+
+tags.dat> import 5784 tags/rmsh_5784.tag
+Imported 0x3B0 bytes.
+
+tags.dat> import 5789 tags/rmsh_5789.tag
+Imported 0x530 bytes.
+
+tags.dat> import 576F tags/rmt2_576F.tag
+Imported 0xB30 bytes.
+
+tags.dat> import 5775 tags/rmt2_5775.tag
+Imported 0xA90 bytes.
+
+tags.dat> import 577B tags/rmt2_577B.tag
+Imported 0x9A0 bytes.
+
+tags.dat> import 5780 tags/rmt2_5780.tag
+Imported 0x4C0 bytes.
+
+tags.dat> import 5786 tags/rmt2_5786.tag
+Imported 0x480 bytes.
+
+tags.dat> import 5770 tags/vtsh_5770.tag
+Imported 0x50 bytes.
+
+tags.dat> import 5776 tags/vtsh_5776.tag
+Imported 0x50 bytes.
+
+tags.dat> import 577C tags/vtsh_577C.tag
+Imported 0x50 bytes.
+
+tags.dat> import 5781 tags/vtsh_5781.tag
+Imported 0x50 bytes.
+
+tags.dat> import 5787 tags/vtsh_5787.tag
+Imported 0x50 bytes.
+
+tags.dat> import 577E tags/rmsh_577E.tag
+Imported 0x510 bytes.
+
+tags.dat> import 5783 tags/rmsh_5783.tag
+Imported 0x510 bytes.
+
+tags.dat> echo END OF IMPORT TAGS
+END OF IMPORT TAGS 
+tags.dat> 
+
+tags.dat> echo IMPORT TEXTURES
+IMPORT TEXTURES 
+tags.dat> importbitmap 572B DDS/0000572B.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 0000572B [Offset = 0x7C7DE20, Size = 0x260]
+
+tags.dat> importbitmap 572C DDS/0000572C.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 0000572C [Offset = 0x7C7E080, Size = 0x260]
+
+tags.dat> importbitmap 573B DDS/0000573B.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 0000573B [Offset = 0x7C7FC70, Size = 0x260]
+
+tags.dat> importbitmap 5741 DDS/00005741.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 00005741 [Offset = 0x7C80660, Size = 0x260]
+
+tags.dat> importbitmap 5747 DDS/00005747.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 00005747 [Offset = 0x7C80E50, Size = 0x260]
+
+tags.dat> importbitmap 5751 DDS/00005751.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 00005751 [Offset = 0x7C83650, Size = 0x260]
+
+tags.dat> importbitmap 5753 DDS/00005753.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 00005753 [Offset = 0x7C839D0, Size = 0x260]
+
+tags.dat> importbitmap 5756 DDS/00005756.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 00005756 [Offset = 0x7C84010, Size = 0x260]
+
+tags.dat> importbitmap 575A DDS/0000575A.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 0000575A [Offset = 0x7C84850, Size = 0x260]
+
+tags.dat> importbitmap 575E DDS/0000575E.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 0000575E [Offset = 0x7C84E40, Size = 0x260]
+
+tags.dat> importbitmap 5763 DDS/00005763.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 00005763 [Offset = 0x7C85550, Size = 0x260]
+
+tags.dat> importbitmap 576A DDS/0000576A.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 0000576A [Offset = 0x7CB1480, Size = 0x260]
+
+tags.dat> importbitmap 576B DDS/0000576B.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 0000576B [Offset = 0x7CB16E0, Size = 0x260]
+
+tags.dat> importbitmap 576C DDS/0000576C.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 0000576C [Offset = 0x7CB1940, Size = 0x260]
+
+tags.dat> importbitmap 576D DDS/0000576D.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 0000576D [Offset = 0x7CB1BA0, Size = 0x260]
+
+tags.dat> importbitmap 576E DDS/0000576E.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 0000576E [Offset = 0x7CB1E00, Size = 0x260]
+
+tags.dat> importbitmap 5773 DDS/00005773.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 00005773 [Offset = 0x7CCCB30, Size = 0x260]
+
+tags.dat> importbitmap 5774 DDS/00005774.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 00005774 [Offset = 0x7CCCD90, Size = 0x260]
+
+tags.dat> importbitmap 5779 DDS/00005779.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 00005779 [Offset = 0x7CE69A0, Size = 0x260]
+
+tags.dat> importbitmap 577A DDS/0000577A.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 0000577A [Offset = 0x7CE6C00, Size = 0x260]
+
+tags.dat> importbitmap 5785 DDS/00005785.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 00005785 [Offset = 0x7D0A370, Size = 0x260]
+
+tags.dat> importbitmap 578A DDS/0000578A.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 0000578A [Offset = 0x7D0F050, Size = 0x260]
+
+tags.dat> importbitmap 5735 DDS/00005735/3.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 00005735 [Offset = 0x7C7EEB0, Size = 0x260]
+
+tags.dat> echo ammo counter
+ammo counter 
+tags.dat> 
+
+tags.dat> echo skins
+skins 
+tags.dat> importbitmap 5769 DDS/00005769.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 00005769 [Offset = 0x7CB1660, Size = 0x260]
+
+tags.dat> 
+
+tags.dat> importbitmap 57A0 DDS/MDGZ.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 000057A0 [Offset = 0x7D0FC30, Size = 0x260]
+
+tags.dat> importbitmap 57A1 DDS/green.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 000057A1 [Offset = 0x7D0FE90, Size = 0x260]
+
+tags.dat> importbitmap 57A2 DDS/blue.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 000057A2 [Offset = 0x7D100F0, Size = 0x260]
+
+tags.dat> importbitmap 57A3 DDS/orange.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 000057A3 [Offset = 0x7D10350, Size = 0x260]
+
+tags.dat> importbitmap 57A4 DDS/gold.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 000057A4 [Offset = 0x7D105B0, Size = 0x260]
+
+tags.dat> importbitmap 57A5 DDS/purple.dds
+Loading textures.dat...
+Importing image...
+Creating a new tag...
+
+All done! The new bitmap tag is:
+bitm 000057A5 [Offset = 0x7D10810, Size = 0x260]
+
+tags.dat> echo END OF TEXTURES
+END OF TEXTURES 
+tags.dat> 
+
+tags.dat> import 0F71 tags/mode_H2ABR0fp.tag
+Imported 0xB10 bytes.
+
+tags.dat> import 0F99 tags/mode_H2ABR1fp.tag
+Imported 0xB10 bytes.
+
+tags.dat> import 0FAE tags/mode_H2ABR2fp.tag
+Imported 0xB10 bytes.
+
+tags.dat> import 0FBA tags/mode_H2ABR3fp.tag
+Imported 0xB10 bytes.
+
+tags.dat> import 0FC6 tags/mode_H2ABR4fp.tag
+Imported 0xB10 bytes.
+
+tags.dat> import 0FD7 tags/mode_H2ABR5fp.tag
+Imported 0xB10 bytes.
+
+tags.dat> import 0FE1 tags/mode_H2ABR6fp.tag
+Imported 0xB10 bytes.
+
+tags.dat> import 1DA0 tags/mode_H2ABR03d.tag
+Imported 0xB10 bytes.
+
+tags.dat> import 2587 tags/mode_H2ABR13d.tag
+Imported 0xB10 bytes.
+
+tags.dat> import 2591 tags/mode_H2ABR23d.tag
+Imported 0xB10 bytes.
+
+tags.dat> import 2368 tags/mode_H2ABR33d.tag
+Imported 0xB10 bytes.
+
+tags.dat> import 2375 tags/mode_H2ABR43d.tag
+Imported 0xB10 bytes.
+
+tags.dat> import 259A tags/mode_H2ABR53d.tag
+Imported 0xB10 bytes.
+
+tags.dat> import 2386 tags/mode_H2ABR63d.tag
+Imported 0xB10 bytes.
+
+tags.dat> import 5792 tags/shad_H2ABRammoOnes0.tag
+Imported 0x510 bytes.
+
+tags.dat> import 5793 tags/shad_H2ABRammoOnes1.tag
+Imported 0x510 bytes.
+
+tags.dat> import 5794 tags/shad_H2ABRammoOnes2.tag
+Imported 0x510 bytes.
+
+tags.dat> import 5795 tags/shad_H2ABRammoOnes3.tag
+Imported 0x510 bytes.
+
+tags.dat> import 5796 tags/shad_H2ABRammoOnes4.tag
+Imported 0x510 bytes.
+
+tags.dat> import 5797 tags/shad_H2ABRammoOnes5.tag
+Imported 0x510 bytes.
+
+tags.dat> import 5798 tags/shad_H2ABRammoOnes6.tag
+Imported 0x510 bytes.
+
+tags.dat> import 5799 tags/shad_H2ABRammoTens0.tag
+Imported 0x510 bytes.
+
+tags.dat> import 579A tags/shad_H2ABRammoTens1.tag
+Imported 0x510 bytes.
+
+tags.dat> import 579B tags/shad_H2ABRammoTens2.tag
+Imported 0x510 bytes.
+
+tags.dat> import 579C tags/shad_H2ABRammoTens3.tag
+Imported 0x510 bytes.
+
+tags.dat> import 579D tags/shad_H2ABRammoTens4.tag
+Imported 0x510 bytes.
+
+tags.dat> import 579E tags/shad_H2ABRammoTens5.tag
+Imported 0x510 bytes.
+
+tags.dat> import 579F tags/shad_H2ABRammoTens6.tag
+Imported 0x510 bytes.
+
+tags.dat> import 578B tags/shad_BR0metal.tag
+Imported 0xE30 bytes.
+
+tags.dat> import 578C tags/shad_BR1metal.tag
+Imported 0xE30 bytes.
+
+tags.dat> import 578D tags/shad_BR2metal.tag
+Imported 0xE30 bytes.
+
+tags.dat> import 578E tags/shad_BR3metal.tag
+Imported 0xE30 bytes.
+
+tags.dat> import 578F tags/shad_BR4metal.tag
+Imported 0xE30 bytes.
+
+tags.dat> import 5790 tags/shad_BR5metal.tag
+Imported 0xE30 bytes.
+
+tags.dat> import 5791 tags/shad_BR6metal.tag
+Imported 0xE30 bytes.
+
+tags.dat> 
+
+tags.dat> extract 0 H2ABRinstalled.txt
+Wrote 0x1A0 bytes to H2ABRinstalled.txt.
+The tag's main struct will be at offset 0x190.
+
+tags.dat> 
+
+tags.dat> dumplog h2aBR.log

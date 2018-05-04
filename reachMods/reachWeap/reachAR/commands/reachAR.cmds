@@ -1,0 +1,856 @@
+echo REACH ASSAULT RIFLE MOD FOR HALO ONLINE ELDORITO MS23 0.5.1.1; made by BUNGIE, rebuilt by dany5639 using HaloOnlineTagTool
+echo REACH ASSAULT RIFLE MOD FOR HALO ONLINE ELDORITO MS23 0.5.1.1; made by BUNGIE, rebuilt by dany5639 using HaloOnlineTagTool
+151E
+151E
+1581
+1581
+1582
+1582
+1583
+1583
+1584
+1584
+0EE1
+0EE1
+0F22
+0F22
+0F32
+0F32
+0F52
+0F52
+0F61
+0F61
+1C7B
+1C7B
+2329
+2329
+233A
+233A
+2347
+2347
+2358
+2358
+echo REACH ASSAULT RIFLE MOD FOR HALO ONLINE ELDORITO MS23 0.5.1.1; made by BUNGIE, rebuilt by dany5639 using HaloOnlineTagTool
+echo REACH ASSAULT RIFLE MOD FOR HALO ONLINE ELDORITO MS23 0.5.1.1; made by BUNGIE, rebuilt by dany5639 using HaloOnlineTagTool
+0000
+710F
+0000
+7110
+0000
+7111
+0000
+7112
+0000
+7113
+0000
+7114
+0000
+7115
+0000
+7116
+0000
+7117
+0000
+7118
+0000
+7119
+0000
+711A
+0000
+711B
+0000
+711C
+echo REACH ASSAULT RIFLE MOD FOR HALO ONLINE ELDORITO MS23 0.5.1.1; made by BUNGIE, rebuilt by dany5639 using HaloOnlineTagTool
+echo REACH ASSAULT RIFLE MOD FOR HALO ONLINE ELDORITO MS23 0.5.1.1; made by BUNGIE, rebuilt by dany5639 using HaloOnlineTagTool
+0000
+711D
+0000
+711E
+0000
+711F
+0000
+7120
+0000
+7121
+0000
+7122
+0000
+7123
+0000
+7124
+0000
+7125
+0000
+7126
+0000
+7127
+echo REACH ASSAULT RIFLE MOD FOR HALO ONLINE ELDORITO MS23 0.5.1.1; made by BUNGIE, rebuilt by dany5639 using HaloOnlineTagTool
+echo REACH ASSAULT RIFLE MOD FOR HALO ONLINE ELDORITO MS23 0.5.1.1; made by BUNGIE, rebuilt by dany5639 using HaloOnlineTagTool
+0F09
+0F09
+0F05
+0F05
+echo REACH ASSAULT RIFLE MOD FOR HALO ONLINE ELDORITO MS23 0.5.1.1; made by BUNGIE, rebuilt by dany5639 using HaloOnlineTagTool
+echo REACH ASSAULT RIFLE MOD FOR HALO ONLINE ELDORITO MS23 0.5.1.1; made by BUNGIE, rebuilt by dany5639 using HaloOnlineTagTool
+1B80
+1B80
+231E
+231E
+2333
+2333
+2341
+2341
+2352
+2352
+echo REACH ASSAULT RIFLE MOD FOR HALO ONLINE ELDORITO MS23 0.5.1.1; made by BUNGIE, rebuilt by dany5639 using HaloOnlineTagTool
+echo REACH ASSAULT RIFLE MOD FOR HALO ONLINE ELDORITO MS23 0.5.1.1; made by BUNGIE, rebuilt by dany5639 using HaloOnlineTagTool
+echo
+echo
+echo REACH ASSAULT RIFLE MOD FOR HALO ONLINE ELDORITO MS23 0.5.1.1; made by BUNGIE, rebuilt by dany5639 using HaloOnlineTagTool
+echo REACH ASSAULT RIFLE MOD FOR HALO ONLINE ELDORITO MS23 0.5.1.1; made by BUNGIE, rebuilt by dany5639 using HaloOnlineTagTool
+STOP
+
+SetLocale US
+
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+
+import 0EE1 tags/mode_HRAR.tag
+importresource resources.dat 0EE1 tags/HRAR.raw
+
+importbitmap 711F DDS/assault_rifle_normal.dds
+importbitmap 711D DDS/display_plate.dds
+importbitmap 711E DDS/bullet_plate.dds
+importbitmap 7120 DDS/unsc_decals_diffuse.dds
+importbitmap 7121 DDS/assault_rifle_diffuse_def.dds
+importbitmap 7122 DDS/assault_rifle_diffuse_red.dds
+importbitmap 7124 DDS/assault_rifle_diffuse_green.dds
+importbitmap 7125 DDS/assault_rifle_diffuse_yellow.dds
+importbitmap 7123 DDS/assault_rifle_diffuse_orange.dds
+
+import 7113 tagTemplates/205B_rmshTemplate
+import 7114 tagTemplates/205B_rmshTemplate
+import 7115 tagTemplates/205B_rmshTemplate
+import 7116 tagTemplates/205B_rmshTemplate
+import 7117 tagTemplates/205B_rmshTemplate
+
+import 7118 tagTemplates/0F11_rmshTemplate
+import 711A tagTemplates/0EEB_rmshTemplate
+import 7119 tagTemplates/0EEC_rmshTemplate
+import 710F tagTemplates/205B_rmshTemplate
+import 7110 tagTemplates/205B_rmshTemplate
+import 7111 tagTemplates/205B_rmshTemplate
+import 7112 tagTemplates/1CA4_rmshTemplate
+import 711C tagTemplates/0EEA_rmshTemplate
+import 711B tagTemplates/0F11_rmshTemplate
+
+edit 7113
+SpecifyBitmaps
+7121
+0343
+711F
+0376
+02B7
+02B9
+0379
+exit
+edit 7114
+SpecifyBitmaps
+7122
+0343
+711F
+0376
+02B7
+02B9
+0379
+exit
+edit 7115
+SpecifyBitmaps
+7123
+0343
+711F
+0376
+02B7
+02B9
+0379
+exit
+edit 7116
+SpecifyBitmaps
+7124
+0343
+711F
+0376
+02B7
+02B9
+0379
+exit
+edit 7117
+SpecifyBitmaps
+7125
+0343
+711F
+0376
+02B7
+02B9
+0379
+exit
+
+edit 710F
+SpecifyBitmaps
+7121
+0343
+711F
+0376
+02B7
+02B9
+0379
+exit
+edit 7110
+SpecifyBitmaps
+7121
+0343
+711F
+0376
+02B7
+02B9
+0379
+exit
+edit 7111
+SpecifyBitmaps
+7121
+0343
+711F
+0376
+02B7
+02B9
+0379
+exit
+edit 7112
+SpecifyBitmaps
+7120
+0343
+exit
+edit 711B
+SpecifyBitmaps
+711E
+exit
+edit 7118
+SpecifyBitmaps
+711D
+exit
+edit 711A
+SpecifyBitmaps
+7126
+exit
+edit 7119
+SpecifyBitmaps
+7126
+exit
+
+edit 7113
+edit ShaderProperties[0]
+SetField Arguments[06].arg1 1.0
+SetField Arguments[07].arg1 0.2
+SetField Arguments[16].arg1 0.5
+Setfield Arguments[19].arg1 0
+SetField Arguments[25].arg1 0
+SetField Arguments[25].arg2 0
+SetField Arguments[25].arg3 0
+SetField Arguments[28].arg1 0
+SetField Arguments[28].arg2 1
+SetField Arguments[28].arg3 0
+SetField Arguments[29].arg1 0
+savechanges
+exit
+exit
+edit 7114
+edit ShaderProperties[0]
+SetField Arguments[06].arg1 1.0
+SetField Arguments[07].arg1 0.2
+SetField Arguments[16].arg1 0.5
+Setfield Arguments[19].arg1 0
+SetField Arguments[25].arg1 0
+SetField Arguments[25].arg2 0
+SetField Arguments[25].arg3 0
+SetField Arguments[28].arg1 0
+SetField Arguments[28].arg2 1
+SetField Arguments[28].arg3 0
+SetField Arguments[29].arg1 0
+savechanges
+exit
+exit
+edit 7115
+edit ShaderProperties[0]
+SetField Arguments[06].arg1 1.0
+SetField Arguments[07].arg1 0.2
+SetField Arguments[16].arg1 0.5
+Setfield Arguments[19].arg1 0
+SetField Arguments[25].arg1 0
+SetField Arguments[25].arg2 0
+SetField Arguments[25].arg3 0
+SetField Arguments[28].arg1 0
+SetField Arguments[28].arg2 1
+SetField Arguments[28].arg3 0
+SetField Arguments[29].arg1 0
+savechanges
+exit
+exit
+edit 7116
+edit ShaderProperties[0]
+SetField Arguments[06].arg1 1.0
+SetField Arguments[07].arg1 0.2
+SetField Arguments[16].arg1 0.5
+Setfield Arguments[19].arg1 0
+SetField Arguments[25].arg1 0
+SetField Arguments[25].arg2 0
+SetField Arguments[25].arg3 0
+SetField Arguments[28].arg1 0
+SetField Arguments[28].arg2 1
+SetField Arguments[28].arg3 0
+SetField Arguments[29].arg1 0
+savechanges
+exit
+exit
+edit 7117
+edit ShaderProperties[0]
+SetField Arguments[06].arg1 1.0
+SetField Arguments[07].arg1 0.2
+SetField Arguments[16].arg1 0.5
+Setfield Arguments[19].arg1 0
+SetField Arguments[25].arg1 0
+SetField Arguments[25].arg2 0
+SetField Arguments[25].arg3 0
+SetField Arguments[28].arg1 0
+SetField Arguments[28].arg2 1
+SetField Arguments[28].arg3 0
+SetField Arguments[29].arg1 0
+savechanges
+exit
+exit
+
+edit 711C
+edit ShaderProperties[0]
+Setfield Arguments[02].arg1 0.0
+Setfield Arguments[02].arg2 0.7
+Setfield Arguments[02].arg3 1.0
+SetField Arguments[03].arg1 6.0
+SetField Arguments[01].arg4 1
+savechanges
+exit
+exit
+edit 7118
+edit ShaderProperties[0]
+Setfield Arguments[02].arg1 0.0
+Setfield Arguments[02].arg2 0.7
+Setfield Arguments[02].arg3 1.0
+Setfield Arguments[03].arg1 6.0
+savechanges
+exit
+exit
+edit 711B
+edit ShaderProperties[0]
+Setfield Arguments[02].arg1 0.0
+Setfield Arguments[02].arg2 0.7
+Setfield Arguments[02].arg3 1.0
+Setfield Arguments[03].arg1 10
+savechanges
+exit
+exit
+edit 711A
+edit ShaderProperties[0]
+Setfield Arguments[02].arg1 0.0
+Setfield Arguments[02].arg2 0.7
+Setfield Arguments[02].arg3 1.0
+Setfield Arguments[03].arg1 6.0
+savechanges
+exit
+exit
+edit 7119
+edit ShaderProperties[0]
+Setfield Arguments[02].arg1 0.0
+Setfield Arguments[02].arg2 0.7
+Setfield Arguments[02].arg3 1.0
+Setfield Arguments[03].arg1 6.0
+savechanges
+exit
+exit
+
+edit 710F
+edit ShaderProperties[0]
+SetField Arguments[06].arg1 1
+SetField Arguments[07].arg1 0.2
+SetField Arguments[16].arg1 0.5
+Setfield Arguments[19].arg1 0
+SetField Arguments[25].arg1 0
+SetField Arguments[25].arg2 0
+SetField Arguments[25].arg3 0
+SetField Arguments[28].arg1 0
+SetField Arguments[28].arg2 1
+SetField Arguments[28].arg3 0
+SetField Arguments[29].arg1 0
+savechanges
+exit
+exit 
+edit 7111
+edit ShaderProperties[0]
+SetField Arguments[06].arg1 1
+SetField Arguments[07].arg1 0.2
+SetField Arguments[16].arg1 0.0
+Setfield Arguments[19].arg1 1
+SetField Arguments[25].arg1 0
+SetField Arguments[25].arg2 0
+SetField Arguments[25].arg3 0
+SetField Arguments[28].arg1 0
+SetField Arguments[28].arg2 1
+SetField Arguments[28].arg3 0
+SetField Arguments[29].arg1 0
+savechanges
+exit
+exit 
+edit 7110
+edit ShaderProperties[0]
+SetField Arguments[06].arg1 1
+SetField Arguments[07].arg1 0.2
+SetField Arguments[16].arg1 0.5
+Setfield Arguments[19].arg1 0
+SetField Arguments[25].arg1 0
+SetField Arguments[25].arg2 0
+SetField Arguments[25].arg3 0
+SetField Arguments[28].arg1 0
+SetField Arguments[28].arg2 1
+SetField Arguments[28].arg3 0
+SetField Arguments[29].arg1 0
+savechanges
+exit
+exit 
+
+edit 0EE1
+SetField Nodes[0].Name gun
+SetField Nodes[1].Name switch
+SetField Nodes[2].Name safety
+SetField Nodes[3].Name magazine
+SetField Nodes[4].Name ophandle
+SetField markergroups[2].markers[0].RegionIndex -1
+SetField markergroups[2].markers[0].PermutationIndex -1
+SetField markergroups[2].markers[0].Translation 0.1010085 -0.007 0.01560136
+SetField markergroups[2].markers[0].Rotation -0.6241202 0.1670771 -0.45504 0.6127788
+SetField markergroups[2].markers[0].Scale 0
+SetField geometry.compression[0].TextureMinV 1.192093E-07
+SetField geometry.compression[0].TextureMaxV -1
+savechanges
+exit
+
+extract 0EE1 tempTag
+import 0F22 tempTag
+import 0F32 tempTag
+import 0F52 tempTag
+import 0F61 tempTag
+
+import 1C7B tempTag
+import 2329 tempTag
+import 233A tempTag
+import 2347 tempTag
+import 2358 tempTag
+
+edit 1C7B
+SetField Nodes[0].Name gun
+SetField Nodes[1].ParentNode -1
+SetField Nodes[2].ParentNode -1
+SetField Nodes[3].ParentNode -1
+SetField Nodes[4].ParentNode -1
+savechanges
+exit
+edit 2329
+SetField Nodes[0].Name gun
+SetField Nodes[1].ParentNode -1
+SetField Nodes[2].ParentNode -1
+SetField Nodes[3].ParentNode -1
+SetField Nodes[4].ParentNode -1
+savechanges
+exit
+edit 233A
+SetField Nodes[0].Name gun
+SetField Nodes[1].ParentNode -1
+SetField Nodes[2].ParentNode -1
+SetField Nodes[3].ParentNode -1
+SetField Nodes[4].ParentNode -1
+savechanges
+exit
+edit 2347
+SetField Nodes[0].Name gun
+SetField Nodes[1].ParentNode -1
+SetField Nodes[2].ParentNode -1
+SetField Nodes[3].ParentNode -1
+SetField Nodes[4].ParentNode -1
+savechanges
+exit
+edit 2358
+SetField Nodes[0].Name gun
+SetField Nodes[1].ParentNode -1
+SetField Nodes[2].ParentNode -1
+SetField Nodes[3].ParentNode -1
+SetField Nodes[4].ParentNode -1
+savechanges
+exit
+
+echo move fp model
+edit 151E
+SetField FirstPersonWeaponOffseti -0.035
+SetField FirstPersonWeaponOffsetj 0
+SetField FirstPersonWeaponOffseti -0.008
+savechanges
+exit
+edit 1581
+SetField FirstPersonWeaponOffseti -0.035
+SetField FirstPersonWeaponOffsetj 0
+SetField FirstPersonWeaponOffseti -0.008
+savechanges
+exit
+edit 1582
+SetField FirstPersonWeaponOffseti -0.035
+SetField FirstPersonWeaponOffsetj 0
+SetField FirstPersonWeaponOffseti -0.008
+savechanges
+exit
+edit 1583
+SetField FirstPersonWeaponOffseti -0.035
+SetField FirstPersonWeaponOffsetj 0
+SetField FirstPersonWeaponOffseti -0.008
+savechanges
+exit
+edit 1584
+SetField FirstPersonWeaponOffseti -0.035
+SetField FirstPersonWeaponOffsetj 0
+SetField FirstPersonWeaponOffseti -0.008
+savechanges
+exit
+
+edit 0EE1
+SpecifyShaders
+7113
+710F
+7110
+7111
+7112
+711C
+7118
+711B
+711A
+7119
+exit
+edit 0F22
+SpecifyShaders
+7114
+710F
+7110
+7111
+7112
+711C
+7118
+711B
+711A
+7119
+exit
+edit 0F32
+SpecifyShaders
+7115
+710F
+7110
+7111
+7112
+711C
+7118
+711B
+711A
+7119
+exit
+edit 0F52
+SpecifyShaders
+7116
+710F
+7110
+7111
+7112
+711C
+7118
+711B
+711A
+7119
+exit
+edit 0F61
+SpecifyShaders
+7117
+710F
+7110
+7111
+7112
+711C
+7118
+711B
+711A
+7119
+exit
+
+edit 1C7B
+SpecifyShaders
+7113
+710F
+7110
+7111
+7112
+711C
+7118
+711B
+711A
+7119
+exit
+edit 2329
+SpecifyShaders
+7114
+710F
+7110
+7111
+7112
+711C
+7118
+711B
+711A
+7119
+exit
+edit 233A
+SpecifyShaders
+7115
+710F
+7110
+7111
+7112
+711C
+7118
+711B
+711A
+7119
+exit
+edit 2347
+SpecifyShaders
+7116
+710F
+7110
+7111
+7112
+711C
+7118
+711B
+711A
+7119
+exit
+edit 2358
+SpecifyShaders
+7117
+710F
+7110
+7111
+7112
+711C
+7118
+711B
+711A
+7119
+exit
+
+edit 1B80
+RemoveFrom Nodes 5 *
+AddTo Nodes
+SetField Nodes[*].Name default
+savechanges
+exit
+edit 231E
+RemoveFrom Nodes 5 *
+AddTo Nodes
+SetField Nodes[*].Name default
+savechanges
+exit
+edit 2333
+RemoveFrom Nodes 5 *
+AddTo Nodes
+SetField Nodes[*].Name default
+savechanges
+exit
+edit 2341
+RemoveFrom Nodes 5 *
+AddTo Nodes
+SetField Nodes[*].Name default
+savechanges
+exit
+edit 2352
+RemoveFrom Nodes 5 *
+AddTo Nodes
+SetField Nodes[*].Name default
+savechanges
+exit
+
+echo edit 0F09
+echo import 0 DDS/ammu/numbers_plate.dds
+echo import 1 DDS/ammu/numbers_plate1.dds
+echo import 2 DDS/ammu/numbers_plate2.dds
+echo import 3 DDS/ammu/numbers_plate3.dds
+echo import 4 DDS/ammu/numbers_plate4.dds
+echo import 5 DDS/ammu/numbers_plate5.dds
+echo import 6 DDS/ammu/numbers_plate6.dds
+echo import 7 DDS/ammu/numbers_plate7.dds
+echo import 8 DDS/ammu/numbers_plate8.dds
+echo import 9 DDS/ammu/numbers_plate9.dds
+echo exit
+echo edit 0F05
+echo import 0 DDS/compass/compass0.dds
+echo import 1 DDS/compass/compass1.dds
+echo import 2 DDS/compass/compass2.dds
+echo import 3 DDS/compass/compass3.dds
+echo import 4 DDS/compass/compass4.dds
+echo import 5 DDS/compass/compass5.dds
+echo import 6 DDS/compass/compass6.dds
+echo import 7 DDS/compass/compass7.dds
+echo exit
+echo extract 0F09 tags\bitm_HRAROnes.tag
+echo extract 0F05 tags\bitm_HRARComp.tag
+echo extractresource textures.dat 0F09 tags\ones\bitm_HRARones_0.bitm 0
+echo extractresource textures.dat 0F09 tags\ones\bitm_HRARones_1.bitm 1
+echo extractresource textures.dat 0F09 tags\ones\bitm_HRARones_2.bitm 2
+echo extractresource textures.dat 0F09 tags\ones\bitm_HRARones_3.bitm 3
+echo extractresource textures.dat 0F09 tags\ones\bitm_HRARones_4.bitm 4
+echo extractresource textures.dat 0F09 tags\ones\bitm_HRARones_5.bitm 5
+echo extractresource textures.dat 0F09 tags\ones\bitm_HRARones_6.bitm 6
+echo extractresource textures.dat 0F09 tags\ones\bitm_HRARones_7.bitm 7
+echo extractresource textures.dat 0F09 tags\ones\bitm_HRARones_8.bitm 8
+echo extractresource textures.dat 0F09 tags\ones\bitm_HRARones_9.bitm 9
+echo extractresource textures.dat 0F05 tags\compass\bitm_HRAROnes_0.bitm 0
+echo extractresource textures.dat 0F05 tags\compass\bitm_HRAROnes_1.bitm 1
+echo extractresource textures.dat 0F05 tags\compass\bitm_HRAROnes_2.bitm 2
+echo extractresource textures.dat 0F05 tags\compass\bitm_HRAROnes_3.bitm 3
+echo extractresource textures.dat 0F05 tags\compass\bitm_HRAROnes_4.bitm 4
+echo extractresource textures.dat 0F05 tags\compass\bitm_HRAROnes_5.bitm 5
+echo extractresource textures.dat 0F05 tags\compass\bitm_HRAROnes_6.bitm 6
+echo extractresource textures.dat 0F05 tags\compass\bitm_HRAROnes_7.bitm 7
+
+import 7126 tags/bitm_HRAROnes.tag
+import 7127 tags/bitm_HRARComp.tag
+
+importresource textures.dat 7126 tags/ones
+importresource textures.dat 7127 tags/compass
+
+dumplog reachAR.log
+exit
+exit
+
+
+
+echo END OF COMMANDS
+
+echo TAGS LIST as of last install; check the cmds to see the last installed tags
+7121 bitm_HRARDefa
+7124 bitm_HRARGree
+7123 bitm_HRAROran
+7122 bitm_HRARRed0
+7125 bitm_HRARYell
+7126 bitm_HRARammu
+711E bitm_HRARbull
+711F bitm_HRARbump
+7127 bitm_HRARcomp
+7120 bitm_HRARdeca
+711D bitm_HRARdisp
+1B80 hlmt_HRAR0
+231E hlmt_HRAR2
+2333 hlmt_HRAR3
+2341 hlmt_HRAR5
+2352 hlmt_HRAR6
+1C7B mode_HRAR3dDef0
+2347 mode_HRAR3dGre5
+233A mode_HRAR3dOra3
+2329 mode_HRAR3dRed2
+2358 mode_HRAR3dYel6
+0EE1 mode_HRARfpDef0
+0F52 mode_HRARfpGre5
+0F32 mode_HRARfpOra3
+0F22 mode_HRARfpRed2
+0F61 mode_HRARfpYel6
+711C shad_HRARcmps
+7112 shad_HRARdeca
+7118 shad_HRARdisp
+711B shad_HRARitem
+7113 shad_HRARmainDef
+7116 shad_HRARmainGre
+7115 shad_HRARmainOra
+7114 shad_HRARmainRed
+7117 shad_HRARmainYel
+710F shad_HRARmeta
+711A shad_HRARones
+7111 shad_HRARrubb
+7110 shad_HRARshin
+7119 shad_HRARtens
+151E weap_HRARDef0
+1583 weap_HRARGre5
+1582 weap_HRAROra3
+1581 weap_HRARRed2
+1584 weap_HRARYel6
+
+echo DEBUG
+assault_rifle_composite     710F; 0 top
+assault_rifle_metal         shadHRARmain; 1 mid
+assault_rifle_metal_shiny   7110; 2 shiny
+assault_rifle_rubb          7111; 3 rubber
+unsc_decals_fp              7112; 4 decals
+comps                       711C; 5 compass
+display                     7118; 6 display
+item                        711B; 7 LCD bullets
+ones                        711A; 8 ammo
+tens                        7119; 9 ammo
+
+echo Shaders tweak:
+argument 06 diffuse_coefficient
+argument 19 albedo_blend
+argument 16 envinment_map_specular_contribution; watery reflections 0
+argument 29 self_illum_intensity
+argument 28 self_illum_color

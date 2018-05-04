@@ -1,0 +1,198 @@
+// REACH SNIPER MOD FOR HALO ONLINE ELDORITO MS23 0.5.1.1; made by BUNGIE, ported by dany5639 using shockfire's tool and camden's tagtool commands
+====
+echo
+//
+====
+====
+1F88
+hlmtHRSN
+1F8D
+modeHRSNfp
+203C
+modeHRSN3d
+0000
+bitmHRSNbase
+0000
+bitmHRSNbump
+0000
+bitmHRSNalph
+0000
+bitmHRSNdeca
+0000
+bitmHRSNdith
+0000
+bitmHRSNdetabase
+0000
+bitmHRSNplas
+0000
+bitmHRSNillu
+0000
+bitmHRSNmicrbump
+0000
+bitmHRSNdetaillu
+0000
+bitmHRSNrubbdeta
+0000
+bitmHRSNrubbbump
+0000
+shadHRSN0comp
+0000
+shadHRSN1meta
+0000
+shadHRSN2rubb
+0000
+shadHRSN3scop
+0000
+shadHRSN4alph
+0000
+shadHRSN5deca
+0000
+shadHRSN6cmps
+0000
+shadHRSN7glas
+0000
+shadHRSN8illu
+====
+====
+0F05
+bitmHRSNcmps0
+STOP
+
+SetLocale US
+
+duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0 XXXX duplicate 0
+
+import modeHRSNfp tags/mode_HRSN.tag
+importmodelraw modeHRSNfp tags/HRSN.raw
+
+importbitmap bitmHRSNbase DDS/sniper_rifle_diffuse.dds
+importbitmap bitmHRSNbump DDS/sniper_rifle_normal.dds
+importbitmap bitmHRSNalph DDS/sniper_rifle_scope_alpha.dds
+importbitmap bitmHRSNdeca DDS/unsc_decals_diffuse.dds
+importbitmap bitmHRSNdith DDS/dither_pattern.dds
+importbitmap bitmHRSNdetabase DDS/pioneer_truck_paint_detail_diffuse.dds
+importbitmap bitmHRSNplas DDS/plasma_wipe.dds
+importbitmap bitmHRSNillu DDS/sniper_rifle_scope_illum.dds
+importbitmap bitmHRSNmicrbump DDS/gun_microbump.dds
+importbitmap bitmHRSNdetaillu DDS/laptopillumdetail.dds
+importbitmap bitmHRSNrubbdeta DDS/rubber.dds
+importbitmap bitmHRSNrubbbump DDS/rubber_microbump.dds
+
+import shadHRSN0comp tagTemplates/205B_rmshTemplate 
+import shadHRSN1meta tagTemplates/205B_rmshTemplate
+import shadHRSN2rubb tagTemplates/205B_rmshTemplate
+import shadHRSN3scop tagTemplates/101F_rmshTemplate
+import shadHRSN4alph tagTemplates/1F97_rmhgTemplate
+import shadHRSN5deca tagTemplates/1CA4_rmshTemplate
+import shadHRSN6cmps tagTemplates/0EEA_rmshTemplate
+import shadHRSN8illu tagTemplates/1F99_rmshTemplate
+import shadHRSN7glas tagTemplates/0F11_rmshTemplate
+
+edit shadHRSN0comp XXXX SpecifyBitmaps XXXX bitmHRSNbase XXXX 0343 XXXX bitmHRSNbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX 0379 XXXX exit
+edit shadHRSN1meta XXXX SpecifyBitmaps XXXX bitmHRSNbase XXXX 0343 XXXX bitmHRSNbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX 0379 XXXX exit
+edit shadHRSN2rubb XXXX SpecifyBitmaps XXXX bitmHRSNbase XXXX 0343 XXXX bitmHRSNbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX 0379 XXXX exit
+edit shadHRSN3scop XXXX SpecifyBitmaps XXXX bitmHRSNbase XXXX 0343 XXXX 0376 XXXX exit
+edit shadHRSN4alph XXXX SpecifyBitmaps XXXX 0343 XXXX 0343 XXXX 0343 XXXX 0343 XXXX 0379 XXXX exit
+edit shadHRSN5deca XXXX SpecifyBitmaps XXXX bitmHRSNdeca XXXX 0343 XXXX exit
+edit shadHRSN6cmps XXXX SpecifyBitmaps XXXX bitmHRSNcmps0 XXXX exit
+edit shadHRSN7glas XXXX SpecifyBitmaps XXXX bitmHRSNillu XXXX exit
+
+edit shadHRSN0comp XXXX edit ShaderProperties[0] XXXX SetField arguments[06].arg1 1.0 XXXX SetField arguments[07].arg1 0.2 XXXX SetField arguments[16].arg1 0.1 XXXX Setfield arguments[19].arg1 0.0 XXXX SetField Arguments[25].arg1 1.0 XXXX SetField Arguments[25].arg2 1.0 XXXX SetField Arguments[25].arg3 1.0 XXXX SetField arguments[28].arg1 0.0 XXXX SetField arguments[28].arg2 0.0 XXXX SetField arguments[28].arg3 0.0 XXXX SetField arguments[29].arg1 0.0 XXXX savechanges XXXX exit XXXX exit
+edit shadHRSN1meta XXXX edit ShaderProperties[0] XXXX SetField arguments[06].arg1 1.0 XXXX SetField arguments[07].arg1 0.2 XXXX SetField arguments[16].arg1 0.1 XXXX Setfield arguments[19].arg1 0.0 XXXX SetField Arguments[25].arg1 1.0 XXXX SetField Arguments[25].arg2 1.0 XXXX SetField Arguments[25].arg3 1.0 XXXX SetField arguments[28].arg1 0.0 XXXX SetField arguments[28].arg2 0.0 XXXX SetField arguments[28].arg3 0.0 XXXX SetField arguments[29].arg1 0.0 XXXX savechanges XXXX exit XXXX exit
+edit shadHRSN2rubb XXXX edit ShaderProperties[0] XXXX SetField arguments[06].arg1 1.0 XXXX SetField arguments[07].arg1 0.2 XXXX SetField arguments[16].arg1 0.1 XXXX Setfield arguments[19].arg1 0.0 XXXX SetField Arguments[25].arg1 1.0 XXXX SetField Arguments[25].arg2 1.0 XXXX SetField Arguments[25].arg3 1.0 XXXX SetField arguments[28].arg1 0.0 XXXX SetField arguments[28].arg2 0.0 XXXX SetField arguments[28].arg3 0.0 XXXX SetField arguments[29].arg1 0.0 XXXX savechanges XXXX exit XXXX exit
+edit shadHRSN4alph XXXX edit ShaderProperties[0] XXXX SetField arguments[03].arg1 0.6 XXXX SetField arguments[03].arg2 1.0 XXXX SetField arguments[03].arg3 0.2 XXXX SetField arguments[03].arg4 1.0 XXXX SetField arguments[04].arg1 0.2 XXXX SetField arguments[04].arg2 0.5 XXXX SetField arguments[04].arg3 0.1 XXXX savechanges XXXX exit XXXX exit
+edit shadHRSN6cmps XXXX edit ShaderProperties[0] XXXX SetField Arguments[01].arg4 1.0 XXXX SetField Arguments[02].arg1 0.5 XXXX SetField Arguments[02].arg2 0.8 XXXX SetField Arguments[02].arg3 0 XXXX SetField Arguments[03].arg1 1 XXXX savechanges XXXX exit XXXX exit
+edit shadHRSN7glas XXXX edit ShaderProperties[0] XXXX SetField arguments[01].arg1 -1.5 XXXX SetField arguments[01].arg2 -1.0 XXXX SetField arguments[01].arg3 0.30  XXXX SetField arguments[02].arg1 0.50 XXXX SetField arguments[02].arg2 0.80 XXXX SetField arguments[02].arg3 0.10 XXXX savechanges XXXX exit XXXX exit
+edit shadHRSN8illu XXXX edit ShaderProperties[0] XXXX SetField arguments[00].arg2 -1 XXXX savechanges XXXX exit XXXX exit
+
+edit modeHRSNfp XXXX SpecifyShaders XXXX shadHRSN0comp XXXX shadHRSN1meta XXXX shadHRSN2rubb XXXX shadHRSN3scop XXXX shadHRSN4alph XXXX shadHRSN5deca XXXX shadHRSN6cmps XXXX shadHRSN7glas XXXX shadHRSN8illu XXXX exitTo tags.dat
+edit modeHRSN3d XXXX SpecifyShaders XXXX shadHRSN0comp XXXX shadHRSN1meta XXXX shadHRSN2rubb XXXX shadHRSN3scop XXXX shadHRSN4alph XXXX shadHRSN5deca XXXX shadHRSN6cmps XXXX shadHRSN7glas XXXX shadHRSN8illu XXXX exitTo tags.dat
+
+edit modeHRSNfp XXXX SetField geometry.compression[0].TextureMinV 0.006113529 XXXX SetField geometry.compression[0].TextureMaxV -1 XXXX savechanges XXXX exit
+
+edit modeHRSNfp
+edit nodes[0] XXXX SetField Name gun XXXX SetField ParentNode -1 XXXX SetField FirstChildNode 1 XXXX SetField NextSiblingNode -1 XXXX SetField ImportNode 0 XXXX SetField DefaultTranslation 0 0 0 XXXX SetField DefaultRotation 0 0 0 1 XXXX SetField DefaultScale 1 XXXX SetField InverseForward 1 0 0 XXXX SetField InverseLeft 0 1 0 XXXX SetField InverseUp 0 0 1 XXXX SetField DistanceFromParent 0 XXXX exit
+edit nodes[1] XXXX SetField Name magazine XXXX SetField ParentNode 0 XXXX SetField FirstChildNode 5 XXXX SetField NextSiblingNode 4 XXXX SetField ImportNode 0 XXXX SetField DefaultTranslation 0.007945799 0 -0.05236648 XXXX SetField DefaultRotation 0 0 0 -1 XXXX SetField DefaultScale 1 XXXX SetField InverseForward 1 0 0 XXXX SetField InverseLeft 0 1 0 XXXX SetField InverseUp 0 0 1 XXXX SetField DistanceFromParent 0.05296588 XXXX exit
+edit nodes[2] XXXX SetField Name handle XXXX SetField ParentNode 0 XXXX SetField FirstChildNode -1 XXXX SetField NextSiblingNode 3 XXXX SetField ImportNode 0 XXXX SetField DefaultTranslation 0.1238121 -1.2603E-08 -0.005714185 XXXX SetField DefaultRotation 0 0 0 -1 XXXX SetField DefaultScale 1 XXXX SetField InverseForward 1 0 0 XXXX SetField InverseLeft 0 1 0 XXXX SetField InverseUp 0 0 1 XXXX SetField DistanceFromParent 0.1239439 XXXX exit
+edit nodes[3] XXXX SetField Name bipod XXXX SetField ParentNode 0 XXXX SetField FirstChildNode -1 XXXX SetField NextSiblingNode 2 XXXX SetField ImportNode 0 XXXX SetField DefaultTranslation 0.1237175 -1.1239E-08 -0.01989291 XXXX SetField DefaultRotation 0 0 0 -1 XXXX SetField DefaultScale 1 XXXX SetField InverseForward 1 0 0 XXXX SetField InverseLeft 0 1 0 XXXX SetField InverseUp 0 0 1 XXXX SetField DistanceFromParent 0.1253067 XXXX exit
+edit nodes[4] XXXX SetField Name ophandle XXXX SetField ParentNode 0 XXXX SetField FirstChildNode -1 XXXX SetField NextSiblingNode -1 XXXX SetField ImportNode 0 XXXX SetField DefaultTranslation 0.02226 0.01285793 0.005061603 XXXX SetField DefaultRotation 0 0 0 -1 XXXX SetField DefaultScale 1 XXXX SetField InverseForward 1 0 0 XXXX SetField InverseLeft 0 1 0 XXXX SetField InverseUp 0 0 1 XXXX SetField DistanceFromParent 0.02620027 XXXX exit
+edit nodes[5] XXXX SetField Name bullet XXXX SetField ParentNode 3 XXXX SetField FirstChildNode -1 XXXX SetField NextSiblingNode -1 XXXX SetField ImportNode 0 XXXX SetField DefaultTranslation 0.00300643 -2.24E-10 0.04635167 XXXX SetField DefaultRotation 0 0 0 -1 XXXX SetField DefaultScale 1 XXXX SetField InverseForward 1 0 0 XXXX SetField InverseLeft 0 1 0 XXXX SetField InverseUp 0 0 1 XXXX SetField DistanceFromParent 0.04644907 XXXX exit
+SetField Nodes[0].InversePosition -0.07 0 -0.045
+SetField Nodes[1].InversePosition -0.077945799 0 0.00736648
+SetField Nodes[2].InversePosition -0.1938121 1.2603e-08 -0.039285815
+SetField Nodes[3].InversePosition -0.1937175 1.1239e-08 -0.02510709
+SetField Nodes[4].InversePosition -0.09226 -0.01285793 -0.050061603
+SetField Nodes[5].InversePosition -0.08095223 2.24e-10 -0.038985187
+SetField markergroups[0].markers[0].RegionIndex -1
+SetField markergroups[0].markers[0].PermutationIndex -1
+SetField markergroups[0].markers[0].Translation 0.06916446 -0.003040792 -0.02955528
+SetField markergroups[0].markers[0].Rotation -0.6945807 0.150886 -0.3370411 0.6174093
+SetField markergroups[0].markers[0].Scale 0
+savechanges XXXX exit
+
+extract modeHRSNfp tempTag
+import modeHRSN3d tempTag
+
+edit hlmtHRSN
+removefrom Nodes 0 *
+AddTo Nodes XXXX edit Nodes[*] XXXX SetField Name gun XXXX SetField ParentNode -1 XXXX SetField FirstChildNode -1 XXXX exit
+AddTo Nodes XXXX edit Nodes[*] XXXX SetField Name magazine XXXX SetField ParentNode 0 XXXX SetField FirstChildNode -1 XXXX exit
+AddTo Nodes XXXX edit Nodes[*] XXXX SetField Name handle XXXX SetField ParentNode 0 XXXX SetField FirstChildNode -1 XXXX exit
+AddTo Nodes XXXX edit Nodes[*] XXXX SetField Name bipod XXXX SetField ParentNode 0 XXXX SetField FirstChildNode -1 XXXX exit
+AddTo Nodes XXXX edit Nodes[*] XXXX SetField Name ophandle XXXX SetField ParentNode 0 XXXX SetField FirstChildNode -1 XXXX exit
+AddTo Nodes XXXX edit Nodes[*] XXXX SetField Name bullet XXXX SetField ParentNode 0 XXXX SetField FirstChildNode -1 XXXX exit
+savechanges XXXX exit
+
+edit modeHRSN3d
+// RemoveFrom Nodes 4 *
+SetField MarkerGroups[10].Markers[0].Translation 0 -5.960464E-10 0.01
+SetField MarkerGroups[00].Markers[0].NodeIndex 1
+SetField MarkerGroups[00].Markers[0].Translation 0.05 -0.01 0.02
+SetField MarkerGroups[00].Markers[0].Rotation -0.5548693 0.4255136 -0.4678792 0.5405067
+SetField Nodes[0].InversePosition 0 0 0
+SetField Nodes[1].InversePosition -0.07 0 0
+SetField Nodes[2].InversePosition -0.185 0 -0.038
+SetField Nodes[3].InversePosition -0.189 0 -0.025
+SetField Nodes[4].InversePosition -0.087 -0.012 -0.05
+SetField Nodes[5].InversePosition -0.08 0 -0.05
+savechanges XXXX exit
+
+// Patch for Flatgrass
+dep remove 6E23 6E09 XXXX dep remove 6E23 6E08 
+
+edit 6E07 XXXX SetField rendermodel modeHRSN3d XXXX savechanges XXXX exitTo tags.dat
+
+edit 6E06 XXXX SetField FirstPerson[0].FirstPersonModel modeHRSNfp XXXX SetField FirstPerson[1].FirstPersonModel modeHRSNfp XXXX savechanges XXXX exitTo tags.dat
+
+// A few errors will pop above if you don't have Flatgrass mod. Ignore.
+
+dumplog reachSniper.log XXXX exit XXXX exit
+
+// END OF COMMANDS
+
+// DEBUG
+// REACH TEXTURES
+bitmHRSNbase sniper_rifle_diffuse.dds
+bitmHRSNbump sniper_rifle_normal.dds
+bitmHRSNalph sniper_rifle_scope_alpha.dds
+bitmHRSNdeca unsc_decals_diffuse.dds
+bitmHRSNdith dither_pattern.dds
+bitmHRSNdetabase pioneer_truck_paint_detail_diffuse.dds
+bitmHRSNplas plasma_wipe.dds
+bitmHRSNillu sniper_rifle_scope_illum.dds
+bitmHRSNmicrbump gun_microbump.dds
+bitmHRSNdetaillu laptopillumdetail.dds
+bitmHRSNrubbdeta rubber.dds
+bitmHRSNrubbbump rubber_microbump.dds
+bitmHRSNcmps0
+
+// REACH SHADERS
+sniper_composite 	shadHRSN0comp ; front parts
+sniper_metal 		shadHRSN1meta ; main
+sniper_rubber   	shadHRSN2rubb ; 
+sniper_scope    	shadHRSN3scop bitmHRSNbase NO BUMP ; 
+scope_alpha    		shadHRSN4alph rmhg, dither ; 
+unsc_decals_fp   	shadHRSN5deca ; 
+sniper_compass   	shadHRSN6cmps ; 
+sniper_scope_glass 	shadHRSN7glas bitmHRSNalph ; 
+sniper_scope_illum 	shadHRSN8illu bitmHRSNdetaillu bitmHRSNplas ; 

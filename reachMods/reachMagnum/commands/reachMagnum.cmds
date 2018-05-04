@@ -1,0 +1,171 @@
+echo Halo Reach Magnum local cosmetic mod for Halo Online Eldewrito MS23 build; made by Bungie; ported by dany5639 using Shockfire's tagtool and Camden's commands;
+echo Halo Reach Magnum local cosmetic mod for Halo Online Eldewrito MS23 build; made by Bungie; ported by dany5639 using Shockfire's tagtool and Camden's commands;
+XXXX
+
+
+echo
+echo
+157E
+157E
+115F
+115F
+1177
+1177
+117B
+117B
+20D9
+20D9
+2417
+2417
+241E
+241E
+0000
+717A
+0000
+717B
+0000
+717C
+0000
+717D
+0000
+717E
+0000
+717F
+0000
+7180
+0000
+7181
+0000
+7182
+0000
+7183
+STOP
+
+resourcedata import resources.dat 0047 tags/HRMag.raw
+
+import 115F tags/mode_HRMagfpDef
+import 1177 tags/mode_HRMagfpRed
+import 117B tags/mode_HRMagfpYel
+import 20D9 tags/mode_HRMag3dDef
+import 2417 tags/mode_HRMag3dRed
+import 241E tags/mode_HRMag3dYel
+import 717D tags/shad_HRMagcomp
+import 7180 tags/shad_HRMagengr
+import 717E tags/shad_HRMagmeta
+import 717F tags/shad_HRMagshin
+import 7181 tags/shad_HRMagilluDef
+import 7182 tags/shad_HRMagilluRed
+import 7183 tags/shad_HRMagilluYel
+
+importbitmap 717A DDS/magnum_diffuse.dds    
+importbitmap 717B DDS/magnum_zbump.dds      
+importbitmap 717C DDS/magnum_illum.dds 
+
+edit 717D
+SpecifyBitmaps
+717A
+0343
+717B
+0376
+02B7
+02B9
+0379
+exit
+edit 717E
+SpecifyBitmaps
+717A
+0343
+717B
+0376
+02B7
+02B9
+0379
+exit
+edit 717F
+SpecifyBitmaps
+717A
+0343
+717B
+0376
+02B7
+02B9
+0379
+exit
+edit 7180
+SpecifyBitmaps
+717A
+0343
+717B
+0376
+02B7
+02B9
+0379
+exit
+edit 7181
+SpecifyBitmaps
+717C
+0343
+exit
+edit 7182
+SpecifyBitmaps
+717C
+0343
+exit
+edit 7183
+SpecifyBitmaps
+717C
+0343
+exit
+
+edit 115F
+SpecifyShaders
+717D
+717E
+717F
+7180
+7181
+exit
+edit 1177
+SpecifyShaders
+717D
+717E
+717F
+7180
+7182
+exit
+edit 117B
+SpecifyShaders
+717D
+717E
+717F
+7180
+7183
+exit
+edit 20D9
+SpecifyShaders
+717D
+717E
+717F
+7180
+7181
+exit
+edit 2417
+SpecifyShaders
+717D
+717E
+717F
+7180
+7182
+exit
+edit 241E
+SpecifyShaders
+717D
+717E
+717F
+7180
+7183
+exit
+
+dumplog reachMagnum.log
+exit
+exit

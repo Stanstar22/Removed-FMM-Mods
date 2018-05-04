@@ -1,0 +1,255 @@
+echo Halo Reach SMG Prototype for Halo Online Eldewrito (0.5.1.1, ms23)
+echo Halo Reach SMG Prototype for Halo Online Eldewrito (0.5.1.1, ms23)
+XXXX
+
+
+echo
+echo
+echo Halo Reach SMG Prototype for Halo Online Eldewrito (0.5.1.1, ms23)
+echo Halo Reach SMG Prototype for Halo Online Eldewrito (0.5.1.1, ms23)
+157D
+157D
+158C
+158C
+158D
+158D
+158E
+158E
+158F
+158F
+0000
+7154
+0000
+7155
+0000
+7156
+0000
+7157
+0000
+7158
+0000
+7159
+0000
+715A
+0000
+715B
+0000
+715C
+0000
+715D
+0000
+715E
+0000
+715F
+0000
+7160
+0000
+7161
+0000
+7162
+0000
+7163
+0000
+7164
+0000
+7165
+0000
+7166
+0000
+7167
+0000
+7168
+STOP
+
+importbitmap 7168 textures/10CE.dds
+echo importbitmap 7168 textures/10CE_1024.dds
+
+import 7163 tags/shad_HRSMG0def
+import 7164 tags/shad_HRSMG1ora
+import 7165 tags/shad_HRSMG2gre
+import 7166 tags/shad_HRSMG4red
+import 7167 tags/shad_HRSMG6yel
+
+import 7154 tags/1F46_hlmtHOSMG.tag
+import 7155 tags/1F46_hlmtHOSMG.tag
+import 7156 tags/1F46_hlmtHOSMG.tag
+import 7157 tags/1F46_hlmtHOSMG.tag
+import 7158 tags/1F46_hlmtHOSMG.tag
+
+import 7159 tags/10C8_modeHOSMG.tag
+import 715A tags/10C8_modeHOSMG.tag
+import 715B tags/10C8_modeHOSMG.tag
+import 715C tags/10C8_modeHOSMG.tag
+import 715D tags/10C8_modeHOSMG.tag
+
+import 715E tags/1F79_modeHOSMG.tag
+import 715F tags/1F79_modeHOSMG.tag
+import 7160 tags/1F79_modeHOSMG.tag
+import 7161 tags/1F79_modeHOSMG.tag
+import 7162 tags/1F79_modeHOSMG.tag
+
+edit 7163
+SpecifyBitmaps
+10CB
+0EEF
+0375
+10CC
+0EF0
+10CD
+7168
+exit
+edit 7164
+SpecifyBitmaps
+10CB
+0EEF
+0375
+10CC
+0EF0
+10CD
+7168
+exit
+edit 7165
+SpecifyBitmaps
+10CB
+0EEF
+0375
+10CC
+0EF0
+10CD
+7168
+exit
+edit 7166
+SpecifyBitmaps
+10CB
+0EEF
+0375
+10CC
+0EF0
+10CD
+7168
+exit
+edit 7167
+SpecifyBitmaps
+10CB
+0EEF
+0375
+10CC
+0EF0
+10CD
+7168
+exit
+
+edit 157D
+SetField Model 7154
+SetField FirstPerson[0].FirstPersonModel 7159
+SetField FirstPerson[1].FirstPersonModel 7159
+savechanges
+exit
+edit 158C
+SetField Model 7155
+SetField FirstPerson[0].FirstPersonModel 715A
+SetField FirstPerson[1].FirstPersonModel 715A
+savechanges
+exit
+edit 158D
+SetField Model 7156
+SetField FirstPerson[0].FirstPersonModel 715B
+SetField FirstPerson[1].FirstPersonModel 715B
+savechanges
+exit
+edit 158E
+SetField Model 7157
+SetField FirstPerson[0].FirstPersonModel 715C
+SetField FirstPerson[1].FirstPersonModel 715C
+savechanges
+exit
+edit 158F
+SetField Model 7158
+SetField FirstPerson[0].FirstPersonModel 715D
+SetField FirstPerson[1].FirstPersonModel 715D
+savechanges
+exit
+
+edit 7154
+SetField Rendermodel 715E
+savechanges
+exit
+edit 7155
+SetField Rendermodel 715F
+savechanges
+exit
+edit 7156
+SetField Rendermodel 7160
+savechanges
+exit
+edit 7157
+SetField Rendermodel 7161
+savechanges
+exit
+edit 7158
+SetField Rendermodel 7162
+savechanges
+exit
+
+edit 7159
+SpecifyShaders
+7163
+10CA
+exit
+edit 715A
+SpecifyShaders
+7164
+10CA
+exit
+edit 715B
+SpecifyShaders
+7165
+10CA
+exit
+edit 715C
+SpecifyShaders
+7166
+10CA
+exit
+edit 715D
+SpecifyShaders
+7167
+10CA
+exit
+
+edit 715E
+SpecifyShaders
+7163
+exit
+edit 715F
+SpecifyShaders
+7164
+exit
+edit 7160
+SpecifyShaders
+7165
+exit
+edit 7161
+SpecifyShaders
+7166
+exit
+edit 7162
+SpecifyShaders
+7167
+exit
+
+dumplog reachSMG.log
+exit
+exit
+
+smgDef; weap 157D; hlmt 1F46; mode 10C8; mode 1F79; default; 
+smg_v1; weap 158C; hlmt 23CB; mode 10D4; mode 23D1; orange ; 
+smg_v2; weap 158D; hlmt 23D4; mode 10E4; mode 23DD; green  ; 
+smg_v4; weap 158E; hlmt 23E0; mode 10F3; mode 23E6; red    ; 
+smg_v6; weap 158F; hlmt 23E9; mode 10FB; mode 23EF; yellow ; 
+
+extract 10C8 10C8_modeHOSMG.tag
+extract 10C9 10C9_rmshHOSMG.tag
+extract 1F46 1F46_hlmtHOSMG.tag
+extract 1F79 1F79_modeHOSMG.tag
+

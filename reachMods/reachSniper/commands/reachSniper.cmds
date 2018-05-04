@@ -1,0 +1,494 @@
+echo REACH SNIPER MOD FOR HALO ONLINE ELDORITO MS23 0.5.1.1; made by BUNGIE, ported by dany5639 using shockfire's tool and camden's tagtool commands
+echo REACH SNIPER MOD FOR HALO ONLINE ELDORITO MS23 0.5.1.1; made by BUNGIE, ported by dany5639 using shockfire's tool and camden's tagtool commands
+echo
+echo
+echo REACH SNIPER MOD FOR HALO ONLINE ELDORITO MS23 0.5.1.1; made by BUNGIE, ported by dany5639 using shockfire's tool and camden's tagtool commands
+echo REACH SNIPER MOD FOR HALO ONLINE ELDORITO MS23 0.5.1.1; made by BUNGIE, ported by dany5639 using shockfire's tool and camden's tagtool commands
+1F88
+1F88
+1F8D
+1F8D
+203C
+203C
+0000
+713E
+0000
+713F
+0000
+7140
+0000
+7141
+0000
+7142
+0000
+7143
+0000
+7144
+0000
+7145
+0000
+7146
+0000
+7147
+0000
+7148
+0000
+7149
+0000
+714A
+0000
+714B
+0000
+714C
+0000
+714D
+0000
+714E
+0000
+714F
+0000
+7150
+0000
+7151
+0000
+7152
+echo REACH SNIPER MOD FOR HALO ONLINE ELDORITO MS23 0.5.1.1; made by BUNGIE, ported by dany5639 using shockfire's tool and camden's tagtool commands
+echo REACH SNIPER MOD FOR HALO ONLINE ELDORITO MS23 0.5.1.1; made by BUNGIE, ported by dany5639 using shockfire's tool and camden's tagtool commands
+0F05
+0F05
+STOP
+
+SetLocale US
+
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+
+import 1F8D tags/mode_HRSN.tag
+importmodelraw 1F8D tags/HRSN.raw
+
+importbitmap 713E DDS/sniper_rifle_diffuse.dds
+importbitmap 713F DDS/sniper_rifle_normal.dds
+importbitmap 7140 DDS/sniper_rifle_scope_alpha.dds
+importbitmap 7141 DDS/unsc_decals_diffuse.dds
+importbitmap 7142 DDS/dither_pattern.dds
+importbitmap 7143 DDS/pioneer_truck_paint_detail_diffuse.dds
+importbitmap 7144 DDS/plasma_wipe.dds
+importbitmap 7145 DDS/sniper_rifle_scope_illum.dds
+importbitmap 7146 DDS/gun_microbump.dds
+importbitmap 7147 DDS/laptopillumdetail.dds
+importbitmap 7148 DDS/rubber.dds
+importbitmap 7149 DDS/rubber_microbump.dds
+
+import 714A tagTemplates/205B_rmshTemplate 
+import 714B tagTemplates/205B_rmshTemplate
+import 714C tagTemplates/205B_rmshTemplate
+import 714D tagTemplates/101F_rmshTemplate
+import 714E tagTemplates/1F97_rmhgTemplate
+import 714F tagTemplates/1CA4_rmshTemplate
+import 7150 tagTemplates/0EEA_rmshTemplate
+import 7152 tagTemplates/1F99_rmshTemplate
+import 7151 tagTemplates/0F11_rmshTemplate
+
+edit 714A
+SpecifyBitmaps
+713E
+0343
+713F
+0376
+02B7
+02B9
+0379
+exit
+edit 714B
+SpecifyBitmaps
+713E
+0343
+713F
+0376
+02B7
+02B9
+0379
+exit
+edit 714C
+SpecifyBitmaps
+713E
+0343
+713F
+0376
+02B7
+02B9
+0379
+exit
+edit 714D
+SpecifyBitmaps
+713E
+0343
+0376
+exit
+edit 714E
+SpecifyBitmaps
+0343
+0343
+0343
+0343
+0379
+exit
+edit 714F
+SpecifyBitmaps
+7141
+0343
+exit
+edit 7150
+SpecifyBitmaps
+0F05
+exit
+edit 7151
+SpecifyBitmaps
+7145
+exit
+
+edit 714A
+edit ShaderProperties[0]
+SetField arguments[06].arg1 1.0
+SetField arguments[07].arg1 0.2
+SetField arguments[16].arg1 0.1
+Setfield arguments[19].arg1 0.0
+SetField Arguments[25].arg1 1.0
+SetField Arguments[25].arg2 1.0
+SetField Arguments[25].arg3 1.0
+SetField arguments[28].arg1 0.0
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 0.0
+SetField arguments[29].arg1 0.0
+savechanges
+exit
+exit
+edit 714B
+edit ShaderProperties[0]
+SetField arguments[06].arg1 1.0
+SetField arguments[07].arg1 0.2
+SetField arguments[16].arg1 0.1
+Setfield arguments[19].arg1 0.0
+SetField Arguments[25].arg1 1.0
+SetField Arguments[25].arg2 1.0
+SetField Arguments[25].arg3 1.0
+SetField arguments[28].arg1 0.0
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 0.0
+SetField arguments[29].arg1 0.0
+savechanges
+exit
+exit
+edit 714C
+edit ShaderProperties[0]
+SetField arguments[06].arg1 1.0
+SetField arguments[07].arg1 0.2
+SetField arguments[16].arg1 0.1
+Setfield arguments[19].arg1 0.0
+SetField Arguments[25].arg1 1.0
+SetField Arguments[25].arg2 1.0
+SetField Arguments[25].arg3 1.0
+SetField arguments[28].arg1 0.0
+SetField arguments[28].arg2 0.0
+SetField arguments[28].arg3 0.0
+SetField arguments[29].arg1 0.0
+savechanges
+exit
+exit
+edit 714E
+edit ShaderProperties[0]
+SetField arguments[03].arg1 0.6
+SetField arguments[03].arg2 1.0
+SetField arguments[03].arg3 0.2
+SetField arguments[03].arg4 1.0
+SetField arguments[04].arg1 0.2
+SetField arguments[04].arg2 0.5
+SetField arguments[04].arg3 0.1
+savechanges
+exit
+exit
+edit 7150
+edit ShaderProperties[0]
+SetField Arguments[01].arg4 1.0
+SetField Arguments[02].arg1 0.5
+SetField Arguments[02].arg2 0.8
+SetField Arguments[02].arg3 0
+SetField Arguments[03].arg1 1
+savechanges
+exit
+exit
+edit 7151
+edit ShaderProperties[0]
+SetField arguments[01].arg1 -1.5
+SetField arguments[01].arg2 -1.0
+SetField arguments[01].arg3 0.30 
+SetField arguments[02].arg1 0.50
+SetField arguments[02].arg2 0.80
+SetField arguments[02].arg3 0.10
+savechanges
+exit
+exit
+edit 7152
+edit ShaderProperties[0]
+SetField arguments[00].arg2 -1
+savechanges
+exit
+exit
+
+edit 1F8D
+SpecifyShaders
+714A
+714B
+714C
+714D
+714E
+714F
+7150
+7151
+7152
+exitTo tags.dat
+edit 203C
+SpecifyShaders
+714A
+714B
+714C
+714D
+714E
+714F
+7150
+7151
+7152
+exitTo tags.dat
+
+edit 1F8D
+SetField geometry.compression[0].TextureMinV 0.006113529
+SetField geometry.compression[0].TextureMaxV -1
+savechanges
+exit
+
+edit 1F8D
+edit nodes[0]
+SetField Name gun
+SetField ParentNode -1
+SetField FirstChildNode 1
+SetField NextSiblingNode -1
+SetField ImportNode 0
+SetField DefaultTranslation 0 0 0
+SetField DefaultRotation 0 0 0 1
+SetField DefaultScale 1
+SetField InverseForward 1 0 0
+SetField InverseLeft 0 1 0
+SetField InverseUp 0 0 1
+SetField DistanceFromParent 0
+exit
+edit nodes[1]
+SetField Name magazine
+SetField ParentNode 0
+SetField FirstChildNode 5
+SetField NextSiblingNode 4
+SetField ImportNode 0
+SetField DefaultTranslation 0.007945799 0 -0.05236648
+SetField DefaultRotation 0 0 0 -1
+SetField DefaultScale 1
+SetField InverseForward 1 0 0
+SetField InverseLeft 0 1 0
+SetField InverseUp 0 0 1
+SetField DistanceFromParent 0.05296588
+exit
+edit nodes[2]
+SetField Name handle
+SetField ParentNode 0
+SetField FirstChildNode -1
+SetField NextSiblingNode 3
+SetField ImportNode 0
+SetField DefaultTranslation 0.1238121 -1.2603E-08 -0.005714185
+SetField DefaultRotation 0 0 0 -1
+SetField DefaultScale 1
+SetField InverseForward 1 0 0
+SetField InverseLeft 0 1 0
+SetField InverseUp 0 0 1
+SetField DistanceFromParent 0.1239439
+exit
+edit nodes[3]
+SetField Name bipod
+SetField ParentNode 0
+SetField FirstChildNode -1
+SetField NextSiblingNode 2
+SetField ImportNode 0
+SetField DefaultTranslation 0.1237175 -1.1239E-08 -0.01989291
+SetField DefaultRotation 0 0 0 -1
+SetField DefaultScale 1
+SetField InverseForward 1 0 0
+SetField InverseLeft 0 1 0
+SetField InverseUp 0 0 1
+SetField DistanceFromParent 0.1253067
+exit
+edit nodes[4]
+SetField Name ophandle
+SetField ParentNode 0
+SetField FirstChildNode -1
+SetField NextSiblingNode -1
+SetField ImportNode 0
+SetField DefaultTranslation 0.02226 0.01285793 0.005061603
+SetField DefaultRotation 0 0 0 -1
+SetField DefaultScale 1
+SetField InverseForward 1 0 0
+SetField InverseLeft 0 1 0
+SetField InverseUp 0 0 1
+SetField DistanceFromParent 0.02620027
+exit
+edit nodes[5]
+SetField Name bullet
+SetField ParentNode 3
+SetField FirstChildNode -1
+SetField NextSiblingNode -1
+SetField ImportNode 0
+SetField DefaultTranslation 0.00300643 -2.24E-10 0.04635167
+SetField DefaultRotation 0 0 0 -1
+SetField DefaultScale 1
+SetField InverseForward 1 0 0
+SetField InverseLeft 0 1 0
+SetField InverseUp 0 0 1
+SetField DistanceFromParent 0.04644907
+exit
+SetField Nodes[0].InversePosition -0.07 0 -0.045
+SetField Nodes[1].InversePosition -0.077945799 0 0.00736648
+SetField Nodes[2].InversePosition -0.1938121 1.2603e-08 -0.039285815
+SetField Nodes[3].InversePosition -0.1937175 1.1239e-08 -0.02510709
+SetField Nodes[4].InversePosition -0.09226 -0.01285793 -0.050061603
+SetField Nodes[5].InversePosition -0.08095223 2.24e-10 -0.038985187
+SetField markergroups[0].markers[0].RegionIndex -1
+SetField markergroups[0].markers[0].PermutationIndex -1
+SetField markergroups[0].markers[0].Translation 0.06916446 -0.003040792 -0.02955528
+SetField markergroups[0].markers[0].Rotation -0.6945807 0.150886 -0.3370411 0.6174093
+SetField markergroups[0].markers[0].Scale 0
+savechanges
+exit
+
+extract 1F8D tempTag
+import 203C tempTag
+
+edit 1F88
+removefrom Nodes 0 *
+AddTo Nodes
+edit Nodes[*]
+SetField Name gun
+SetField ParentNode -1
+SetField FirstChildNode -1
+exit
+AddTo Nodes
+edit Nodes[*]
+SetField Name magazine
+SetField ParentNode 0
+SetField FirstChildNode -1
+exit
+AddTo Nodes
+edit Nodes[*]
+SetField Name handle
+SetField ParentNode 0
+SetField FirstChildNode -1
+exit
+AddTo Nodes
+edit Nodes[*]
+SetField Name bipod
+SetField ParentNode 0
+SetField FirstChildNode -1
+exit
+AddTo Nodes
+edit Nodes[*]
+SetField Name ophandle
+SetField ParentNode 0
+SetField FirstChildNode -1
+exit
+AddTo Nodes
+edit Nodes[*]
+SetField Name bullet
+SetField ParentNode 0
+SetField FirstChildNode -1
+exit
+savechanges
+exit
+
+edit 203C
+echo RemoveFrom Nodes 4 *
+SetField MarkerGroups[10].Markers[0].Translation 0 -5.960464E-10 0.01
+SetField MarkerGroups[00].Markers[0].NodeIndex 1
+SetField MarkerGroups[00].Markers[0].Translation 0.05 -0.01 0.02
+SetField MarkerGroups[00].Markers[0].Rotation -0.5548693 0.4255136 -0.4678792 0.5405067
+SetField Nodes[0].InversePosition 0 0 0
+SetField Nodes[1].InversePosition -0.07 0 0
+SetField Nodes[2].InversePosition -0.185 0 -0.038
+SetField Nodes[3].InversePosition -0.189 0 -0.025
+SetField Nodes[4].InversePosition -0.087 -0.012 -0.05
+SetField Nodes[5].InversePosition -0.08 0 -0.05
+savechanges
+exit
+
+echo Patch for Flatgrass
+dep remove 6E23 6E09
+dep remove 6E23 6E08 
+
+edit 6E07
+SetField rendermodel 203C
+savechanges
+exitTo tags.dat
+
+edit 6E06
+SetField FirstPerson[0].FirstPersonModel 1F8D
+SetField FirstPerson[1].FirstPersonModel 1F8D
+savechanges
+exitTo tags.dat
+
+echo A few errors will pop above if you don't have Flatgrass mod. Ignore.
+
+dumplog reachSniper.log
+exit
+exit
+
+echo END OF COMMANDS
+
+echo DEBUG
+echo REACH TEXTURES
+713E sniper_rifle_diffuse.dds
+713F sniper_rifle_normal.dds
+7140 sniper_rifle_scope_alpha.dds
+7141 unsc_decals_diffuse.dds
+7142 dither_pattern.dds
+7143 pioneer_truck_paint_detail_diffuse.dds
+7144 plasma_wipe.dds
+7145 sniper_rifle_scope_illum.dds
+7146 gun_microbump.dds
+7147 laptopillumdetail.dds
+7148 rubber.dds
+7149 rubber_microbump.dds
+0F05
+
+echo REACH SHADERS
+sniper_composite 	714A ; front parts
+sniper_metal 		714B ; main
+sniper_rubber   	714C ; 
+sniper_scope    	714D 713E NO BUMP ; 
+scope_alpha    		714E rmhg, dither ; 
+unsc_decals_fp   	714F ; 
+sniper_compass   	7150 ; 
+sniper_scope_glass 	7151 7140 ; 
+sniper_scope_illum 	7152 7147 7144 ; 

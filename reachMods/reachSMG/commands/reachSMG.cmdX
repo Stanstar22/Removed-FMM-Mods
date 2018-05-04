@@ -1,0 +1,132 @@
+// Halo Reach SMG Prototype for Halo Online Eldewrito (0.5.1.1, ms23)
+========
+XXXX
+ XXXX 
+echo
+//
+========
+========
+157D
+weapHRSMG0def
+158C
+weapHRSMG1ora
+158D
+weapHRSMG2gre
+158E
+weapHRSMG4red
+158F
+weapHRSMG6yel
+0000
+hlmtHRSMGfpdef
+0000
+hlmtHRSMGfpora
+0000
+hlmtHRSMGfpgre
+0000
+hlmtHRSMGfpred
+0000
+hlmtHRSMGfpyel
+0000
+modeHRSMGfpdef
+0000
+modeHRSMGfpora
+0000
+modeHRSMGfpgre
+0000
+modeHRSMGfpred
+0000
+modeHRSMGfpyel
+0000
+modeHRSMG3ddef
+0000
+modeHRSMG3dora
+0000
+modeHRSMG3dgre
+0000
+modeHRSMG3dred
+0000
+modeHRSMG3dyel
+0000
+shadHRSMG0def
+0000
+shadHRSMG1ora
+0000
+shadHRSMG2gre
+0000
+shadHRSMG4red
+0000
+shadHRSMG6yel
+0000
+bitmHRSMGillu
+STOP
+
+importbitmap bitmHRSMGillu textures/10CE.dds
+// importbitmap bitmHRSMGillu textures/10CE_1024.dds
+
+import shadHRSMG0def tags/shad_HRSMG0def
+import shadHRSMG1ora tags/shad_HRSMG1ora
+import shadHRSMG2gre tags/shad_HRSMG2gre
+import shadHRSMG4red tags/shad_HRSMG4red
+import shadHRSMG6yel tags/shad_HRSMG6yel
+
+import hlmtHRSMGfpdef tags/1F46_hlmtHOSMG.tag
+import hlmtHRSMGfpora tags/1F46_hlmtHOSMG.tag
+import hlmtHRSMGfpgre tags/1F46_hlmtHOSMG.tag
+import hlmtHRSMGfpred tags/1F46_hlmtHOSMG.tag
+import hlmtHRSMGfpyel tags/1F46_hlmtHOSMG.tag
+
+import modeHRSMGfpdef tags/10C8_modeHOSMG.tag
+import modeHRSMGfpora tags/10C8_modeHOSMG.tag
+import modeHRSMGfpgre tags/10C8_modeHOSMG.tag
+import modeHRSMGfpred tags/10C8_modeHOSMG.tag
+import modeHRSMGfpyel tags/10C8_modeHOSMG.tag
+
+import modeHRSMG3ddef tags/1F79_modeHOSMG.tag
+import modeHRSMG3dora tags/1F79_modeHOSMG.tag
+import modeHRSMG3dgre tags/1F79_modeHOSMG.tag
+import modeHRSMG3dred tags/1F79_modeHOSMG.tag
+import modeHRSMG3dyel tags/1F79_modeHOSMG.tag
+
+edit shadHRSMG0def XXXX SpecifyBitmaps XXXX 10CB XXXX 0EEF XXXX 0375 XXXX 10CC XXXX 0EF0 XXXX 10CD XXXX bitmHRSMGillu XXXX exit
+edit shadHRSMG1ora XXXX SpecifyBitmaps XXXX 10CB XXXX 0EEF XXXX 0375 XXXX 10CC XXXX 0EF0 XXXX 10CD XXXX bitmHRSMGillu XXXX exit
+edit shadHRSMG2gre XXXX SpecifyBitmaps XXXX 10CB XXXX 0EEF XXXX 0375 XXXX 10CC XXXX 0EF0 XXXX 10CD XXXX bitmHRSMGillu XXXX exit
+edit shadHRSMG4red XXXX SpecifyBitmaps XXXX 10CB XXXX 0EEF XXXX 0375 XXXX 10CC XXXX 0EF0 XXXX 10CD XXXX bitmHRSMGillu XXXX exit
+edit shadHRSMG6yel XXXX SpecifyBitmaps XXXX 10CB XXXX 0EEF XXXX 0375 XXXX 10CC XXXX 0EF0 XXXX 10CD XXXX bitmHRSMGillu XXXX exit
+
+edit weapHRSMG0def XXXX SetField Model hlmtHRSMGfpdef XXXX SetField FirstPerson[0].FirstPersonModel modeHRSMGfpdef XXXX SetField FirstPerson[1].FirstPersonModel modeHRSMGfpdef XXXX savechanges XXXX exit
+edit weapHRSMG1ora XXXX SetField Model hlmtHRSMGfpora XXXX SetField FirstPerson[0].FirstPersonModel modeHRSMGfpora XXXX SetField FirstPerson[1].FirstPersonModel modeHRSMGfpora XXXX savechanges XXXX exit
+edit weapHRSMG2gre XXXX SetField Model hlmtHRSMGfpgre XXXX SetField FirstPerson[0].FirstPersonModel modeHRSMGfpgre XXXX SetField FirstPerson[1].FirstPersonModel modeHRSMGfpgre XXXX savechanges XXXX exit
+edit weapHRSMG4red XXXX SetField Model hlmtHRSMGfpred XXXX SetField FirstPerson[0].FirstPersonModel modeHRSMGfpred XXXX SetField FirstPerson[1].FirstPersonModel modeHRSMGfpred XXXX savechanges XXXX exit
+edit weapHRSMG6yel XXXX SetField Model hlmtHRSMGfpyel XXXX SetField FirstPerson[0].FirstPersonModel modeHRSMGfpyel XXXX SetField FirstPerson[1].FirstPersonModel modeHRSMGfpyel XXXX savechanges XXXX exit
+
+edit hlmtHRSMGfpdef XXXX SetField Rendermodel modeHRSMG3ddef XXXX savechanges XXXX exit
+edit hlmtHRSMGfpora XXXX SetField Rendermodel modeHRSMG3dora XXXX savechanges XXXX exit
+edit hlmtHRSMGfpgre XXXX SetField Rendermodel modeHRSMG3dgre XXXX savechanges XXXX exit
+edit hlmtHRSMGfpred XXXX SetField Rendermodel modeHRSMG3dred XXXX savechanges XXXX exit
+edit hlmtHRSMGfpyel XXXX SetField Rendermodel modeHRSMG3dyel XXXX savechanges XXXX exit
+
+edit modeHRSMGfpdef XXXX SpecifyShaders XXXX shadHRSMG0def XXXX 10CA XXXX exit
+edit modeHRSMGfpora XXXX SpecifyShaders XXXX shadHRSMG1ora XXXX 10CA XXXX exit
+edit modeHRSMGfpgre XXXX SpecifyShaders XXXX shadHRSMG2gre XXXX 10CA XXXX exit
+edit modeHRSMGfpred XXXX SpecifyShaders XXXX shadHRSMG4red XXXX 10CA XXXX exit
+edit modeHRSMGfpyel XXXX SpecifyShaders XXXX shadHRSMG6yel XXXX 10CA XXXX exit
+
+edit modeHRSMG3ddef XXXX SpecifyShaders XXXX shadHRSMG0def XXXX exit
+edit modeHRSMG3dora XXXX SpecifyShaders XXXX shadHRSMG1ora XXXX exit
+edit modeHRSMG3dgre XXXX SpecifyShaders XXXX shadHRSMG2gre XXXX exit
+edit modeHRSMG3dred XXXX SpecifyShaders XXXX shadHRSMG4red XXXX exit
+edit modeHRSMG3dyel XXXX SpecifyShaders XXXX shadHRSMG6yel XXXX exit
+
+dumplog reachSMG.log XXXX exit XXXX exit
+
+smgDef; weap 157D; hlmt 1F46; mode 10C8; mode 1F79; default; 
+smg_v1; weap 158C; hlmt 23CB; mode 10D4; mode 23D1; orange ; 
+smg_v2; weap 158D; hlmt 23D4; mode 10E4; mode 23DD; green  ; 
+smg_v4; weap 158E; hlmt 23E0; mode 10F3; mode 23E6; red    ; 
+smg_v6; weap 158F; hlmt 23E9; mode 10FB; mode 23EF; yellow ; 
+
+extract 10C8 10C8_modeHOSMG.tag
+extract 10C9 10C9_rmshHOSMG.tag
+extract 1F46 1F46_hlmtHOSMG.tag
+extract 1F79 1F79_modeHOSMG.tag
+

@@ -1,0 +1,14 @@
+cd mods\tagMods\reachMods\reachSniper
+ECHO FMM_OUTPUT Installing Halo Reach Sniper ...
+color 0A
+
+Type commands\genLastTag.cmds | TagTool.exe ../../../../maps/tags.dat
+timeout 1
+
+START /WAIT commands\TTCC.exe commands\reachSniper.cmdX
+
+MOVE ..\..\..\..\maps\resources.dat resources.dat
+Type commands\reachSniper.cmds | TagTool.exe ../../../../maps/tags.dat
+MOVE resources.dat ..\..\..\..\maps\resources.dat
+
+ECHO FMM_OUTPUT Halo Reach Sniper installation complete ...

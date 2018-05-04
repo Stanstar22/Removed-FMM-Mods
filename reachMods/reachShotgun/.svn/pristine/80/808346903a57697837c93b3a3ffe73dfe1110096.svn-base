@@ -1,0 +1,154 @@
+echo REACH SHOTGUN MOD FOR HALO ONLINE ELDORITO MS23 0.5.0.2; made by BUNGIE, ported by dany5639 using shockfire's tool and cmaden's custom commands; WARNING it uses TTCC/ HOTTCC/ TagToolCommandsConverter from 25/04/2016
+echo REACH SHOTGUN MOD FOR HALO ONLINE ELDORITO MS23 0.5.0.2; made by BUNGIE, ported by dany5639 using shockfire's tool and cmaden's custom commands; WARNING it uses TTCC/ HOTTCC/ TagToolCommandsConverter from 25/04/2016
+XXXX
+
+
+echo
+echo
+echo REACH SHOTGUN MOD FOR HALO ONLINE ELDORITO MS23 0.5.0.2; made by BUNGIE, ported by dany5639 using shockfire's tool and cmaden's custom commands; WARNING it uses TTCC/ HOTTCC/ TagToolCommandsConverter from 25/04/2016
+echo REACH SHOTGUN MOD FOR HALO ONLINE ELDORITO MS23 0.5.0.2; made by BUNGIE, ported by dany5639 using shockfire's tool and cmaden's custom commands; WARNING it uses TTCC/ HOTTCC/ TagToolCommandsConverter from 25/04/2016
+1EF5
+1EF5
+1EFB
+1EFB
+1F3F
+1F3F
+echo REACH SHOTGUN MOD FOR HALO ONLINE ELDORITO MS23 0.5.0.2; made by BUNGIE, ported by dany5639 using shockfire's tool and cmaden's custom commands; WARNING it uses TTCC/ HOTTCC/ TagToolCommandsConverter from 25/04/2016
+echo REACH SHOTGUN MOD FOR HALO ONLINE ELDORITO MS23 0.5.0.2; made by BUNGIE, ported by dany5639 using shockfire's tool and cmaden's custom commands; WARNING it uses TTCC/ HOTTCC/ TagToolCommandsConverter from 25/04/2016
+0000
+574C
+0000
+574D
+0000
+574E
+0000
+574F
+echo REACH SHOTGUN MOD FOR HALO ONLINE ELDORITO MS23 0.5.0.2; made by BUNGIE, ported by dany5639 using shockfire's tool and cmaden's custom commands; WARNING it uses TTCC/ HOTTCC/ TagToolCommandsConverter from 25/04/2016
+echo REACH SHOTGUN MOD FOR HALO ONLINE ELDORITO MS23 0.5.0.2; made by BUNGIE, ported by dany5639 using shockfire's tool and cmaden's custom commands; WARNING it uses TTCC/ HOTTCC/ TagToolCommandsConverter from 25/04/2016
+0000
+5750
+0000
+5751
+0000
+5752
+0000
+5753
+0000
+5754
+0000
+5755
+STOP
+CLEAR
+echo Importing raw geometry. Loading...
+resourcedata import resources.dat 0108 tags/HRShotgun.raw
+
+importbitmap 574C DDS/shotgun_diffuse.dds    
+importbitmap 574D DDS/shotgun_zbump.dds      
+importbitmap 574E DDS/shotgun_flat_illum.dds 
+importbitmap 574F DDS/unsc_decals_diffuse.dds
+
+import 1EF5 tags/hlmt_HRSH
+import 1F3F tags/mode_HRSH3d
+import 1EFB tags/mode_HRSHfp
+import 5750 tags/shad_HRSHcomp
+import 5754 tags/shad_HRSHdeca
+import 5755 tags/shad_HRSHillu
+import 5751 tags/shad_HRSHmeta
+import 5753 tags/shad_HRSHrubb
+import 5752 tags/shad_HRSHshin
+
+edit 5750
+SpecifyBitmaps
+574C
+0343
+574D
+0376
+02B7
+02B9
+0379
+exitTo tags.dat
+edit 5751
+SpecifyBitmaps
+574C
+0343
+574D
+0376
+02B7
+02B9
+0379
+exitTo tags.dat
+edit 5752
+SpecifyBitmaps
+574C
+0343
+574D
+0376
+02B7
+02B9
+0379
+exitTo tags.dat
+edit 5753
+SpecifyBitmaps
+574C
+0343
+574D
+0376
+02B7
+02B9
+0379
+exitTo tags.dat
+edit 5754
+SpecifyBitmaps
+574F
+0343
+exitTo tags.dat
+edit 5755
+SpecifyBitmaps
+574E
+0343
+exitTo tags.dat
+edit 1EFB
+SpecifyShaders
+5750
+5751
+5752
+5753
+5754
+5755
+exitTo tags.dat
+edit 1F3F
+SpecifyShaders
+5750
+5751
+5752
+5753
+5754
+5755
+exitTo tags.dat
+
+echo DEBUG
+echo 574C bitm_HRSHbase
+dep liston 574C
+echo 574D bitm_HRSHbump
+dep liston 574D
+echo 574F bitm_HRSHdeca
+dep liston 574F
+echo 574E bitm_HRSHillu
+dep liston 574E
+echo 5750 shad_HRSHcomp
+dep liston 5750
+echo 5754 shad_HRSHdeca
+dep liston 5754
+echo 5755 shad_HRSHillu
+dep liston 5755
+echo 5751 shad_HRSHmeta
+dep liston 5751
+echo 5753 shad_HRSHrubb
+dep liston 5753
+echo 5752 shad_HRSHshin
+dep liston 5752
+
+exitTo tags.dat
+dumplog reachShotgun.log
+exit
+
